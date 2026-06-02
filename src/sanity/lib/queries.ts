@@ -10,6 +10,7 @@ export const ARTICLES_QUERY = defineQuery(`
     externalPublisher,
     summary,
     publishedAt,
+    mainImage,
     "categories": categories[]->title
   }
 `)
@@ -24,6 +25,7 @@ export const ARTICLE_BY_SLUG_QUERY = defineQuery(`
     externalPublisher,
     summary,
     publishedAt,
+    mainImage,
     body,
     "categories": categories[]->title
   }

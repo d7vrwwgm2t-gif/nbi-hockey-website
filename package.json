@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@portabletext/react": "^6.2.0",
     "@sanity/icons": "^3.7.4",
     "@sanity/image-url": "^2.1.1",
     "@sanity/vision": "^5.29.0",
@@ -16,6 +17,7 @@
     "next-sanity": "^12.4.5",
     "react": "19.2.4",
     "react-dom": "19.2.4",
+    "rss-parser": "^3.13.0",
     "sanity": "^5.29.0",
     "styled-components": "^6.4.2"
   },
