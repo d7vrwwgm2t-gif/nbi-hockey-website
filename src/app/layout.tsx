@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins } from "next/font/google";
+import Image from "next/image";
 import Link from "next/link";
 import {
   FaInstagram,
@@ -10,14 +11,9 @@ import {
 } from "react-icons/fa6";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const poppins = Poppins({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
@@ -31,32 +27,37 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
+    <html lang="en" className={`${poppins.className} h-full antialiased`}>
       <body className="min-h-full bg-[#07111F] text-white">
         <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden">
-          <div className="absolute left-0 top-0 h-0 w-0 border-t-[340px] border-r-[340px] border-t-[#4DB5FF]/20 border-r-transparent" />
-          <div className="absolute left-0 top-0 h-0 w-0 border-t-[250px] border-r-[250px] border-t-[#FFD54A]/18 border-r-transparent" />
-          <div className="absolute left-0 top-0 h-0 w-0 border-t-[170px] border-r-[170px] border-t-[#4DB5FF]/25 border-r-transparent" />
+          <div className="absolute -left-24 top-0 h-0 w-0 border-t-[420px] border-r-[420px] border-t-[#4DB5FF]/18 border-r-transparent" />
+          <div className="absolute -left-10 top-0 h-0 w-0 border-t-[300px] border-r-[300px] border-t-[#07111F]/60 border-r-transparent" />
+          <div className="absolute left-0 top-0 h-0 w-0 border-t-[230px] border-r-[230px] border-t-[#7CC7FF]/14 border-r-transparent" />
 
-          <div className="absolute right-0 top-0 h-0 w-0 border-t-[360px] border-l-[360px] border-t-[#FFD54A]/16 border-l-transparent" />
-          <div className="absolute right-0 top-0 h-0 w-0 border-t-[260px] border-l-[260px] border-t-[#4DB5FF]/20 border-l-transparent" />
-          <div className="absolute right-0 top-0 h-0 w-0 border-t-[160px] border-l-[160px] border-t-[#FFD54A]/22 border-l-transparent" />
+          <div className="absolute -right-20 top-0 h-0 w-0 border-t-[360px] border-l-[360px] border-t-[#FFD54A]/22 border-l-transparent" />
+          <div className="absolute right-0 top-0 h-0 w-0 border-t-[260px] border-l-[260px] border-t-[#4DB5FF]/16 border-l-transparent" />
+          <div className="absolute -right-8 top-0 h-0 w-0 border-t-[190px] border-l-[190px] border-t-[#07111F]/50 border-l-transparent" />
 
-          <div className="absolute bottom-0 left-0 h-0 w-0 border-b-[330px] border-r-[330px] border-b-[#FFD54A]/14 border-r-transparent" />
-          <div className="absolute bottom-0 left-0 h-0 w-0 border-b-[240px] border-r-[240px] border-b-[#4DB5FF]/18 border-r-transparent" />
-
-          <div className="absolute bottom-0 right-0 h-0 w-0 border-b-[380px] border-l-[380px] border-b-[#4DB5FF]/18 border-l-transparent" />
-          <div className="absolute bottom-0 right-0 h-0 w-0 border-b-[270px] border-l-[270px] border-b-[#FFD54A]/16 border-l-transparent" />
+          <div className="absolute -left-16 bottom-0 h-0 w-0 border-b-[280px] border-r-[280px] border-b-[#FFD54A]/12 border-r-transparent" />
+          <div className="absolute -right-16 bottom-0 h-0 w-0 border-b-[340px] border-l-[340px] border-b-[#4DB5FF]/16 border-l-transparent" />
         </div>
 
         <div className="relative z-10">
           <header className="border-b border-white/10 bg-[#07111F]/90 backdrop-blur">
             <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-              <Link href="/" className="text-xl font-bold">
-                NBI Hockey
+              <Link
+                href="/"
+                className="flex items-center gap-3 transition hover:opacity-90"
+              >
+                <Image
+                  src="/nbi_logo copy 2.png"
+                  alt="NBI Hockey Logo"
+                  width={64}
+                  height={64}
+                  priority
+                />
+
+                <span className="text-lg font-bold">NBI Hockey</span>
               </Link>
 
               <div className="flex gap-6 text-sm text-gray-300">
@@ -64,17 +65,17 @@ export default function RootLayout({
                   Home
                 </Link>
                 <Link href="/articles" className="hover:text-[#4DB5FF]">
-              Articles
-            </Link>
-            <Link href="/research" className="hover:text-[#4DB5FF]">
-             Research
-            </Link>
-            <Link href="/model" className="hover:text-[#4DB5FF]">
-            Model
-            </Link>
-            <Link href="/about" className="hover:text-[#4DB5FF]">
-              About
-            </Link>
+                  Articles
+                </Link>
+                <Link href="/research" className="hover:text-[#4DB5FF]">
+                  Research
+                </Link>
+                <Link href="/model" className="hover:text-[#4DB5FF]">
+                  Model
+                </Link>
+                <Link href="/about" className="hover:text-[#4DB5FF]">
+                  About
+                </Link>
               </div>
             </nav>
           </header>
