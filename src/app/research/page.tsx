@@ -1,31 +1,26 @@
-const nbiResearch = [
-  {
-    title: "The Cost of Falling Behind",
-    description:
-      "A look at how difficult it is for NHL teams to climb back into playoff position after falling five or more points behind.",
-    type: "NBI Hockey Research",
-    link: "https://nbihockey.substack.com",
-  },
-  {
-    title: "Secondary Assist Repeatability Study",
-    description:
-      "An analysis of whether secondary assists are repeatable indicators of offensive contribution for NHL forwards.",
-    type: "NBI Hockey Research",
-    link: "https://nbihockey.substack.com",
-  },
-];
+import { getResearchItemsFromSheet } from "@/lib/googleSheets";
 
-const researchLibrary = [
-  {
-    title: "Hockey Analytics Research Library",
-    description:
-      "A curated space for public hockey analytics papers, PDFs, methodology articles, and research resources.",
-    type: "Coming Soon",
-    link: "#",
-  },
-];
+function isNbiResearch(author: string) {
+  const normalizedAuthor = author.toLowerCase().trim();
 
-export default function ResearchPage() {
+  return (
+    normalizedAuthor.includes("george lafleche") ||
+    normalizedAuthor.includes("george la flèche") ||
+    normalizedAuthor.includes("nbi hockey")
+  );
+}
+
+export default async function ResearchPage() {
+  const researchItems = await getResearchItemsFromSheet();
+
+  const nbiResearch = researchItems.filter((item) =>
+    isNbiResearch(item.author)
+  );
+
+  const externalResearch = researchItems.filter(
+    (item) => !isNbiResearch(item.author)
+  );
+
   return (
     <main className="min-h-screen text-white">
       <div className="mx-auto max-w-6xl px-6 py-24">
@@ -39,39 +34,53 @@ export default function ResearchPage() {
           </h1>
 
           <p className="max-w-3xl text-xl text-gray-300">
-            A central hub for NBI Hockey research projects and a curated
-            library of hockey analytics papers, PDFs, and articles from around
-            the sport.
+            A central hub for NBI Hockey research projects and a curated library
+            of hockey analytics papers, PDFs, articles, and methodology
+            resources from around the sport.
           </p>
         </section>
 
-        <section className="mb-16">
-          <h2 className="mb-6 text-3xl font-bold">NBI Hockey Research</h2>
+        {nbiResearch.length > 0 && (
+          <section className="mb-16">
+            <h2 className="mb-6 text-3xl font-bold">NBI Hockey Research</h2>
 
-          <div className="grid gap-6 md:grid-cols-2">
-            {nbiResearch.map((item) => (
-              <a
-                key={item.title}
-                href={item.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-xl border border-white/10 bg-[#0D1B2A]/95 p-8 transition hover:border-[#4DB5FF]/50 hover:bg-[#10243A]"
-              >
-                <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#FFD54A]">
-                  {item.type}
-                </p>
+            <div className="grid gap-6 md:grid-cols-2">
+              {nbiResearch.map((item) => (
+                <a
+                  key={`${item.title}-${item.url}`}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-xl border border-white/10 bg-[#0D1B2A]/95 p-8 transition hover:border-[#4DB5FF]/50 hover:bg-[#10243A]"
+                >
+                  <div className="mb-4 flex flex-wrap gap-3">
+                    <span className="rounded-full border border-[#FFD54A]/30 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-[#FFD54A]">
+                      {item.type}
+                    </span>
 
-                <h3 className="mb-4 text-3xl font-bold">{item.title}</h3>
+                    <span className="rounded-full border border-[#4DB5FF]/30 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-[#4DB5FF]">
+                      {item.category}
+                    </span>
 
-                <p className="mb-6 text-gray-300">{item.description}</p>
+                    <span className="rounded-full border border-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-gray-400">
+                      {item.year}
+                    </span>
+                  </div>
 
-                <p className="text-sm font-semibold text-[#4DB5FF]">
-                  Read Research →
-                </p>
-              </a>
-            ))}
-          </div>
-        </section>
+                  <h3 className="mb-3 text-3xl font-bold">{item.title}</h3>
+
+                  <p className="mb-2 text-sm text-[#4DB5FF]">{item.author}</p>
+
+                  <p className="mb-6 text-gray-300">{item.description}</p>
+
+                  <p className="text-sm font-semibold text-[#4DB5FF]">
+                    Open Research →
+                  </p>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
 
         <section className="rounded-xl border border-[#4DB5FF]/20 bg-[#0D1B2A]/95 p-8">
           <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#FFD54A]">
@@ -83,28 +92,50 @@ export default function ResearchPage() {
           </h2>
 
           <p className="mb-8 max-w-3xl text-gray-300">
-            This section will eventually collect useful public research,
-            academic papers, PDFs, methodology posts, and hockey analytics
-            resources from other writers, analysts, and researchers.
+            A curated collection of public hockey analytics research, PDFs,
+            articles, methodology posts, and useful resources from other
+            analysts, writers, and researchers.
           </p>
 
-          <div className="grid gap-6 md:grid-cols-3">
-            {researchLibrary.map((item) => (
-              <a
-                key={item.title}
-                href={item.link}
-                className="rounded-xl border border-white/10 p-6 transition hover:border-[#4DB5FF]/50 hover:bg-[#10243A]"
-              >
-                <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[#4DB5FF]">
-                  {item.type}
-                </p>
+          {externalResearch.length > 0 ? (
+            <div className="grid gap-6 md:grid-cols-3">
+              {externalResearch.map((item) => (
+                <a
+                  key={`${item.title}-${item.url}`}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-xl border border-white/10 p-6 transition hover:border-[#4DB5FF]/50 hover:bg-[#10243A]"
+                >
+                  <div className="mb-4 flex flex-wrap gap-2">
+                    <span className="rounded-full border border-[#4DB5FF]/30 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-[#4DB5FF]">
+                      {item.type}
+                    </span>
 
-                <h3 className="mb-3 text-xl font-bold">{item.title}</h3>
+                    <span className="rounded-full border border-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-gray-400">
+                      {item.year}
+                    </span>
+                  </div>
 
-                <p className="text-sm text-gray-400">{item.description}</p>
-              </a>
-            ))}
-          </div>
+                  <h3 className="mb-3 text-xl font-bold">{item.title}</h3>
+
+                  <p className="mb-2 text-sm text-[#4DB5FF]">{item.author}</p>
+
+                  <p className="mb-5 text-sm text-gray-400">
+                    {item.description}
+                  </p>
+
+                  <p className="text-sm font-semibold text-[#4DB5FF]">
+                    Open Resource →
+                  </p>
+                </a>
+              ))}
+            </div>
+          ) : (
+            <p className="text-gray-400">
+              External research links will appear here once added.
+            </p>
+          )}
         </section>
       </div>
     </main>

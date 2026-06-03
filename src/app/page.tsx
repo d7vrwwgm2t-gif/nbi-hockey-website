@@ -1,11 +1,20 @@
 import Image from "next/image";
 import { getSubstackPosts } from "@/lib/substack";
+import { getResearchItemsFromSheet } from "@/lib/googleSheets";
+
+function getRandomResearchItems<T>(items: T[], count: number) {
+  return [...items].sort(() => Math.random() - 0.5).slice(0, count);
+}
 
 export default async function Home() {
   const posts = await getSubstackPosts();
+  const researchItems = await getResearchItemsFromSheet();
 
   const featuredPost = posts[0];
   const latestPosts = posts.slice(1, 4);
+
+  const mostRecentResearch = researchItems[researchItems.length - 1];
+  const featuredResearch = getRandomResearchItems(researchItems, 3);
 
   return (
     <main className="min-h-screen text-white">
@@ -139,14 +148,112 @@ export default async function Home() {
           )}
         </section>
 
+        <section className="mb-20">
+          <div className="mb-6 flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#FFD54A]">
+                Research Library
+              </p>
+
+              <h2 className="text-3xl font-bold">Featured Research</h2>
+            </div>
+
+            <a
+              href="/research"
+              className="text-sm font-semibold text-[#4DB5FF] hover:text-[#FFD54A]"
+            >
+              View Full Research Library →
+            </a>
+          </div>
+
+          {mostRecentResearch && (
+            <a
+              href={mostRecentResearch.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mb-8 block rounded-xl border border-[#FFD54A]/20 bg-[#0D1B2A]/95 p-8 transition hover:border-[#FFD54A]/50 hover:bg-[#10243A]"
+            >
+              <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#FFD54A]">
+                Most Recent Submission
+              </p>
+
+              <div className="mb-4 flex flex-wrap gap-3">
+                <span className="rounded-full border border-[#4DB5FF]/30 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-[#4DB5FF]">
+                  {mostRecentResearch.type}
+                </span>
+
+                <span className="rounded-full border border-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-gray-400">
+                  {mostRecentResearch.year}
+                </span>
+              </div>
+
+              <h3 className="mb-3 text-3xl font-bold">
+                {mostRecentResearch.title}
+              </h3>
+
+              <p className="mb-2 text-sm text-[#4DB5FF]">
+                {mostRecentResearch.author}
+              </p>
+
+              <p className="mb-6 max-w-3xl text-gray-300">
+                {mostRecentResearch.description}
+              </p>
+
+              <p className="text-sm font-semibold text-[#4DB5FF]">
+                Open Resource →
+              </p>
+            </a>
+          )}
+
+          {featuredResearch.length > 0 ? (
+            <div className="grid gap-6 md:grid-cols-3">
+              {featuredResearch.map((item) => (
+                <a
+                  key={`${item.title}-${item.url}`}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-xl border border-white/10 bg-[#0D1B2A]/95 p-6 transition hover:border-[#4DB5FF]/50 hover:bg-[#10243A]"
+                >
+                  <div className="mb-4 flex flex-wrap gap-2">
+                    <span className="rounded-full border border-[#4DB5FF]/30 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-[#4DB5FF]">
+                      {item.type}
+                    </span>
+
+                    <span className="rounded-full border border-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-gray-400">
+                      {item.year}
+                    </span>
+                  </div>
+
+                  <h3 className="mb-3 text-xl font-bold">{item.title}</h3>
+
+                  <p className="mb-2 text-sm text-[#4DB5FF]">{item.author}</p>
+
+                  <p className="mb-5 text-sm text-gray-400">
+                    {item.description}
+                  </p>
+
+                  <p className="text-sm font-semibold text-[#4DB5FF]">
+                    Open Resource →
+                  </p>
+                </a>
+              ))}
+            </div>
+          ) : (
+            <div className="rounded-xl border border-white/10 bg-[#0D1B2A] p-6">
+              <p className="text-gray-400">
+                Research links will appear here once added to the Google Sheet.
+              </p>
+            </div>
+          )}
+        </section>
+
         <section className="rounded-xl border border-[#4DB5FF]/20 bg-[#0D1B2A]/95 p-8">
           <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#FFD54A]">
             Coming Soon
           </p>
 
-          <h2 className="mb-4 text-3xl font-bold">
-            NBI Hockey Model
-          </h2>
+          <h2 className="mb-4 text-3xl font-bold">NBI Hockey Model</h2>
 
           <p className="max-w-3xl text-gray-300">
             Custom player ratings, team projections, analytics dashboards, and
