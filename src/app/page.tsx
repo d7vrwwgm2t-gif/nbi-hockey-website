@@ -1,34 +1,11 @@
 import Image from "next/image";
-import Link from "next/link";
-import { client } from "@/sanity/lib/client";
-import { urlFor } from "@/sanity/lib/image";
-import { ARTICLES_QUERY } from "@/sanity/lib/queries";
-
-type Article = {
-  _id: string;
-  title: string;
-  slug?: string;
-  articleType: "internal" | "external";
-  externalUrl?: string;
-  externalPublisher?: string;
-  summary?: string;
-  publishedAt?: string;
-  mainImage?: any;
-};
-
-function getArticleHref(article: Article) {
-  if (article.articleType === "external") {
-    return article.externalUrl ?? "#";
-  }
-
-  return `/articles/${article.slug}`;
-}
+import { getSubstackPosts } from "@/lib/substack";
 
 export default async function Home() {
-  const articles = await client.fetch<Article[]>(ARTICLES_QUERY);
+  const posts = await getSubstackPosts();
 
-  const featuredArticle = articles[0];
-  const latestArticles = articles.slice(1, 4);
+  const featuredPost = posts[0];
+  const latestPosts = posts.slice(1, 4);
 
   return (
     <main className="min-h-screen bg-black text-white">
@@ -51,38 +28,50 @@ export default async function Home() {
         <section className="mb-20">
           <h2 className="mb-6 text-3xl font-bold">Featured Analysis</h2>
 
-          {featuredArticle ? (
-            <Link
-              href={getArticleHref(featuredArticle)}
-              target={featuredArticle.articleType === "external" ? "_blank" : undefined}
-              className="grid gap-8 rounded-xl border border-white/10 bg-zinc-900 p-8 transition hover:border-blue-400/50 hover:bg-zinc-800 md:grid-cols-[1.3fr_1fr]"
+          {featuredPost ? (
+            <a
+              href={featuredPost.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="grid gap-8 rounded-xl border border-white/10 bg-zinc-900 p-8 transition hover:border-blue-400/50 hover:bg-zinc-800 md:grid-cols-[1.2fr_1fr]"
             >
               <div>
-                <div className="mb-3 text-sm font-semibold uppercase tracking-widest text-blue-400">
+                <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-blue-400">
                   Newest Article
-                </div>
+                </p>
 
-                <h3 className="mb-3 text-3xl font-semibold">
-                  {featuredArticle.title}
+                <h3 className="mb-4 text-3xl font-semibold">
+                  {featuredPost.title}
                 </h3>
 
-                {featuredArticle.summary && (
-                  <p className="text-gray-400">{featuredArticle.summary}</p>
+                {featuredPost.contentSnippet && (
+                  <p className="mb-6 text-gray-400">
+                    {featuredPost.contentSnippet}
+                  </p>
                 )}
+
+                <p className="text-sm text-gray-500">
+                  {featuredPost.pubDate}
+                </p>
+
+                <p className="mt-6 text-sm font-semibold text-blue-400">
+                  Read on Substack →
+                </p>
               </div>
 
-              {featuredArticle.mainImage?.asset && (
+              {featuredPost.image && (
                 <div className="overflow-hidden rounded-xl border border-white/10">
                   <Image
-                    src={urlFor(featuredArticle.mainImage).width(700).height(450).fit("crop").url()}
-                    alt={featuredArticle.title}
-                    width={700}
-                    height={450}
+                    src={featuredPost.image}
+                    alt={featuredPost.title}
+                    width={800}
+                    height={500}
                     className="h-full w-full object-cover"
+                    priority
                   />
                 </div>
               )}
-            </Link>
+            </a>
           ) : (
             <div className="rounded-xl border border-white/10 bg-zinc-900 p-8">
               <h3 className="mb-3 text-2xl font-semibold">
@@ -90,7 +79,7 @@ export default async function Home() {
               </h3>
 
               <p className="text-gray-400">
-                Publish your first article in Sanity Studio and it will appear here.
+                Publish your first Substack article and it will appear here.
               </p>
             </div>
           )}
@@ -99,47 +88,54 @@ export default async function Home() {
         <section className="mb-20">
           <h2 className="mb-6 text-3xl font-bold">Latest Articles</h2>
 
-          {latestArticles.length > 0 ? (
+          {latestPosts.length > 0 ? (
             <div className="grid gap-6 md:grid-cols-3">
-              {latestArticles.map((article) => (
-                <Link
-                  key={article._id}
-                  href={getArticleHref(article)}
-                  target={article.articleType === "external" ? "_blank" : undefined}
-                  className="block overflow-hidden rounded-xl border border-white/10 bg-zinc-900 transition hover:border-blue-400/50 hover:bg-zinc-800"
+              {latestPosts.map((post) => (
+                <a
+                  key={post.link}
+                  href={post.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="overflow-hidden rounded-xl border border-white/10 bg-zinc-900 transition hover:border-blue-400/50 hover:bg-zinc-800"
                 >
-                  <div className="p-6">
-                    <h3 className="mb-3 font-semibold">{article.title}</h3>
-
-                    {article.mainImage?.asset && (
-                      <div className="mb-4 overflow-hidden rounded-lg border border-white/10">
-                        <Image
-                          src={urlFor(article.mainImage).width(600).height(360).fit("crop").url()}
-                          alt={article.title}
-                          width={600}
-                          height={360}
-                          className="h-auto w-full object-cover"
-                        />
-                      </div>
-                    )}
-
-                    {article.summary && (
-                      <p className="text-sm text-gray-400">{article.summary}</p>
-                    )}
-
-                    <div className="mt-4 text-xs uppercase tracking-widest text-gray-500">
-                      {article.articleType === "external"
-                        ? article.externalPublisher ?? "External"
-                        : "NBI Hockey"}
+                  {post.image && (
+                    <div className="overflow-hidden border-b border-white/10">
+                      <Image
+                        src={post.image}
+                        alt={post.title}
+                        width={600}
+                        height={360}
+                        className="h-48 w-full object-cover"
+                      />
                     </div>
+                  )}
+
+                  <div className="p-6">
+                    <h3 className="mb-3 text-lg font-semibold">
+                      {post.title}
+                    </h3>
+
+                    {post.contentSnippet && (
+                      <p className="mb-4 text-sm text-gray-400">
+                        {post.contentSnippet}
+                      </p>
+                    )}
+
+                    <p className="text-xs uppercase tracking-widest text-gray-500">
+                      {post.pubDate}
+                    </p>
+
+                    <p className="mt-4 text-sm font-semibold text-blue-400">
+                      Read on Substack →
+                    </p>
                   </div>
-                </Link>
+                </a>
               ))}
             </div>
           ) : (
             <div className="rounded-xl border border-white/10 bg-zinc-900 p-6">
               <p className="text-gray-400">
-                Publish more articles and they will appear here.
+                Publish more Substack articles and they will appear here.
               </p>
             </div>
           )}
