@@ -145,7 +145,15 @@ export default function RootLayout({
               </div>
 
               <div className="mt-6 text-center text-xs text-gray-500">
-                © 2026 NBI Hockey
+                ©{" "}
+                <Link
+                  href="/admin"
+                  className="transition hover:text-[#4DB5FF]"
+                  aria-label="Admin entrance"
+                >
+                  2026
+                </Link>{" "}
+                NBI Hockey
               </div>
             </div>
           </footer>
