@@ -8,10 +8,10 @@ export default async function Home() {
   const latestPosts = posts.slice(1, 4);
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen text-white">
       <div className="mx-auto max-w-6xl px-6 py-16">
         <section className="mb-20">
-          <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-blue-400">
+          <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-[#4DB5FF]">
             NBI Hockey
           </p>
 
@@ -19,7 +19,7 @@ export default async function Home() {
             Hockey Analysis Built Around Data.
           </h1>
 
-          <p className="max-w-3xl text-xl text-gray-400">
+          <p className="max-w-3xl text-xl text-gray-300">
             Research, player evaluation, team analysis, and custom hockey
             analytics designed to bring context to the game.
           </p>
@@ -33,10 +33,10 @@ export default async function Home() {
               href={featuredPost.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="grid gap-8 rounded-xl border border-white/10 bg-zinc-900 p-8 transition hover:border-blue-400/50 hover:bg-zinc-800 md:grid-cols-[1.2fr_1fr]"
+              className="grid gap-8 rounded-xl border border-white/10 bg-[#0D1B2A]/95 p-8 transition hover:border-[#4DB5FF]/50 hover:bg-[#10243A] md:grid-cols-[1.2fr_1fr]"
             >
               <div>
-                <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-blue-400">
+                <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#FFD54A]">
                   Newest Article
                 </p>
 
@@ -45,16 +45,14 @@ export default async function Home() {
                 </h3>
 
                 {featuredPost.contentSnippet && (
-                  <p className="mb-6 text-gray-400">
+                  <p className="mb-6 text-gray-300">
                     {featuredPost.contentSnippet}
                   </p>
                 )}
 
-                <p className="text-sm text-gray-500">
-                  {featuredPost.pubDate}
-                </p>
+                <p className="text-sm text-gray-500">{featuredPost.pubDate}</p>
 
-                <p className="mt-6 text-sm font-semibold text-blue-400">
+                <p className="mt-6 text-sm font-semibold text-[#4DB5FF]">
                   Read on Substack →
                 </p>
               </div>
@@ -73,7 +71,7 @@ export default async function Home() {
               )}
             </a>
           ) : (
-            <div className="rounded-xl border border-white/10 bg-zinc-900 p-8">
+            <div className="rounded-xl border border-white/10 bg-[#0D1B2A] p-8">
               <h3 className="mb-3 text-2xl font-semibold">
                 No featured article yet
               </h3>
@@ -96,7 +94,7 @@ export default async function Home() {
                   href={post.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="overflow-hidden rounded-xl border border-white/10 bg-zinc-900 transition hover:border-blue-400/50 hover:bg-zinc-800"
+                  className="overflow-hidden rounded-xl border border-white/10 bg-[#0D1B2A]/95 transition hover:border-[#4DB5FF]/50 hover:bg-[#10243A]"
                 >
                   {post.image && (
                     <div className="overflow-hidden border-b border-white/10">
@@ -125,7 +123,7 @@ export default async function Home() {
                       {post.pubDate}
                     </p>
 
-                    <p className="mt-4 text-sm font-semibold text-blue-400">
+                    <p className="mt-4 text-sm font-semibold text-[#4DB5FF]">
                       Read on Substack →
                     </p>
                   </div>
@@ -133,7 +131,7 @@ export default async function Home() {
               ))}
             </div>
           ) : (
-            <div className="rounded-xl border border-white/10 bg-zinc-900 p-6">
+            <div className="rounded-xl border border-white/10 bg-[#0D1B2A] p-6">
               <p className="text-gray-400">
                 Publish more Substack articles and they will appear here.
               </p>
@@ -141,9 +139,13 @@ export default async function Home() {
           )}
         </section>
 
-        <section className="rounded-xl border border-blue-500/20 bg-blue-950/20 p-8">
+        <section className="rounded-xl border border-[#4DB5FF]/20 bg-[#0D1B2A]/95 p-8">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#FFD54A]">
+            Coming Soon
+          </p>
+
           <h2 className="mb-4 text-3xl font-bold">
-            Coming Soon: NBI Hockey Model
+            NBI Hockey Model
           </h2>
 
           <p className="max-w-3xl text-gray-300">

@@ -15,6 +15,18 @@ function cleanSnippet(text: string) {
     .trim();
 }
 
+function formatDate(dateString: string) {
+  if (!dateString) {
+    return "";
+  }
+
+  return new Intl.DateTimeFormat("en-CA", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  }).format(new Date(dateString));
+}
+
 export async function getSubstackPosts() {
   const feed = await parser.parseURL(
     "https://nbihockey.substack.com/feed"
@@ -32,7 +44,8 @@ export async function getSubstackPosts() {
     return {
       title: item.title ?? "",
       link: item.link ?? "",
-      pubDate: item.pubDate ?? "",
+      pubDate: formatDate(item.pubDate ?? ""),
+      rawPubDate: item.pubDate ?? "",
       contentSnippet: cleanSnippet(item.contentSnippet ?? ""),
       image,
     };

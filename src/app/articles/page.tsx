@@ -8,7 +8,7 @@ export default async function ArticlesPage() {
   const olderPosts = posts.slice(1);
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen text-white">
       <div className="mx-auto max-w-6xl px-6 py-24">
         <h1 className="mb-6 text-5xl font-bold">Articles</h1>
 
@@ -24,10 +24,10 @@ export default async function ArticlesPage() {
               href={newestPost.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="grid gap-8 rounded-xl border border-white/10 bg-zinc-900 p-8 transition hover:border-blue-400/50 hover:bg-zinc-800 md:grid-cols-[1.2fr_1fr]"
+              className="grid gap-8 rounded-xl border border-white/10 bg-[#0D1B2A]/95 p-8 transition hover:border-[#4DB5FF]/50 hover:bg-[#10243A] md:grid-cols-[1.2fr_1fr]"
             >
               <div>
-                <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-blue-400">
+                <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#FFD54A]">
                   Latest from Substack
                 </p>
 
@@ -36,16 +36,14 @@ export default async function ArticlesPage() {
                 </h3>
 
                 {newestPost.contentSnippet && (
-                  <p className="mb-6 text-gray-400">
+                  <p className="mb-6 text-gray-300">
                     {newestPost.contentSnippet}
                   </p>
                 )}
 
-                <p className="text-sm text-gray-500">
-                  {newestPost.pubDate}
-                </p>
+                <p className="text-sm text-gray-500">{newestPost.pubDate}</p>
 
-                <p className="mt-6 text-sm font-semibold text-blue-400">
+                <p className="mt-6 text-sm font-semibold text-[#4DB5FF]">
                   Read on Substack →
                 </p>
               </div>
@@ -76,7 +74,7 @@ export default async function ArticlesPage() {
                   href={post.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="overflow-hidden rounded-xl border border-white/10 bg-zinc-900 transition hover:border-blue-400/50 hover:bg-zinc-800"
+                  className="overflow-hidden rounded-xl border border-white/10 bg-[#0D1B2A]/95 transition hover:border-[#4DB5FF]/50 hover:bg-[#10243A]"
                 >
                   {post.image && (
                     <div className="overflow-hidden border-b border-white/10">
@@ -105,7 +103,7 @@ export default async function ArticlesPage() {
                       {post.pubDate}
                     </p>
 
-                    <p className="mt-4 text-sm font-semibold text-blue-400">
+                    <p className="mt-4 text-sm font-semibold text-[#4DB5FF]">
                       Read on Substack →
                     </p>
                   </div>
@@ -113,7 +111,7 @@ export default async function ArticlesPage() {
               ))}
             </div>
           ) : (
-            <div className="rounded-xl border border-white/10 bg-zinc-900 p-6">
+            <div className="rounded-xl border border-white/10 bg-[#0D1B2A] p-6">
               <p className="text-gray-400">
                 Older articles will appear here once more posts are published.
               </p>
