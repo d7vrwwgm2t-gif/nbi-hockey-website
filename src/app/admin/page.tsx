@@ -30,9 +30,7 @@ export default function AdminPage() {
               Admin Access
             </p>
 
-            <h1 className="mb-4 text-3xl font-bold">
-              NBI Hockey Admin
-            </h1>
+            <h1 className="mb-4 text-3xl font-bold">NBI Hockey Admin</h1>
 
             <p className="mb-6 text-sm text-gray-400">
               Enter the admin password to access internal site tools.
@@ -57,11 +55,7 @@ export default function AdminPage() {
                 />
               </div>
 
-              {error && (
-                <p className="text-sm text-red-400">
-                  {error}
-                </p>
-              )}
+              {error && <p className="text-sm text-red-400">{error}</p>}
 
               <button
                 type="submit"
@@ -89,17 +83,14 @@ export default function AdminPage() {
           </h1>
 
           <p className="max-w-3xl text-xl text-gray-300">
-            Internal workspace for research management, model uploads,
-            season management, and future website administration.
+            Internal workspace for research management, MoneyPuck data uploads,
+            player cards, team cards, and future website administration.
           </p>
         </section>
 
         <div className="grid gap-8 md:grid-cols-2">
-          {/* Research Manager */}
           <section className="rounded-xl border border-[#4DB5FF]/20 bg-[#0D1B2A]/95 p-8">
-            <h2 className="mb-4 text-3xl font-bold">
-              Research Manager
-            </h2>
+            <h2 className="mb-4 text-3xl font-bold">Research Manager</h2>
 
             <p className="mb-6 text-gray-300">
               Manage research papers and article sources through the connected
@@ -116,22 +107,19 @@ export default function AdminPage() {
             </a>
           </section>
 
-          {/* Model Manager */}
           <section className="rounded-xl border border-[#4DB5FF]/20 bg-[#0D1B2A]/95 p-8">
-            <h2 className="mb-4 text-3xl font-bold">
-              Hockey Model Manager
-            </h2>
+            <h2 className="mb-4 text-3xl font-bold">MoneyPuck Data</h2>
 
             <p className="mb-6 text-gray-300">
-              Upload season spreadsheets, manage season labels, shift seasons
-              forward, and rebuild public player grades.
+              Upload MoneyPuck skater, goalie, and team CSV files for historical
+              player cards and team cards.
             </p>
 
             <a
-              href="/admin/model-upload"
+              href="/admin/moneypuck-upload"
               className="inline-flex rounded-lg bg-[#4DB5FF] px-4 py-2 text-sm font-semibold text-[#07111F] transition hover:bg-[#FFD54A]"
             >
-              Open Model Upload →
+              Open MoneyPuck Upload →
             </a>
           </section>
         </div>

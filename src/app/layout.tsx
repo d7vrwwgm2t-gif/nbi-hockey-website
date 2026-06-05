@@ -70,7 +70,7 @@ export default function RootLayout({
                 <Link href="/research" className="hover:text-[#4DB5FF]">
                   Research
                 </Link>
-                <Link href="/model" className="hover:text-[#4DB5FF]">
+                <Link href="/cards" className="hover:text-[#4DB5FF]">
                   Model
                 </Link>
                 <Link href="/about" className="hover:text-[#4DB5FF]">
