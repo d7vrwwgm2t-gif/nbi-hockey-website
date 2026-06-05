@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "model-test": "tsx scripts/testModel.ts",
     "start": "next start",
     "lint": "eslint"
   },
@@ -13,7 +14,8 @@
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-icons": "^5.6.0",
-    "rss-parser": "^3.13.0"
+    "rss-parser": "^3.13.0",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -23,6 +25,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.7",
     "tailwindcss": "^4",
+    "tsx": "^4.22.4",
     "typescript": "^5"
   }
 }
