@@ -11,11 +11,108 @@ function findColumn(headers: string[], aliases: string[]) {
 
   for (const alias of aliases) {
     const normalizedAlias = normalizeHeader(alias);
-    const match = normalizedHeaders.find((header) => header.normalized === normalizedAlias);
+    const match = normalizedHeaders.find(
+      (header) => header.normalized === normalizedAlias
+    );
     if (match) return match.raw;
   }
 
   return null;
+}
+
+function normalizeDuplicateText(value: string) {
+  return value
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, " ");
+}
+
+function normalizeDateOfBirth(value: string) {
+  const trimmed = value.trim();
+
+  const parsedDate = new Date(trimmed);
+
+  if (!Number.isNaN(parsedDate.getTime())) {
+    return parsedDate.toISOString().slice(0, 10);
+  }
+
+  return trimmed
+    .toLowerCase()
+    .replace(/\s+/g, "")
+    .replace(/[./]/g, "-");
+}
+
+function makeDuplicateKey(player: RawPlayerRow) {
+  return `${normalizeDuplicateText(player.player)}|${normalizeDateOfBirth(
+    player.dateOfBirth
+  )}`;
+}
+
+function mergeDuplicatePlayers(players: RawPlayerRow[]) {
+  const mergedPlayers = new Map<string, RawPlayerRow>();
+
+  for (const player of players) {
+    const key = makeDuplicateKey(player);
+    const existing = mergedPlayers.get(key);
+
+    if (!existing) {
+      mergedPlayers.set(key, {
+        ...player,
+        stats: { ...player.stats },
+      });
+      continue;
+    }
+
+    const existingGp = existing.gamesPlayed || 0;
+    const incomingGp = player.gamesPlayed || 0;
+    const totalGp = existingGp + incomingGp;
+
+    existing.gamesPlayed = totalGp;
+
+    // Keep the original uploaded team unless it was blank.
+    if (!existing.team && player.team) {
+      existing.team = player.team;
+    }
+
+    // Keep the original position unless it was blank.
+    if (!existing.position && player.position) {
+      existing.position = player.position;
+    }
+
+    for (const [statKey, incomingValue] of Object.entries(player.stats)) {
+      const existingValue = existing.stats[statKey];
+
+      if (incomingValue === null || incomingValue === undefined) {
+        continue;
+      }
+
+      if (existingValue === null || existingValue === undefined) {
+        existing.stats[statKey] = incomingValue;
+        continue;
+      }
+
+      const isPercentageStat =
+        statKey.toLowerCase().includes("pct") ||
+        statKey.toLowerCase().includes("percentage") ||
+        statKey.toLowerCase().includes("accuracy");
+
+      if (isPercentageStat) {
+        if (totalGp === 0) {
+          existing.stats[statKey] = incomingValue;
+          continue;
+        }
+
+        existing.stats[statKey] =
+          (existingValue * existingGp + incomingValue * incomingGp) / totalGp;
+
+        continue;
+      }
+
+      existing.stats[statKey] = existingValue + incomingValue;
+    }
+  }
+
+  return Array.from(mergedPlayers.values());
 }
 
 export async function parseInStatWorkbook({
@@ -72,7 +169,7 @@ export async function parseInStatWorkbook({
     })
   ) as Record<string, string | null>;
 
-  const players: RawPlayerRow[] = rows
+  const rawPlayers: RawPlayerRow[] = rows
     .map((row) => {
       const stats = Object.fromEntries(
         Object.entries(statColumns).map(([key, column]) => [
@@ -91,6 +188,8 @@ export async function parseInStatWorkbook({
       };
     })
     .filter((player) => player.player && player.dateOfBirth);
+
+  const players = mergeDuplicatePlayers(rawPlayers);
 
   return {
     league,
