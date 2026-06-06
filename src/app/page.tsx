@@ -1,10 +1,35 @@
 import Image from "next/image";
+import Link from "next/link";
 import { getSubstackPosts } from "@/lib/substack";
 import { getResearchItemsFromSheet } from "@/lib/googleSheets";
 
 function getRandomResearchItems<T>(items: T[], count: number) {
   return [...items].sort(() => Math.random() - 0.5).slice(0, count);
 }
+
+const cardFeatures = [
+  {
+    title: "Player Cards",
+    description:
+      "Search historical MoneyPuck seasons and open skater cards with percentile-based finishing, playmaking, possession, and defensive impact sections.",
+    href: "/cards/players",
+    label: "Explore Player Cards",
+  },
+  {
+    title: "Goalie Cards",
+    description:
+      "View goalie cards built around GSAx, shot stopping, high-danger performance, rebound control, and puck management.",
+    href: "/cards/goalies",
+    label: "Explore Goalie Cards",
+  },
+  {
+    title: "Team Cards",
+    description:
+      "Compare team-level performance by season through impact, offense, defense, and puck management percentile cards.",
+    href: "/cards/teams",
+    label: "Explore Team Cards",
+  },
+];
 
 export default async function Home() {
   const posts = await getSubstackPosts();
@@ -24,14 +49,82 @@ export default async function Home() {
             NBI Hockey
           </p>
 
-          <h1 className="mb-6 max-w-4xl text-5xl font-bold leading-tight md:text-7xl">
-            Hockey Analysis Built Around Data.
+          <h1 className="mb-6 max-w-5xl text-5xl font-bold leading-tight md:text-7xl">
+            Data-driven NHL analysis, historical cards, and original hockey
+            research.
           </h1>
 
-          <p className="max-w-3xl text-xl text-gray-300">
-            Research, player evaluation, team analysis, and custom hockey
-            analytics designed to bring context to the game.
+          <p className="mb-8 max-w-3xl text-xl text-gray-300">
+            NBI Hockey combines written analysis, MoneyPuck-powered player,
+            goalie, and team cards, and original research projects to bring more
+            context to the game.
           </p>
+
+          <div className="flex flex-wrap gap-4">
+            <Link
+              href="/cards"
+              className="rounded-lg bg-[#4DB5FF] px-6 py-3 text-sm font-bold uppercase tracking-wider text-[#07111F] transition hover:bg-[#FFD54A]"
+            >
+              View Cards
+            </Link>
+
+            <Link
+              href="/articles"
+              className="rounded-lg border border-white/10 px-6 py-3 text-sm font-bold uppercase tracking-wider text-white transition hover:border-[#FFD54A]/60 hover:text-[#FFD54A]"
+            >
+              Read Articles
+            </Link>
+
+            <Link
+              href="/research"
+              className="rounded-lg border border-white/10 px-6 py-3 text-sm font-bold uppercase tracking-wider text-white transition hover:border-[#4DB5FF]/60 hover:text-[#4DB5FF]"
+            >
+              Research Library
+            </Link>
+          </div>
+        </section>
+
+        <section className="mb-20">
+          <div className="mb-6 flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#FFD54A]">
+                Historical Cards
+              </p>
+
+              <h2 className="text-3xl font-bold">Explore the Card Database</h2>
+            </div>
+
+            <Link
+              href="/cards"
+              className="text-sm font-semibold text-[#4DB5FF] hover:text-[#FFD54A]"
+            >
+              Open Card Hub →
+            </Link>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-3">
+            {cardFeatures.map((feature) => (
+              <Link
+                key={feature.href}
+                href={feature.href}
+                className="rounded-xl border border-white/10 bg-[#0D1B2A]/95 p-6 transition hover:-translate-y-1 hover:border-[#FFD54A]/60 hover:bg-[#10243A]"
+              >
+                <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#4DB5FF]">
+                  NBI Cards
+                </p>
+
+                <h3 className="mb-3 text-2xl font-bold">{feature.title}</h3>
+
+                <p className="mb-6 text-sm leading-6 text-gray-300">
+                  {feature.description}
+                </p>
+
+                <p className="text-sm font-semibold text-[#FFD54A]">
+                  {feature.label} →
+                </p>
+              </Link>
+            ))}
+          </div>
         </section>
 
         <section className="mb-20">
@@ -158,12 +251,12 @@ export default async function Home() {
               <h2 className="text-3xl font-bold">Featured Research</h2>
             </div>
 
-            <a
+            <Link
               href="/research"
               className="text-sm font-semibold text-[#4DB5FF] hover:text-[#FFD54A]"
             >
               View Full Research Library →
-            </a>
+            </Link>
           </div>
 
           {mostRecentResearch && (
@@ -250,16 +343,26 @@ export default async function Home() {
 
         <section className="rounded-xl border border-[#4DB5FF]/20 bg-[#0D1B2A]/95 p-8">
           <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#FFD54A]">
-            Coming Soon
+            About NBI Hockey
           </p>
 
-          <h2 className="mb-4 text-3xl font-bold">NBI Hockey Model</h2>
+          <h2 className="mb-4 text-3xl font-bold">
+            Hockey analysis built through data, video, and context.
+          </h2>
 
-          <p className="max-w-3xl text-gray-300">
-            Custom player ratings, team projections, analytics dashboards, and
-            model-driven insights built from original research and statistical
-            analysis.
+          <p className="mb-6 max-w-3xl text-gray-300">
+            NBI Hockey is a home for research-driven NHL analysis, historical
+            player cards, goalie cards, team cards, and original hockey data
+            projects. The goal is to make advanced hockey information easier to
+            understand, compare, and share.
           </p>
+
+          <Link
+            href="/about"
+            className="text-sm font-semibold text-[#4DB5FF] hover:text-[#FFD54A]"
+          >
+            Learn More About NBI Hockey →
+          </Link>
         </section>
       </div>
     </main>

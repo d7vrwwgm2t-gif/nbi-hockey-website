@@ -1,0 +1,15 @@
+{
+  "season": "2024-25",
+  "displayLabel": "2024-25",
+  "generatedAt": "2026-06-06T21:25:37.782Z",
+  "datasets": {
+    "skaters": true,
+    "goalies": true,
+    "teams": true
+  },
+  "counts": {
+    "skaters": 761,
+    "goalies": 73,
+    "teams": 32
+  }
+}

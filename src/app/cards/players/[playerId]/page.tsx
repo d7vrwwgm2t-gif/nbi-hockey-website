@@ -13,6 +13,7 @@ type PlayerRow = Record<string, string | number | null>;
 
 type PlayerBio = {
   birthDate?: string;
+  fullName?: string;
 };
 
 type PlayerCardMetric = {
@@ -146,6 +147,10 @@ const TEAM_NAMES: Record<string, string> = {
   VGK: "Vegas Golden Knights",
   WSH: "Washington Capitals",
   WPG: "Winnipeg Jets",
+  "L.A": "Los Angeles Kings",
+  "N.J": "New Jersey Devils",
+  "S.J": "San Jose Sharks",
+  "T.B": "Tampa Bay Lightning",
 };
 
 const POSITION_LABELS: Record<string, string> = {
@@ -438,6 +443,7 @@ function PlayerCardPage({
   const cardRef = useRef<HTMLElement | null>(null);
   const [rows, setRows] = useState<PlayerRow[]>([]);
   const [bio, setBio] = useState<PlayerBio | null>(null);
+  const [isLoadingBio, setIsLoadingBio] = useState(true);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState("");
 
@@ -475,20 +481,28 @@ function PlayerCardPage({
 
   useEffect(() => {
     async function loadBio() {
+      setIsLoadingBio(true);
+
       try {
         const response = await fetch(
-          `https://api-web.nhle.com/v1/player/${playerId}/landing`
+          `/api/nhl-player-bio?playerId=${encodeURIComponent(playerId)}`
         );
-
-        if (!response.ok) return;
 
         const data = await response.json();
 
+        if (!data.success) {
+          setBio(null);
+          return;
+        }
+
         setBio({
-          birthDate: data.birthDate,
+          birthDate: data.birthDate ?? undefined,
+          fullName: data.fullName || undefined,
         });
       } catch {
         setBio(null);
+      } finally {
+        setIsLoadingBio(false);
       }
     }
 
@@ -553,7 +567,7 @@ function PlayerCardPage({
     ];
   }, [comparisonRows, player]);
 
-  if (isLoading) {
+  if (isLoading || isLoadingBio) {
     return (
       <main className="min-h-screen text-white">
         <div className="mx-auto max-w-5xl px-6 py-24">Loading player card...</div>
@@ -580,7 +594,7 @@ function PlayerCardPage({
     );
   }
 
-  const playerName = getString(player, "name");
+  const playerName = bio?.fullName || getString(player, "name");
   const team = getString(player, "team");
   const position = getString(player, "position");
   const gamesPlayed = getNumber(player, "games_played");

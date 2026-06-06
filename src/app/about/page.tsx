@@ -170,19 +170,9 @@ export default function AboutPage() {
 
         <section className="rounded-xl border border-[#4DB5FF]/20 bg-[#0D1B2A]/95 p-8">
           <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#FFD54A]">
-            What comes next
+             
           </p>
 
-          <h2 className="mb-4 text-3xl font-bold">
-            Expanding NBI Hockey
-          </h2>
-
-          <p className="max-w-3xl text-gray-300">
-            The next stage of NBI Hockey will focus on building out a custom
-            hockey model, player and team rating systems, original research
-            pages, and interactive dashboards that turn analysis into usable
-            tools.
-          </p>
         </section>
       </div>
     </main>

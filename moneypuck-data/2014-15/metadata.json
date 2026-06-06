@@ -1,0 +1,15 @@
+{
+  "season": "2014-15",
+  "displayLabel": "2014-15",
+  "generatedAt": "2026-06-06T21:19:29.296Z",
+  "datasets": {
+    "skaters": true,
+    "goalies": true,
+    "teams": true
+  },
+  "counts": {
+    "skaters": 730,
+    "goalies": 65,
+    "teams": 30
+  }
+}
