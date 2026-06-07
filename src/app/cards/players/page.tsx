@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 type MoneyPuckSeason = {
   season: string;
@@ -175,6 +175,7 @@ export default function PlayersPage() {
   const [players, setPlayers] = useState<Player[]>([]);
   const [search, setSearch] = useState("");
   const [selectedTeam, setSelectedTeam] = useState("");
+  const rosterSectionRef = useRef<HTMLElement | null>(null);
   const [isLoadingSeasons, setIsLoadingSeasons] = useState(true);
   const [isLoadingPlayers, setIsLoadingPlayers] = useState(false);
   const [error, setError] = useState("");
@@ -303,6 +304,19 @@ export default function PlayersPage() {
         return getDisplayName(a).localeCompare(getDisplayName(b));
       });
   }, [players, selectedTeam]);
+
+  useEffect(() => {
+    if (!selectedTeam || selectedTeamPlayers.length === 0) return;
+
+    const timeout = window.setTimeout(() => {
+      rosterSectionRef.current?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }, 100);
+
+    return () => window.clearTimeout(timeout);
+  }, [selectedTeam, selectedTeamPlayers.length]);
 
   const selectedSeasonLabel =
     seasons.find((season) => season.season === selectedSeason)?.displayLabel ??
@@ -478,7 +492,7 @@ export default function PlayersPage() {
         </section>
 
         {selectedTeam && (
-          <section className="mt-10">
+          <section ref={rosterSectionRef} className="mt-10 scroll-mt-8">
             <div className="mb-4">
               <h2 className="text-2xl font-bold text-white">
                 {selectedTeamName} Players

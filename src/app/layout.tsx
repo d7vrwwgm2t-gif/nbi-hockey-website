@@ -44,7 +44,7 @@ export default function RootLayout({
 
         <div className="relative z-10">
           <header className="border-b border-white/10 bg-[#07111F]/90 backdrop-blur">
-            <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+            <nav className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 py-4 sm:px-6 md:flex-row md:py-5">
               <Link
                 href="/"
                 className="flex items-center gap-3 transition hover:opacity-90"
@@ -52,15 +52,18 @@ export default function RootLayout({
                 <Image
                   src="/nbi_logo copy 2.png"
                   alt="NBI Hockey Logo"
-                  width={64}
-                  height={64}
+                  width={52}
+                  height={52}
                   priority
+                  className="h-12 w-12 md:h-16 md:w-16"
                 />
 
-                <span className="text-lg font-bold">NBI Hockey</span>
+                <span className="text-base font-bold md:text-lg">
+                  NBI Hockey
+                </span>
               </Link>
 
-              <div className="flex gap-6 text-sm text-gray-300">
+              <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-3 text-sm text-gray-300 md:justify-end md:gap-6">
                 <Link href="/" className="hover:text-[#4DB5FF]">
                   Home
                 </Link>
@@ -71,7 +74,7 @@ export default function RootLayout({
                   Research
                 </Link>
                 <Link href="/cards" className="hover:text-[#4DB5FF]">
-                  Model
+                  Stat Cards
                 </Link>
                 <Link href="/about" className="hover:text-[#4DB5FF]">
                   About
@@ -82,7 +85,7 @@ export default function RootLayout({
 
           {children}
 
-          <footer className="mt-24 border-t border-white/10">
+          <footer className="mt-16 border-t border-white/10 md:mt-24">
             <div className="mx-auto max-w-6xl px-6 py-10">
               <div className="mb-6 text-center">
                 <h3 className="text-xl font-bold text-white">NBI Hockey</h3>
@@ -92,7 +95,7 @@ export default function RootLayout({
                 </p>
               </div>
 
-              <div className="flex items-center justify-center gap-8">
+              <div className="flex flex-wrap items-center justify-center gap-6 md:gap-8">
                 <a
                   href="https://www.instagram.com/nbi_hockey/"
                   target="_blank"
@@ -100,7 +103,7 @@ export default function RootLayout({
                   aria-label="NBI Hockey Instagram"
                   className="text-[#4DB5FF] transition hover:scale-110 hover:text-[#FFD54A]"
                 >
-                  <FaInstagram size={28} />
+                  <FaInstagram size={26} />
                 </a>
 
                 <a
@@ -110,7 +113,7 @@ export default function RootLayout({
                   aria-label="NBI Hockey on X"
                   className="text-[#4DB5FF] transition hover:scale-110 hover:text-[#FFD54A]"
                 >
-                  <FaXTwitter size={28} />
+                  <FaXTwitter size={26} />
                 </a>
 
                 <a
@@ -120,7 +123,7 @@ export default function RootLayout({
                   aria-label="NBI Hockey YouTube"
                   className="text-[#4DB5FF] transition hover:scale-110 hover:text-[#FFD54A]"
                 >
-                  <FaYoutube size={28} />
+                  <FaYoutube size={26} />
                 </a>
 
                 <a
@@ -130,7 +133,7 @@ export default function RootLayout({
                   aria-label="George LaFleche LinkedIn"
                   className="text-[#4DB5FF] transition hover:scale-110 hover:text-[#FFD54A]"
                 >
-                  <FaLinkedin size={28} />
+                  <FaLinkedin size={26} />
                 </a>
 
                 <a
@@ -140,7 +143,7 @@ export default function RootLayout({
                   aria-label="NBI Hockey Substack"
                   className="text-[#4DB5FF] transition hover:scale-110 hover:text-[#FFD54A]"
                 >
-                  <FaRss size={28} />
+                  <FaRss size={26} />
                 </a>
               </div>
 

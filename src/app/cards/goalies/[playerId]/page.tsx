@@ -506,7 +506,7 @@ export default function GoalieCardPageWrapper({ params, searchParams }: Props) {
   if (!resolvedParams) {
     return (
       <main className="min-h-screen text-white">
-        <div className="mx-auto max-w-5xl px-6 py-24">Loading...</div>
+        <div className="mx-auto max-w-5xl px-3 py-10 sm:px-6 sm:py-24">Loading...</div>
       </main>
     );
   }
@@ -652,7 +652,7 @@ function GoalieCardPage({
   if (isLoading || isLoadingBio) {
     return (
       <main className="min-h-screen text-white">
-        <div className="mx-auto max-w-5xl px-6 py-24">Loading goalie card...</div>
+        <div className="mx-auto max-w-5xl px-3 py-10 sm:px-6 sm:py-24">Loading goalie card...</div>
       </main>
     );
   }
@@ -660,7 +660,7 @@ function GoalieCardPage({
   if (error || !goalie) {
     return (
       <main className="min-h-screen text-white">
-        <div className="mx-auto max-w-5xl px-6 py-24">
+        <div className="mx-auto max-w-5xl px-3 py-10 sm:px-6 sm:py-24">
           <Link
             href="/cards/goalies"
             className="mb-6 inline-flex text-sm font-semibold text-[#4DB5FF] hover:text-[#FFD54A]"
@@ -690,7 +690,7 @@ function GoalieCardPage({
 
   return (
     <main className="min-h-screen text-white">
-      <div className="mx-auto max-w-5xl px-6 py-24">
+      <div className="mx-auto max-w-5xl px-3 py-10 sm:px-6 sm:py-24">
         <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
           <Link
             href="/cards/goalies"
@@ -752,13 +752,39 @@ const GoalieCard = forwardRef<
   ref
 ) {
   const ageText = age === null ? "" : ` • Age ${age}`;
+  const [cardScale, setCardScale] = useState(1);
+
+  useEffect(() => {
+    function updateCardScale() {
+      const availableWidth = window.innerWidth - 24;
+      const nextScale = Math.min(1, availableWidth / CARD_WIDTH);
+
+      setCardScale(nextScale);
+    }
+
+    updateCardScale();
+
+    window.addEventListener("resize", updateCardScale);
+
+    return () => window.removeEventListener("resize", updateCardScale);
+  }, []);
 
   return (
-    <section
-      ref={ref}
-      style={{ width: `${CARD_WIDTH}px` }}
-      className="mx-auto overflow-hidden rounded-[28px] border border-white/10 bg-[#07111F] shadow-2xl"
+    <div
+      className="mx-auto overflow-visible"
+      style={{
+        width: `${CARD_WIDTH * cardScale}px`,
+      }}
     >
+      <section
+        ref={ref}
+        style={{
+          width: `${CARD_WIDTH}px`,
+          transform: `scale(${cardScale})`,
+          transformOrigin: "top left",
+        }}
+        className="overflow-hidden rounded-[28px] border border-white/10 bg-[#07111F] shadow-2xl"
+      >
       <div className="relative min-h-[320px] overflow-hidden bg-gradient-to-br from-[#0D1B2A] via-[#132B45] to-[#07111F] p-8">
         <img
           src={playerPhotoSrc}
@@ -856,7 +882,8 @@ const GoalieCard = forwardRef<
           Data from MoneyPuck
         </div>
       </footer>
-    </section>
+      </section>
+    </div>
   );
 });
 
