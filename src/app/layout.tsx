@@ -17,8 +17,39 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://nbihockey.com"),
+
   title: "NBI Hockey",
   description: "Hockey analysis, research, and data-driven insights.",
+
+  openGraph: {
+    title: "NBI Hockey",
+    description: "Hockey analysis, research, and data-driven insights.",
+    url: "https://nbihockey.com",
+    siteName: "NBI Hockey",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "NBI Hockey",
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "NBI Hockey",
+    description: "Hockey analysis, research, and data-driven insights.",
+    images: ["/og-image.png"],
+  },
+
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/apple-icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -67,15 +98,19 @@ export default function RootLayout({
                 <Link href="/" className="hover:text-[#4DB5FF]">
                   Home
                 </Link>
+
                 <Link href="/articles" className="hover:text-[#4DB5FF]">
                   Articles
                 </Link>
+
                 <Link href="/research" className="hover:text-[#4DB5FF]">
                   Research
                 </Link>
+
                 <Link href="/cards" className="hover:text-[#4DB5FF]">
                   Stat Cards
                 </Link>
+
                 <Link href="/about" className="hover:text-[#4DB5FF]">
                   About
                 </Link>
@@ -88,7 +123,9 @@ export default function RootLayout({
           <footer className="mt-16 border-t border-white/10 md:mt-24">
             <div className="mx-auto max-w-6xl px-6 py-10">
               <div className="mb-6 text-center">
-                <h3 className="text-xl font-bold text-white">NBI Hockey</h3>
+                <h3 className="text-xl font-bold text-white">
+                  NBI Hockey
+                </h3>
 
                 <p className="mt-2 text-sm text-gray-400">
                   Research. Analysis. Data.
