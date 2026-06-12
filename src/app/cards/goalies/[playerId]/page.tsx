@@ -27,6 +27,11 @@ type GoalieCardSection = {
   metrics: GoalieCardMetric[];
 };
 
+type CareerImpactSeason = {
+  season: string;
+  percentile: number | null;
+};
+
 type Props = {
   params: Promise<{
     playerId: string;
@@ -34,6 +39,32 @@ type Props = {
   searchParams: Promise<{
     season?: string;
   }>;
+};
+
+type MoneyPuckSeason = {
+  season: string;
+  displayLabel: string;
+  generatedAt: string;
+  datasets: {
+    skaters: boolean;
+    goalies: boolean;
+    teams: boolean;
+  };
+  counts: {
+    skaters: number;
+    goalies: number;
+    teams: number;
+  };
+};
+
+type SeasonsResponse = {
+  success: boolean;
+  seasons: MoneyPuckSeason[];
+};
+
+type GoaliesResponse = {
+  success: boolean;
+  rows: GoalieRow[];
 };
 
 const SEASON_FALLBACK = "2008-09";
@@ -528,6 +559,8 @@ function GoalieCardPage({
 }) {
   const cardRef = useRef<HTMLElement | null>(null);
   const [rows, setRows] = useState<GoalieRow[]>([]);
+  const [careerImpact, setCareerImpact] = useState<CareerImpactSeason[]>([]);
+  const [isLoadingCareerImpact, setIsLoadingCareerImpact] = useState(true);
   const [bio, setBio] = useState<PlayerBio | null>(null);
   const [isLoadingBio, setIsLoadingBio] = useState(true);
   const [isLoading, setIsLoading] = useState(true);
@@ -564,6 +597,79 @@ function GoalieCardPage({
 
     loadRows();
   }, [season]);
+
+  useEffect(() => {
+    async function loadCareerImpact() {
+      setIsLoadingCareerImpact(true);
+
+      try {
+        const seasonsResponse = await fetch("/api/admin/moneypuck-seasons");
+        const seasonsData = (await seasonsResponse.json()) as SeasonsResponse;
+
+        if (!seasonsData.success) {
+          setCareerImpact([]);
+          return;
+        }
+
+        const goalieSeasons = seasonsData.seasons
+          .filter((seasonItem) => seasonItem.datasets.goalies)
+          .sort((a, b) => a.season.localeCompare(b.season));
+
+        const seasonResults = await Promise.all(
+          goalieSeasons.map(async (seasonItem) => {
+            try {
+              const response = await fetch(
+                `/api/admin/moneypuck-data?season=${encodeURIComponent(
+                  seasonItem.season
+                )}&datasetType=goalies`
+              );
+
+              const data = (await response.json()) as GoaliesResponse;
+
+              if (!data.success) return null;
+
+              const seasonRows = data.rows;
+              const seasonGoalie = seasonRows.find(
+                (row) => normalizePlayerId(row.playerId) === playerId
+              );
+
+              if (!seasonGoalie) return null;
+
+              const value = getPer60(seasonGoalie, "goalsSavedAboveExpected");
+              const comparisonValues = seasonRows
+                .map((row) => getPer60(row, "goalsSavedAboveExpected"))
+                .filter(
+                  (item): item is number =>
+                    item !== null && Number.isFinite(item)
+                );
+
+              return {
+                season: seasonItem.season,
+                percentile: percentileRank({
+                  value,
+                  comparisonValues,
+                }),
+              };
+            } catch {
+              return null;
+            }
+          })
+        );
+
+        setCareerImpact(
+          seasonResults.filter(
+            (item): item is CareerImpactSeason => item !== null
+          )
+        );
+      } catch {
+        setCareerImpact([]);
+      } finally {
+        setIsLoadingCareerImpact(false);
+      }
+    }
+
+    loadCareerImpact();
+  }, [playerId]);
 
   useEffect(() => {
     async function loadBio() {
@@ -716,6 +822,13 @@ function GoalieCardPage({
           gsaxPer60={gsaxPer60}
           gsaxPercentile={gsaxPercentile}
           sections={sections}
+        />
+
+        <CareerImpactPanel
+          careerImpact={careerImpact}
+          currentSeason={season}
+          playerId={playerId}
+          isLoading={isLoadingCareerImpact}
         />
       </div>
     </main>
@@ -886,6 +999,180 @@ const GoalieCard = forwardRef<
     </div>
   );
 });
+
+function CareerImpactPanel({
+  careerImpact,
+  currentSeason,
+  playerId,
+  isLoading,
+}: {
+  careerImpact: CareerImpactSeason[];
+  currentSeason: string;
+  playerId: string;
+  isLoading: boolean;
+}) {
+  const chartHeight = 180;
+  const chartPaddingX = 28;
+  const chartPaddingY = 22;
+  const chartWidth = 720;
+
+  const validPoints = careerImpact.filter(
+    (item) => item.percentile !== null && Number.isFinite(item.percentile)
+  );
+
+  const points = validPoints.map((item, index) => {
+    const x =
+      validPoints.length <= 1
+        ? chartWidth / 2
+        : chartPaddingX +
+          (index * (chartWidth - chartPaddingX * 2)) /
+            (validPoints.length - 1);
+
+    const y =
+      chartPaddingY +
+      ((100 - Number(item.percentile)) * (chartHeight - chartPaddingY * 2)) /
+        100;
+
+    return {
+      ...item,
+      x,
+      y,
+    };
+  });
+
+  const linePath =
+    points.length === 0
+      ? ""
+      : points
+          .map((point, index) =>
+            index === 0 ? `M ${point.x} ${point.y}` : `L ${point.x} ${point.y}`
+          )
+          .join(" ");
+
+  return (
+    <section className="mx-auto mt-8 max-w-[760px] rounded-2xl border border-white/10 bg-[#0D1B2A]/95 p-5">
+      <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <p className="mb-2 text-xs font-bold uppercase tracking-[0.25em] text-[#FFD54A]">
+            Career Trend
+          </p>
+
+          <h2 className="text-2xl font-black text-white">
+            Goalie Impact by Season
+          </h2>
+        </div>
+
+        <p className="text-sm text-gray-400">
+          Based on GSAx / 60 percentile
+        </p>
+      </div>
+
+      {isLoading ? (
+        <div className="rounded-xl border border-white/10 bg-black/20 p-5 text-sm text-gray-400">
+          Loading career seasons...
+        </div>
+      ) : careerImpact.length === 0 ? (
+        <div className="rounded-xl border border-white/10 bg-black/20 p-5 text-sm text-gray-400">
+          No other uploaded goalie seasons found for this player.
+        </div>
+      ) : (
+        <>
+          <div className="overflow-x-auto rounded-xl border border-white/10 bg-black/20 p-3">
+            <svg
+              viewBox={`0 0 ${chartWidth} ${chartHeight}`}
+              className="h-[180px] min-w-[520px] w-full"
+              role="img"
+              aria-label="Goalie impact percentile by season"
+            >
+              {[0, 25, 50, 75, 100].map((tick) => {
+                const y =
+                  chartPaddingY +
+                  ((100 - tick) * (chartHeight - chartPaddingY * 2)) / 100;
+
+                return (
+                  <g key={tick}>
+                    <line
+                      x1={chartPaddingX}
+                      x2={chartWidth - chartPaddingX}
+                      y1={y}
+                      y2={y}
+                      stroke="rgba(255,255,255,0.08)"
+                    />
+                    <text
+                      x={4}
+                      y={y + 4}
+                      fill="rgba(255,255,255,0.45)"
+                      fontSize="10"
+                    >
+                      {tick}
+                    </text>
+                  </g>
+                );
+              })}
+
+              {linePath && (
+                <path
+                  d={linePath}
+                  fill="none"
+                  stroke="#4DB5FF"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              )}
+
+              {points.map((point) => (
+                <g key={point.season}>
+                  <circle
+                    cx={point.x}
+                    cy={point.y}
+                    r={point.season === currentSeason ? 7 : 5}
+                    fill={point.season === currentSeason ? "#FFD54A" : "#4DB5FF"}
+                    stroke="#07111F"
+                    strokeWidth="2"
+                  />
+                  <text
+                    x={point.x}
+                    y={chartHeight - 4}
+                    textAnchor="middle"
+                    fill="rgba(255,255,255,0.55)"
+                    fontSize="10"
+                  >
+                    {point.season.slice(2)}
+                  </text>
+                </g>
+              ))}
+            </svg>
+          </div>
+
+          <div className="mt-5">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[#FFD54A]">
+              Other Seasons
+            </h3>
+
+            <div className="flex flex-wrap gap-2">
+              {careerImpact.map((item) => (
+                <Link
+                  key={item.season}
+                  href={`/cards/goalies/${playerId}?season=${encodeURIComponent(
+                    item.season
+                  )}`}
+                  className={`rounded-full border px-3 py-2 text-xs font-bold transition ${
+                    item.season === currentSeason
+                      ? "border-[#FFD54A] bg-[#FFD54A] text-[#07111F]"
+                      : "border-white/10 bg-black/20 text-gray-300 hover:border-[#4DB5FF] hover:text-[#4DB5FF]"
+                  }`}
+                >
+                  {item.season}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </>
+      )}
+    </section>
+  );
+}
 
 function StatPill({ label, value }: { label: string; value: string }) {
   return (

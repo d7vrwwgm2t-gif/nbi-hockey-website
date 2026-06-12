@@ -27,6 +27,34 @@ type PlayerCardSection = {
   metrics: PlayerCardMetric[];
 };
 
+type MoneyPuckSeason = {
+  season: string;
+  displayLabel: string;
+  datasets: {
+    skaters: boolean;
+    goalies: boolean;
+    teams: boolean;
+  };
+};
+
+type SeasonsResponse = {
+  success: boolean;
+  seasons: MoneyPuckSeason[];
+};
+
+type SkatersResponse = {
+  success: boolean;
+  rows: PlayerRow[];
+};
+
+type CareerImpactPoint = {
+  season: string;
+  displayLabel: string;
+  gameScorePerGame: number | null;
+  impactPercentile: number | null;
+  gamesPlayed: number | null;
+};
+
 type Props = {
   params: Promise<{
     playerId: string;
@@ -445,6 +473,8 @@ function PlayerCardPage({
   const [bio, setBio] = useState<PlayerBio | null>(null);
   const [isLoadingBio, setIsLoadingBio] = useState(true);
   const [isLoading, setIsLoading] = useState(true);
+  const [isLoadingCareer, setIsLoadingCareer] = useState(true);
+  const [careerImpact, setCareerImpact] = useState<CareerImpactPoint[]>([]);
   const [error, setError] = useState("");
 
   useEffect(() => {
@@ -507,6 +537,85 @@ function PlayerCardPage({
     }
 
     loadBio();
+  }, [playerId]);
+
+  useEffect(() => {
+    async function loadCareerImpact() {
+      setIsLoadingCareer(true);
+
+      try {
+        const seasonsResponse = await fetch("/api/admin/moneypuck-seasons");
+        const seasonsData = (await seasonsResponse.json()) as SeasonsResponse;
+
+        if (!seasonsData.success) {
+          setCareerImpact([]);
+          return;
+        }
+
+        const skaterSeasons = seasonsData.seasons
+          .filter((seasonItem) => seasonItem.datasets.skaters)
+          .sort((a, b) => a.season.localeCompare(b.season));
+
+        const seasonResults = await Promise.all(
+          skaterSeasons.map(async (seasonItem) => {
+            try {
+              const response = await fetch(
+                `/api/admin/moneypuck-data?season=${encodeURIComponent(
+                  seasonItem.season
+                )}&datasetType=skaters`
+              );
+
+              const data = (await response.json()) as SkatersResponse;
+
+              if (!data.success) return null;
+
+              const seasonPlayer = data.rows.find(
+                (row) => normalizePlayerId(row.playerId) === playerId
+              );
+
+              if (!seasonPlayer) return null;
+
+              const playerPositionGroup = getPositionGroup(seasonPlayer);
+              const seasonComparisonRows = data.rows.filter(
+                (row) => getPositionGroup(row) === playerPositionGroup
+              );
+              const seasonGameScore = getGameScorePerGame(seasonPlayer);
+              const comparisonValues = seasonComparisonRows
+                .map((row) => getGameScorePerGame(row))
+                .filter(
+                  (item): item is number =>
+                    item !== null && Number.isFinite(item)
+                );
+
+              return {
+                season: seasonItem.season,
+                displayLabel: seasonItem.displayLabel,
+                gameScorePerGame: seasonGameScore,
+                impactPercentile: percentileRank({
+                  value: seasonGameScore,
+                  comparisonValues,
+                }),
+                gamesPlayed: getNumber(seasonPlayer, "games_played"),
+              };
+            } catch {
+              return null;
+            }
+          })
+        );
+
+        setCareerImpact(
+          seasonResults.filter(
+            (item): item is CareerImpactPoint => item !== null
+          )
+        );
+      } catch {
+        setCareerImpact([]);
+      } finally {
+        setIsLoadingCareer(false);
+      }
+    }
+
+    loadCareerImpact();
   }, [playerId]);
 
   const player = useMemo(() => {
@@ -637,6 +746,13 @@ function PlayerCardPage({
           gameScorePerGame={gameScorePerGame}
           gameScorePercentile={gameScorePercentile}
           sections={sections}
+        />
+
+        <CareerImpactPanel
+          careerImpact={careerImpact}
+          currentSeason={season}
+          playerId={playerId}
+          isLoading={isLoadingCareer}
         />
       </div>
     </main>
@@ -810,6 +926,213 @@ const PlayerCard = forwardRef<
     </div>
   );
 });
+
+function CareerImpactPanel({
+  careerImpact,
+  currentSeason,
+  playerId,
+  isLoading,
+}: {
+  careerImpact: CareerImpactPoint[];
+  currentSeason: string;
+  playerId: string;
+  isLoading: boolean;
+}) {
+  if (isLoading) {
+    return (
+      <section className="mt-8 rounded-2xl border border-white/10 bg-[#0D1B2A]/95 p-6 text-sm text-gray-400">
+        Loading career impact...
+      </section>
+    );
+  }
+
+  if (careerImpact.length === 0) {
+    return null;
+  }
+
+  return (
+    <section className="mt-8 rounded-2xl border border-white/10 bg-[#0D1B2A]/95 p-6">
+      <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <p className="mb-2 text-xs font-bold uppercase tracking-[0.26em] text-[#FFD54A]">
+            Career Timeline
+          </p>
+
+          <h2 className="text-2xl font-black text-white">
+            Impact Percentile by Season
+          </h2>
+        </div>
+
+        <p className="text-sm text-gray-400">
+          Click any season below to open that card.
+        </p>
+      </div>
+
+      <CareerImpactChart
+        careerImpact={careerImpact}
+        currentSeason={currentSeason}
+      />
+
+      <div className="mt-6 flex flex-wrap gap-2">
+        {careerImpact.map((point) => {
+          const isCurrentSeason = point.season === currentSeason;
+
+          return (
+            <Link
+              key={point.season}
+              href={`/cards/players/${playerId}?season=${encodeURIComponent(
+                point.season
+              )}`}
+              className={`rounded-full border px-3 py-2 text-xs font-bold transition ${
+                isCurrentSeason
+                  ? "border-[#FFD54A] bg-[#FFD54A] text-[#07111F]"
+                  : "border-white/10 bg-black/20 text-gray-300 hover:border-[#4DB5FF] hover:text-[#4DB5FF]"
+              }`}
+            >
+              {point.displayLabel}
+            </Link>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
+function CareerImpactChart({
+  careerImpact,
+  currentSeason,
+}: {
+  careerImpact: CareerImpactPoint[];
+  currentSeason: string;
+}) {
+  const chartWidth = 700;
+  const chartHeight = 240;
+  const padding = 34;
+  const usableWidth = chartWidth - padding * 2;
+  const usableHeight = chartHeight - padding * 2;
+  const validPoints = careerImpact.filter(
+    (point) => point.impactPercentile !== null
+  );
+
+  if (validPoints.length === 0) {
+    return (
+      <div className="rounded-xl border border-white/10 bg-black/20 p-5 text-sm text-gray-400">
+        No career impact percentile data available yet.
+      </div>
+    );
+  }
+
+  const points = validPoints.map((point, index) => {
+    const x =
+      validPoints.length === 1
+        ? chartWidth / 2
+        : padding + (index / (validPoints.length - 1)) * usableWidth;
+    const y =
+      padding +
+      ((100 - (point.impactPercentile ?? 0)) / 100) * usableHeight;
+
+    return {
+      ...point,
+      x,
+      y,
+    };
+  });
+
+  const linePath = points
+    .map((point, index) => `${index === 0 ? "M" : "L"} ${point.x} ${point.y}`)
+    .join(" ");
+
+  return (
+    <div className="overflow-hidden rounded-xl border border-white/10 bg-black/20 p-4">
+      <svg
+        viewBox={`0 0 ${chartWidth} ${chartHeight}`}
+        className="h-auto w-full"
+        role="img"
+        aria-label="Career impact percentile chart"
+      >
+        {[25, 50, 75, 100].map((tick) => {
+          const y = padding + ((100 - tick) / 100) * usableHeight;
+
+          return (
+            <g key={tick}>
+              <line
+                x1={padding}
+                x2={chartWidth - padding}
+                y1={y}
+                y2={y}
+                stroke="rgba(255,255,255,0.12)"
+                strokeWidth="1"
+              />
+              <text
+                x={8}
+                y={y + 4}
+                fill="rgba(255,255,255,0.45)"
+                fontSize="11"
+                fontWeight="700"
+              >
+                {tick}
+              </text>
+            </g>
+          );
+        })}
+
+        <path
+          d={linePath}
+          fill="none"
+          stroke="#4DB5FF"
+          strokeWidth="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+
+        {points.map((point) => {
+          const isCurrentSeason = point.season === currentSeason;
+
+          return (
+            <g key={point.season}>
+              <circle
+                cx={point.x}
+                cy={point.y}
+                r={isCurrentSeason ? 7 : 5}
+                fill={isCurrentSeason ? "#FFD54A" : "#4DB5FF"}
+                stroke="#07111F"
+                strokeWidth="3"
+              />
+
+              <title>
+                {point.displayLabel}: {ordinal(point.impactPercentile)} percentile
+              </title>
+            </g>
+          );
+        })}
+
+        {points.map((point, index) => {
+          const showLabel =
+            index === 0 ||
+            index === points.length - 1 ||
+            point.season === currentSeason ||
+            index % 3 === 0;
+
+          if (!showLabel) return null;
+
+          return (
+            <text
+              key={`${point.season}-label`}
+              x={point.x}
+              y={chartHeight - 8}
+              textAnchor="middle"
+              fill="rgba(255,255,255,0.55)"
+              fontSize="10"
+              fontWeight="700"
+            >
+              {point.displayLabel}
+            </text>
+          );
+        })}
+      </svg>
+    </div>
+  );
+}
 
 function StatPill({ label, value }: { label: string; value: string }) {
   return (
