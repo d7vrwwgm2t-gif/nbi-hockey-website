@@ -533,7 +533,7 @@ const TeamCard = forwardRef<
 
   useEffect(() => {
     function updateCardScale() {
-      const availableWidth = document.documentElement.clientWidth - 24;
+      const availableWidth = Math.min(window.innerWidth, 430) - 24;
       const nextScale = Math.min(1, availableWidth / CARD_WIDTH);
 
       setCardScale(nextScale);
@@ -541,23 +541,28 @@ const TeamCard = forwardRef<
 
     updateCardScale();
 
+    window.addEventListener("resize", updateCardScale);
     window.addEventListener("orientationchange", updateCardScale);
 
-    return () => window.removeEventListener("orientationchange", updateCardScale);
+    return () => {
+      window.removeEventListener("resize", updateCardScale);
+      window.removeEventListener("orientationchange", updateCardScale);
+    };
   }, []);
 
   return (
     <div
       className="mx-auto overflow-visible"
       style={{
-        width: `${CARD_WIDTH}px`,
-        zoom: cardScale,
+        width: `${CARD_WIDTH * cardScale}px`,
       }}
     >
       <section
         ref={ref}
         style={{
           width: `${CARD_WIDTH}px`,
+          transform: `scale(${cardScale})`,
+          transformOrigin: "top left",
         }}
         className="overflow-hidden rounded-[28px] border border-white/10 bg-[#07111F] shadow-2xl"
       >
