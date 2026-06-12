@@ -867,35 +867,34 @@ const GoalieCard = forwardRef<
   const ageText = age === null ? "" : ` • Age ${age}`;
   const [cardScale, setCardScale] = useState(1);
 
-  useEffect(() => {
-    function updateCardScale() {
-      const availableWidth = window.innerWidth - 24;
-      const nextScale = Math.min(1, availableWidth / CARD_WIDTH);
+useEffect(() => {
+  function updateCardScale() {
+    const availableWidth = document.documentElement.clientWidth - 24;
+    const nextScale = Math.min(1, availableWidth / CARD_WIDTH);
 
-      setCardScale(nextScale);
-    }
+    setCardScale(nextScale);
+  }
 
-    updateCardScale();
+  updateCardScale();
 
-    window.addEventListener("resize", updateCardScale);
+  window.addEventListener("orientationchange", updateCardScale);
 
-    return () => window.removeEventListener("resize", updateCardScale);
-  }, []);
+  return () => window.removeEventListener("orientationchange", updateCardScale);
+}, []);
 
   return (
     <div
       className="mx-auto overflow-visible"
       style={{
-        width: `${CARD_WIDTH * cardScale}px`,
+       width: `${CARD_WIDTH}px`,
+      zoom: cardScale,
       }}
     >
       <section
         ref={ref}
         style={{
           width: `${CARD_WIDTH}px`,
-          transform: `scale(${cardScale})`,
-          transformOrigin: "top left",
-        }}
+      }}
         className="overflow-hidden rounded-[28px] border border-white/10 bg-[#07111F] shadow-2xl"
       >
       <div className="relative min-h-[320px] overflow-hidden bg-gradient-to-br from-[#0D1B2A] via-[#132B45] to-[#07111F] p-8">
