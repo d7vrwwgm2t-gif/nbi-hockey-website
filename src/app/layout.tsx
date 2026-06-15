@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Poppins } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
@@ -123,9 +124,7 @@ export default function RootLayout({
           <footer className="mt-16 border-t border-white/10 md:mt-24">
             <div className="mx-auto max-w-6xl px-6 py-10">
               <div className="mb-6 text-center">
-                <h3 className="text-xl font-bold text-white">
-                  NBI Hockey
-                </h3>
+                <h3 className="text-xl font-bold text-white">NBI Hockey</h3>
 
                 <p className="mt-2 text-sm text-gray-400">
                   Research. Analysis. Data.
@@ -198,6 +197,8 @@ export default function RootLayout({
             </div>
           </footer>
         </div>
+
+        <Analytics />
       </body>
     </html>
   );

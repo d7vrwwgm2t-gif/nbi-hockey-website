@@ -866,14 +866,23 @@ const GoalieCard = forwardRef<
 ) {
   const ageText = age === null ? "" : ` • Age ${age}`;
   const [cardScale, setCardScale] = useState(1);
+  const [cardHeight, setCardHeight] = useState<number | null>(null);
+  const internalCardRef = useRef<HTMLElement | null>(null);
 
-useEffect(() => {
+  function setCardRefs(element: HTMLElement | null) {
+    internalCardRef.current = element;
+
+    if (typeof ref === "function") {
+      ref(element);
+    } else if (ref) {
+      ref.current = element;
+    }
+  }
+
+  useEffect(() => {
   function updateCardScale() {
-    const viewportWidth = document.documentElement.clientWidth;
-    const availableWidth =
-      viewportWidth >= CARD_WIDTH + 48
-        ? CARD_WIDTH
-        : viewportWidth - 24;
+    const viewportWidth = window.innerWidth;
+    const availableWidth = Math.max(320, viewportWidth - 24);
     const nextScale = Math.min(1, availableWidth / CARD_WIDTH);
 
     setCardScale(nextScale);
@@ -881,24 +890,56 @@ useEffect(() => {
 
   updateCardScale();
 
+  window.addEventListener("resize", updateCardScale);
   window.addEventListener("orientationchange", updateCardScale);
 
-  return () => window.removeEventListener("orientationchange", updateCardScale);
+  return () => {
+    window.removeEventListener("resize", updateCardScale);
+    window.removeEventListener("orientationchange", updateCardScale);
+  };
 }, []);
+
+  useEffect(() => {
+    function updateCardHeight() {
+      const element = internalCardRef.current;
+
+      if (!element) return;
+
+      setCardHeight(element.offsetHeight);
+    }
+
+    updateCardHeight();
+
+    const element = internalCardRef.current;
+
+    if (!element) return;
+
+    const observer = new ResizeObserver(updateCardHeight);
+    observer.observe(element);
+
+    window.addEventListener("resize", updateCardHeight);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("resize", updateCardHeight);
+    };
+  }, []);
 
   return (
     <div
       className="mx-auto overflow-visible"
       style={{
-       width: `${CARD_WIDTH}px`,
-      zoom: cardScale,
+        width: `${CARD_WIDTH * cardScale}px`,
+        height: cardHeight === null ? "auto" : `${cardHeight * cardScale}px`,
       }}
     >
       <section
-        ref={ref}
+        ref={setCardRefs}
         style={{
           width: `${CARD_WIDTH}px`,
-      }}
+          transform: `scale(${cardScale})`,
+          transformOrigin: "top left",
+        }}
         className="overflow-hidden rounded-[28px] border border-white/10 bg-[#07111F] shadow-2xl"
       >
       <div className="relative min-h-[320px] overflow-hidden bg-gradient-to-br from-[#0D1B2A] via-[#132B45] to-[#07111F] p-8">
