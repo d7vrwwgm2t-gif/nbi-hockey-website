@@ -869,7 +869,11 @@ const GoalieCard = forwardRef<
 
 useEffect(() => {
   function updateCardScale() {
-    const availableWidth = document.documentElement.clientWidth - 24;
+    const viewportWidth = document.documentElement.clientWidth;
+    const availableWidth =
+      viewportWidth >= CARD_WIDTH + 48
+        ? CARD_WIDTH
+        : viewportWidth - 24;
     const nextScale = Math.min(1, availableWidth / CARD_WIDTH);
 
     setCardScale(nextScale);
@@ -886,16 +890,15 @@ useEffect(() => {
     <div
       className="mx-auto overflow-visible"
       style={{
-        width: `${CARD_WIDTH * cardScale}px`,
+       width: `${CARD_WIDTH}px`,
+      zoom: cardScale,
       }}
     >
       <section
         ref={ref}
         style={{
           width: `${CARD_WIDTH}px`,
-          transform: `scale(${cardScale})`,
-          transformOrigin: "top left",
-        }}
+      }}
         className="overflow-hidden rounded-[28px] border border-white/10 bg-[#07111F] shadow-2xl"
       >
       <div className="relative min-h-[320px] overflow-hidden bg-gradient-to-br from-[#0D1B2A] via-[#132B45] to-[#07111F] p-8">
