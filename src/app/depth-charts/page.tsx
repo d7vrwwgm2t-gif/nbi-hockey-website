@@ -1,7 +1,9 @@
 import DepthChartClient from "@/components/depth-charts/DepthChartClient";
 import { getDepthCharts } from "@/lib/dailyFaceoff";
 
-export const revalidate = 900;
+export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
+export const revalidate = 0;
 
 export default async function DepthChartsPage() {
   const teams = await getDepthCharts();
