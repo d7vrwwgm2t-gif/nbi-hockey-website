@@ -112,9 +112,6 @@ export default function RootLayout({
                   Stat Cards
                 </Link>
 
-                <Link href="/depth-charts" className="hover:text-sky-300">
-                  Depth Charts
-                </Link>
                 <Link href="/about" className="hover:text-[#4DB5FF]">
                   About
                 </Link>
