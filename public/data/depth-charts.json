@@ -1,0 +1,7208 @@
+{
+  "generatedAt": "2026-07-07T18:31:25.066376+00:00",
+  "teams": [
+    {
+      "teamName": "Anaheim Ducks",
+      "abbreviation": "ANA",
+      "dailyFaceoffSlug": "anaheim-ducks",
+      "logoPath": "/team-logos/ANA.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/anaheim-ducks/line-combinations",
+      "updatedAt": "2026-07-07T18:30:42.608562+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Chris Kreider"
+          },
+          "c": {
+            "name": "Leo Carlsson"
+          },
+          "rw": {
+            "name": "Troy Terry"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Alex Killorn"
+          },
+          "c": {
+            "name": "Mikael Granlund"
+          },
+          "rw": {
+            "name": "Beckett Sennecke"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Cutter Gauthier"
+          },
+          "c": {
+            "name": "Ryan Poehling"
+          },
+          "rw": {
+            "name": "Frank Vatrano"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "A.J. Greer"
+          },
+          "c": {
+            "name": "Tim Washe"
+          },
+          "rw": {
+            "name": "Jeff Malott"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Jackson Lacombe"
+          },
+          "rd": {
+            "name": "Tristan Luneau"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Pavel Mintyukov"
+          },
+          "rd": {
+            "name": "Ian Moore"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Tyson Hinds"
+          },
+          "rd": {
+            "name": "Nick Jensen"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Lukas Dostal"
+        },
+        "backup": {
+          "name": "Ville Husso"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Chris Kreider"
+            },
+            {
+              "name": "Leo Carlsson"
+            },
+            {
+              "name": "Cutter Gauthier"
+            },
+            {
+              "name": "Troy Terry"
+            },
+            {
+              "name": "Jackson Lacombe"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Alex Killorn"
+            },
+            {
+              "name": "Mikael Granlund"
+            },
+            {
+              "name": "Beckett Sennecke"
+            },
+            {
+              "name": "Pavel Mintyukov"
+            },
+            {
+              "name": "Frank Vatrano"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Ryan Poehling"
+            },
+            {
+              "name": "Alex Killorn"
+            },
+            {
+              "name": "Jackson Lacombe"
+            },
+            {
+              "name": "Pavel Mintyukov"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Tim Washe"
+            },
+            {
+              "name": "Mikael Granlund"
+            },
+            {
+              "name": "Tyson Hinds"
+            },
+            {
+              "name": "Nick Jensen"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Nathan Gaucher",
+          "position": "C"
+        },
+        {
+          "name": "Nico Myatovic",
+          "position": "L"
+        },
+        {
+          "name": "Anton Wahlberg",
+          "position": "C"
+        },
+        {
+          "name": "Drew Helleson",
+          "position": "D"
+        },
+        {
+          "name": "Noah Warren",
+          "position": "D"
+        },
+        {
+          "name": "Vyacheslav Buteyets",
+          "position": "G"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Troy Terry"
+        }
+      ]
+    },
+    {
+      "teamName": "Boston Bruins",
+      "abbreviation": "BOS",
+      "dailyFaceoffSlug": "boston-bruins",
+      "logoPath": "/team-logos/BOS.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/boston-bruins/line-combinations",
+      "updatedAt": "2026-07-07T18:30:43.982189+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "JJ Peterka"
+          },
+          "c": {
+            "name": "Pavel Zacha"
+          },
+          "rw": {
+            "name": "David Pastrnak"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Casey Mittelstadt"
+          },
+          "c": {
+            "name": "Elias Lindholm"
+          },
+          "rw": {
+            "name": "Morgan Geekie"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "James Hagens"
+          },
+          "c": {
+            "name": "Fraser Minten"
+          },
+          "rw": {
+            "name": "Marat Khusnutdinov"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Tanner Jeannot"
+          },
+          "c": {
+            "name": "Sean Kuraly"
+          },
+          "rw": {
+            "name": "Mark Kastelic"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Mason Lohrei"
+          },
+          "rd": {
+            "name": "Charlie McAvoy"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Hampus Lindholm"
+          },
+          "rd": {
+            "name": "Will Borgen"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Nikita Zadorov"
+          },
+          "rd": {
+            "name": "Henri Jokiharju"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Jeremy Swayman"
+        },
+        "backup": {
+          "name": "Michael DiPietro"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Morgan Geekie"
+            },
+            {
+              "name": "Elias Lindholm"
+            },
+            {
+              "name": "Pavel Zacha"
+            },
+            {
+              "name": "David Pastrnak"
+            },
+            {
+              "name": "Charlie McAvoy"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "James Hagens"
+            },
+            {
+              "name": "Fraser Minten"
+            },
+            {
+              "name": "Casey Mittelstadt"
+            },
+            {
+              "name": "Hampus Lindholm"
+            },
+            {
+              "name": "JJ Peterka"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Sean Kuraly"
+            },
+            {
+              "name": "Mark Kastelic"
+            },
+            {
+              "name": "Hampus Lindholm"
+            },
+            {
+              "name": "Charlie McAvoy"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Fraser Minten"
+            },
+            {
+              "name": "Tanner Jeannot"
+            },
+            {
+              "name": "Nikita Zadorov"
+            },
+            {
+              "name": "Will Borgen"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Michael Eyssimont",
+          "position": "C"
+        },
+        {
+          "name": "Alex Steeves",
+          "position": "C"
+        },
+        {
+          "name": "Jonathan Aspirot",
+          "position": "D"
+        },
+        {
+          "name": "Connor Clifton",
+          "position": "D"
+        },
+        {
+          "name": "Jordan Harris",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Bruins line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Boston players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Boston Bruins Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Bruins lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are receiving stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Boston\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Bruins may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Bruins lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Buffalo Sabres",
+      "abbreviation": "BUF",
+      "dailyFaceoffSlug": "buffalo-sabres",
+      "logoPath": "/team-logos/BUF.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/buffalo-sabres/line-combinations",
+      "updatedAt": "2026-07-07T18:30:45.366918+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Zach Benson"
+          },
+          "c": {
+            "name": "Josh Norris"
+          },
+          "rw": {
+            "name": "Tage Thompson"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Jason Zucker"
+          },
+          "c": {
+            "name": "Ryan McLeod"
+          },
+          "rw": {
+            "name": "Jack Quinn"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Noah Ostlund"
+          },
+          "c": {
+            "name": "Konsta Helenius"
+          },
+          "rw": {
+            "name": "Josh Doan"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Peyton Krebs"
+          },
+          "c": {
+            "name": "Sam Carrick"
+          },
+          "rw": {
+            "name": "Beck Malenstyn"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Mattias Samuelsson"
+          },
+          "rd": {
+            "name": "Rasmus Dahlin"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Owen Power"
+          },
+          "rd": {
+            "name": "Louis Crevier"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Olen Zellweger"
+          },
+          "rd": {
+            "name": "Conor Timmins"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Ukko-Pekka Luukkonen"
+        },
+        "backup": {
+          "name": "Alex Lyon"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Jason Zucker"
+            },
+            {
+              "name": "Josh Norris"
+            },
+            {
+              "name": "Josh Doan"
+            },
+            {
+              "name": "Tage Thompson"
+            },
+            {
+              "name": "Rasmus Dahlin"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Zach Benson"
+            },
+            {
+              "name": "Ryan McLeod"
+            },
+            {
+              "name": "Noah Ostlund"
+            },
+            {
+              "name": "Jack Quinn"
+            },
+            {
+              "name": "Owen Power"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Ryan McLeod"
+            },
+            {
+              "name": "Beck Malenstyn"
+            },
+            {
+              "name": "Mattias Samuelsson"
+            },
+            {
+              "name": "Conor Timmins"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Sam Carrick"
+            },
+            {
+              "name": "Zach Benson"
+            },
+            {
+              "name": "Owen Power"
+            },
+            {
+              "name": "Louis Crevier"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Justin Danforth",
+          "position": "R"
+        },
+        {
+          "name": "Riley Fiddler-Schultz",
+          "position": "C"
+        },
+        {
+          "name": "Tyson Kozak",
+          "position": "C"
+        },
+        {
+          "name": "Conor Sheary",
+          "position": "L"
+        },
+        {
+          "name": "Dennis Gilbert",
+          "position": "D"
+        },
+        {
+          "name": "Ryan Johnson",
+          "position": "D"
+        },
+        {
+          "name": "Vsevolod Komarov",
+          "position": "D"
+        },
+        {
+          "name": "Zach Metsa",
+          "position": "D"
+        },
+        {
+          "name": "Radim Mrtka",
+          "position": "D"
+        },
+        {
+          "name": "Colten Ellis",
+          "position": "G"
+        },
+        {
+          "name": "Matt Villalta",
+          "position": "G"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Jiri Kulich"
+        }
+      ]
+    },
+    {
+      "teamName": "Carolina Hurricanes",
+      "abbreviation": "CAR",
+      "dailyFaceoffSlug": "carolina-hurricanes",
+      "logoPath": "/team-logos/CAR.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/carolina-hurricanes/line-combinations",
+      "updatedAt": "2026-07-07T18:30:46.653408+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Nikolaj Ehlers"
+          },
+          "c": {
+            "name": "Sebastian Aho"
+          },
+          "rw": {
+            "name": "Andrei Svechnikov"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Taylor Hall"
+          },
+          "c": {
+            "name": "Logan Stankoven"
+          },
+          "rw": {
+            "name": "Jackson Blake"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "William Carrier"
+          },
+          "c": {
+            "name": "Jordan Staal"
+          },
+          "rw": {
+            "name": "Jordan Martinook"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Nicolas Deslauriers"
+          },
+          "c": {
+            "name": "Mark Jankowski"
+          },
+          "rw": {
+            "name": "Eric Robinson"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Jaccob Slavin"
+          },
+          "rd": {
+            "name": "Jalen Chatfield"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "K'Andre Miller"
+          },
+          "rd": {
+            "name": "Sean Walker"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Shayne Gostisbehere"
+          },
+          "rd": {
+            "name": "Alexander Nikishin"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Brandon Bussi"
+        },
+        "backup": {
+          "name": "Pyotr Kochetkov"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Nikolaj Ehlers"
+            },
+            {
+              "name": "Jordan Staal"
+            },
+            {
+              "name": "Andrei Svechnikov"
+            },
+            {
+              "name": "Shayne Gostisbehere"
+            },
+            {
+              "name": "Sebastian Aho"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Taylor Hall"
+            },
+            {
+              "name": "Logan Stankoven"
+            },
+            {
+              "name": "Mark Jankowski"
+            },
+            {
+              "name": "Jackson Blake"
+            },
+            {
+              "name": "Alexander Nikishin"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Jordan Staal"
+            },
+            {
+              "name": "Jordan Martinook"
+            },
+            {
+              "name": "Jaccob Slavin"
+            },
+            {
+              "name": "Jalen Chatfield"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Sebastian Aho"
+            },
+            {
+              "name": "Eric Robinson"
+            },
+            {
+              "name": "K'Andre Miller"
+            },
+            {
+              "name": "Sean Walker"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Jesperi Kotkaniemi",
+          "position": "C"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Seth Jarvis"
+        },
+        {
+          "name": "Eric Robinson"
+        }
+      ]
+    },
+    {
+      "teamName": "Columbus Blue Jackets",
+      "abbreviation": "CBJ",
+      "dailyFaceoffSlug": "columbus-blue-jackets",
+      "logoPath": "/team-logos/CBJ.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/columbus-blue-jackets/line-combinations",
+      "updatedAt": "2026-07-07T18:30:48.037034+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Valeri Nichushkin"
+          },
+          "c": {
+            "name": "Adam Fantilli"
+          },
+          "rw": {
+            "name": "Kirill Marchenko"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Kent Johnson"
+          },
+          "c": {
+            "name": "Sean Monahan"
+          },
+          "rw": {
+            "name": "Conor Garland"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Cole Sillinger"
+          },
+          "c": {
+            "name": "Charlie Coyle"
+          },
+          "rw": {
+            "name": "Mathieu Olivier"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Dmitri Voronkov"
+          },
+          "c": {
+            "name": "Isac Lundestrom"
+          },
+          "rw": {
+            "name": "Ryan Lomberg"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Zach Werenski"
+          },
+          "rd": {
+            "name": "Damon Severson"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Ivan Provorov"
+          },
+          "rd": {
+            "name": "Denton Mateychuk"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Jake Christiansen"
+          },
+          "rd": {
+            "name": "Dante Fabbro"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Jet Greaves"
+        },
+        "backup": {
+          "name": "Elvis Merzlikins"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Charlie Coyle"
+            },
+            {
+              "name": "Adam Fantilli"
+            },
+            {
+              "name": "Kent Johnson"
+            },
+            {
+              "name": "Kirill Marchenko"
+            },
+            {
+              "name": "Zach Werenski"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Conor Garland"
+            },
+            {
+              "name": "Sean Monahan"
+            },
+            {
+              "name": "Valeri Nichushkin"
+            },
+            {
+              "name": "Ivan Provorov"
+            },
+            {
+              "name": "Denton Mateychuk"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Charlie Coyle"
+            },
+            {
+              "name": "Sean Monahan"
+            },
+            {
+              "name": "Ivan Provorov"
+            },
+            {
+              "name": "Denton Mateychuk"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Isac Lundestrom"
+            },
+            {
+              "name": "Valeri Nichushkin"
+            },
+            {
+              "name": "Zach Werenski"
+            },
+            {
+              "name": "Dante Fabbro"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Miles Wood",
+          "position": "L"
+        },
+        {
+          "name": "Erik Gudbranson",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Blue Jackets line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Columbus players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Columbus Blue Jackets Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Blue Jackets lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Columbus\u2019 forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Blue Jackets may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Blue Jackets lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Calgary Flames",
+      "abbreviation": "CGY",
+      "dailyFaceoffSlug": "calgary-flames",
+      "logoPath": "/team-logos/CGY.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/calgary-flames/line-combinations",
+      "updatedAt": "2026-07-07T18:30:49.406251+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Matvei Gridin"
+          },
+          "c": {
+            "name": "Morgan Frost"
+          },
+          "rw": {
+            "name": "Matt Coronato"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Connor Zary"
+          },
+          "c": {
+            "name": "Mikael Backlund"
+          },
+          "rw": {
+            "name": "Joel Farabee"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Jonathan Huberdeau"
+          },
+          "c": {
+            "name": "Ryan Strome"
+          },
+          "rw": {
+            "name": "Yegor Sharangovich"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Maxim Tsyplakov"
+          },
+          "c": {
+            "name": "Martin Pospisil"
+          },
+          "rw": {
+            "name": "Adam Klapka"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Kevin Bahl"
+          },
+          "rd": {
+            "name": "Zach Whitecloud"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Jacob Middleton"
+          },
+          "rd": {
+            "name": "Simon Nemec"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Yan Kuznetsov"
+          },
+          "rd": {
+            "name": "Zayne Parekh"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Dustin Wolf"
+        },
+        "backup": {
+          "name": "Devin Cooley"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Jonathan Huberdeau"
+            },
+            {
+              "name": "Morgan Frost"
+            },
+            {
+              "name": "Matt Coronato"
+            },
+            {
+              "name": "Matvei Gridin"
+            },
+            {
+              "name": "Zayne Parekh"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Joel Farabee"
+            },
+            {
+              "name": "Ryan Strome"
+            },
+            {
+              "name": "Connor Zary"
+            },
+            {
+              "name": "Simon Nemec"
+            },
+            {
+              "name": "Yegor Sharangovich"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Mikael Backlund"
+            },
+            {
+              "name": "Joel Farabee"
+            },
+            {
+              "name": "Jacob Middleton"
+            },
+            {
+              "name": "Zach Whitecloud"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Yegor Sharangovich"
+            },
+            {
+              "name": "Jonathan Huberdeau"
+            },
+            {
+              "name": "Yan Kuznetsov"
+            },
+            {
+              "name": "Kevin Bahl"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Tyson Gross",
+          "position": "C"
+        },
+        {
+          "name": "Samuel Honzek",
+          "position": "L"
+        },
+        {
+          "name": "Ben Jones",
+          "position": "C"
+        },
+        {
+          "name": "Rory Kerins",
+          "position": "C"
+        },
+        {
+          "name": "Aydar Suniev",
+          "position": "L"
+        },
+        {
+          "name": "Hunter Brzustewicz",
+          "position": "D"
+        },
+        {
+          "name": "Joel Hanley",
+          "position": "D"
+        },
+        {
+          "name": "Jake Middleton",
+          "position": "D"
+        },
+        {
+          "name": "Brayden Pachal",
+          "position": "D"
+        },
+        {
+          "name": "Abram Wiebe",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Flames line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Calgary players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Calgary Flames Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Flames lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are receiving stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Calgary\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Flames may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Flames lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Chicago Blackhawks",
+      "abbreviation": "CHI",
+      "dailyFaceoffSlug": "chicago-blackhawks",
+      "logoPath": "/team-logos/CHI.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/chicago-blackhawks/line-combinations",
+      "updatedAt": "2026-07-07T18:30:50.796115+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Tyler Bertuzzi"
+          },
+          "c": {
+            "name": "Connor Bedard"
+          },
+          "rw": {
+            "name": "Roman Kantserov"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Teuvo Teravainen"
+          },
+          "c": {
+            "name": "Frank Nazar"
+          },
+          "rw": {
+            "name": "Anton Frondell"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Ryan Greene"
+          },
+          "c": {
+            "name": "Oliver Moore"
+          },
+          "rw": {
+            "name": "Nick Lardis"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Jordan Greenway"
+          },
+          "c": {
+            "name": "Ryan Donato"
+          },
+          "rw": {
+            "name": "Cole Smith"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Alex Vlasic"
+          },
+          "rd": {
+            "name": "Bowen Byram"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Wyatt Kaiser"
+          },
+          "rd": {
+            "name": "Artyom Levshunov"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Ian Cole"
+          },
+          "rd": {
+            "name": "Sam Rinzel"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Spencer Knight"
+        },
+        "backup": {
+          "name": "Arvid Soderblom"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Roman Kantserov"
+            },
+            {
+              "name": "Anton Frondell"
+            },
+            {
+              "name": "Teuvo Teravainen"
+            },
+            {
+              "name": "Connor Bedard"
+            },
+            {
+              "name": "Artyom Levshunov"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Tyler Bertuzzi"
+            },
+            {
+              "name": "Frank Nazar"
+            },
+            {
+              "name": "Ryan Greene"
+            },
+            {
+              "name": "Sam Rinzel"
+            },
+            {
+              "name": "Bowen Byram"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Ryan Greene"
+            },
+            {
+              "name": "Teuvo Teravainen"
+            },
+            {
+              "name": "Alex Vlasic"
+            },
+            {
+              "name": "Ian Cole"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Frank Nazar"
+            },
+            {
+              "name": "Oliver Moore"
+            },
+            {
+              "name": "Wyatt Kaiser"
+            },
+            {
+              "name": "Bowen Byram"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Sacha Boisvert",
+          "position": "C"
+        },
+        {
+          "name": "Andrew Mangiapane",
+          "position": "L"
+        },
+        {
+          "name": "Landon Slaggert",
+          "position": "L"
+        },
+        {
+          "name": "Dominic Toninato",
+          "position": "C"
+        },
+        {
+          "name": "Ethan Del Mastro",
+          "position": "D"
+        },
+        {
+          "name": "Kevin Korchinski",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Blackhawks line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Chicago players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Chicago Blackhawks Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Blackhawks lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Chicago\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Blackhawks may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Blackhawks lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Colorado Avalanche",
+      "abbreviation": "COL",
+      "dailyFaceoffSlug": "colorado-avalanche",
+      "logoPath": "/team-logos/COL.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/colorado-avalanche/line-combinations",
+      "updatedAt": "2026-07-07T18:30:52.124751+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Artturi Lehkonen"
+          },
+          "c": {
+            "name": "Nathan MacKinnon"
+          },
+          "rw": {
+            "name": "Martin Necas"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Nazem Kadri"
+          },
+          "c": {
+            "name": "Brock Nelson"
+          },
+          "rw": {
+            "name": "Gabriel Landeskog"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Jaden Schwartz"
+          },
+          "c": {
+            "name": "Nicolas Roy"
+          },
+          "rw": {
+            "name": "Logan O'Connor"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Parker Kelly"
+          },
+          "c": {
+            "name": "Fedor Svechkov"
+          },
+          "rw": {
+            "name": "Zachary L'Heureux"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Devon Toews"
+          },
+          "rd": {
+            "name": "Cale Makar"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Brett Kulak"
+          },
+          "rd": {
+            "name": "Sam Malinski"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Josh Manson"
+          },
+          "rd": {
+            "name": "Brent Burns"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Scott Wedgewood"
+        },
+        "backup": {
+          "name": "Mackenzie Blackwood"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Martin Necas"
+            },
+            {
+              "name": "Nazem Kadri"
+            },
+            {
+              "name": "Gabriel Landeskog"
+            },
+            {
+              "name": "Nathan MacKinnon"
+            },
+            {
+              "name": "Cale Makar"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Jaden Schwartz"
+            },
+            {
+              "name": "Brock Nelson"
+            },
+            {
+              "name": "Artturi Lehkonen"
+            },
+            {
+              "name": "Devon Toews"
+            },
+            {
+              "name": "Brent Burns"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Parker Kelly"
+            },
+            {
+              "name": "Logan O'Connor"
+            },
+            {
+              "name": "Devon Toews"
+            },
+            {
+              "name": "Brent Burns"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Brock Nelson"
+            },
+            {
+              "name": "Artturi Lehkonen"
+            },
+            {
+              "name": "Josh Manson"
+            },
+            {
+              "name": "Cale Makar"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Zakhar Bardakov",
+          "position": "C"
+        },
+        {
+          "name": "Vinnie Hinostroza",
+          "position": "C"
+        },
+        {
+          "name": "Noah Juulsen",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Avalanche line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Colorado players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Colorado Avalanche Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Avalanche lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Colorado\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Avalanche may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Avalanche lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Dallas Stars",
+      "abbreviation": "DAL",
+      "dailyFaceoffSlug": "dallas-stars",
+      "logoPath": "/team-logos/DAL.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/dallas-stars/line-combinations",
+      "updatedAt": "2026-07-07T18:30:53.506240+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Justin Hryckowian"
+          },
+          "c": {
+            "name": "Wyatt Johnston"
+          },
+          "rw": {
+            "name": "Mikko Rantanen"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Jason Robertson"
+          },
+          "c": {
+            "name": "Roope Hintz"
+          },
+          "rw": {
+            "name": "Tyler Seguin"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Sam Steel"
+          },
+          "c": {
+            "name": "Matt Duchene"
+          },
+          "rw": {
+            "name": "Jamie Benn"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Oskar Back"
+          },
+          "c": {
+            "name": "Radek Faksa"
+          },
+          "rw": {
+            "name": "Joel Kiviranta"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Esa Lindell"
+          },
+          "rd": {
+            "name": "Miro Heiskanen"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Thomas Harley"
+          },
+          "rd": {
+            "name": "Nils Lundkvist"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Lian Bichsel"
+          },
+          "rd": {
+            "name": "Tyler Myers"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Jake Oettinger"
+        },
+        "backup": {
+          "name": "Casey DeSmith"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Mikko Rantanen"
+            },
+            {
+              "name": "Wyatt Johnston"
+            },
+            {
+              "name": "Matt Duchene"
+            },
+            {
+              "name": "Miro Heiskanen"
+            },
+            {
+              "name": "Jason Robertson"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Jamie Benn"
+            },
+            {
+              "name": "Roope Hintz"
+            },
+            {
+              "name": "Justin Hryckowian"
+            },
+            {
+              "name": "Tyler Seguin"
+            },
+            {
+              "name": "Thomas Harley"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Radek Faksa"
+            },
+            {
+              "name": "Oskar Back"
+            },
+            {
+              "name": "Esa Lindell"
+            },
+            {
+              "name": "Miro Heiskanen"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Sam Steel"
+            },
+            {
+              "name": "Joel Kiviranta"
+            },
+            {
+              "name": "Thomas Harley"
+            },
+            {
+              "name": "Tyler Myers"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Colin Blackwell",
+          "position": "C"
+        },
+        {
+          "name": "Arttu Hyry",
+          "position": "R"
+        },
+        {
+          "name": "Kyle Capobianco",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Tyler Seguin"
+        }
+      ]
+    },
+    {
+      "teamName": "Detroit Red Wings",
+      "abbreviation": "DET",
+      "dailyFaceoffSlug": "detroit-red-wings",
+      "logoPath": "/team-logos/DET.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/detroit-red-wings/line-combinations",
+      "updatedAt": "2026-07-07T18:30:54.777252+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Emmitt Finnie"
+          },
+          "c": {
+            "name": "Dylan Larkin"
+          },
+          "rw": {
+            "name": "Lucas Raymond"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Alex DeBrincat"
+          },
+          "c": {
+            "name": "Andrew Copp"
+          },
+          "rw": {
+            "name": "Viktor Arvidsson"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Carter Mazur"
+          },
+          "c": {
+            "name": "Marco Kasper"
+          },
+          "rw": {
+            "name": "Mason Appleton"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Michael Rasmussen"
+          },
+          "c": {
+            "name": "J.T. Compher"
+          },
+          "rw": {
+            "name": "Keegan Kolesar"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Simon Edvinsson"
+          },
+          "rd": {
+            "name": "Moritz Seider"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Ben Chiarot"
+          },
+          "rd": {
+            "name": "Justin Faulk"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Albert Johansson"
+          },
+          "rd": {
+            "name": "Axel Sandin-Pellikka"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "John Gibson"
+        },
+        "backup": {
+          "name": "Daniil Tarasov"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Viktor Arvidsson"
+            },
+            {
+              "name": "Dylan Larkin"
+            },
+            {
+              "name": "Lucas Raymond"
+            },
+            {
+              "name": "Alex DeBrincat"
+            },
+            {
+              "name": "Moritz Seider"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Emmitt Finnie"
+            },
+            {
+              "name": "Andrew Copp"
+            },
+            {
+              "name": "Marco Kasper"
+            },
+            {
+              "name": "Justin Faulk"
+            },
+            {
+              "name": "Axel Sandin-Pellikka"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "J.T. Compher"
+            },
+            {
+              "name": "Andrew Copp"
+            },
+            {
+              "name": "Simon Edvinsson"
+            },
+            {
+              "name": "Moritz Seider"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Dylan Larkin"
+            },
+            {
+              "name": "Michael Rasmussen"
+            },
+            {
+              "name": "Albert Johansson"
+            },
+            {
+              "name": "Ben Chiarot"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Jacob Bernard-Docker",
+          "position": "D"
+        },
+        {
+          "name": "Jacob Bryson",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Red Wings line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Detroit players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Detroit Red Wings Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Red Wings lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Detroit\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Red Wings may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Red Wings lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Edmonton Oilers",
+      "abbreviation": "EDM",
+      "dailyFaceoffSlug": "edmonton-oilers",
+      "logoPath": "/team-logos/EDM.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
+      "updatedAt": "2026-07-07T18:30:56.188350+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Isaac Howard"
+          },
+          "c": {
+            "name": "Connor McDavid"
+          },
+          "rw": {
+            "name": "Zach Hyman"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Vasily Podkolzin"
+          },
+          "c": {
+            "name": "Leon Draisaitl"
+          },
+          "rw": {
+            "name": "Matthew Savoie"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Ryan Nugent-Hopkins"
+          },
+          "c": {
+            "name": "Jason Dickinson"
+          },
+          "rw": {
+            "name": "Kasperi Kapanen"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Mathieu Joseph"
+          },
+          "c": {
+            "name": "Josh Samanski"
+          },
+          "rw": {
+            "name": "Trent Frederic"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Mattias Ekholm"
+          },
+          "rd": {
+            "name": "Evan Bouchard"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Jake Walman"
+          },
+          "rd": {
+            "name": "Connor Murphy"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Ryan Shea"
+          },
+          "rd": {
+            "name": "Shakir Mukhamadullin"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Frederik Andersen"
+        },
+        "backup": {
+          "name": "Tristan Jarry"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Zach Hyman"
+            },
+            {
+              "name": "Ryan Nugent-Hopkins"
+            },
+            {
+              "name": "Leon Draisaitl"
+            },
+            {
+              "name": "Evan Bouchard"
+            },
+            {
+              "name": "Connor McDavid"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Vasily Podkolzin"
+            },
+            {
+              "name": "Matthew Savoie"
+            },
+            {
+              "name": "Isaac Howard"
+            },
+            {
+              "name": "Mattias Ekholm"
+            },
+            {
+              "name": "Jake Walman"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Jason Dickinson"
+            },
+            {
+              "name": "Matthew Savoie"
+            },
+            {
+              "name": "Mattias Ekholm"
+            },
+            {
+              "name": "Connor Murphy"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Ryan Nugent-Hopkins"
+            },
+            {
+              "name": "Kasperi Kapanen"
+            },
+            {
+              "name": "Ryan Shea"
+            },
+            {
+              "name": "Evan Bouchard"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Colton Dach",
+          "position": "C"
+        },
+        {
+          "name": "Mattias Janmark",
+          "position": "C"
+        },
+        {
+          "name": "Max Jones",
+          "position": "L"
+        },
+        {
+          "name": "Matt Savoie",
+          "position": "C"
+        },
+        {
+          "name": "Ty Emberson",
+          "position": "D"
+        },
+        {
+          "name": "Devon Levi",
+          "position": "G"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "One of the biggest factors in altering the lines of any hockey team, injuries can play a major role in shaping a team\u2019s depth chart. If a top player goes down due to injury, this can cause a massive ripple effect all the way down the roster, such as a second line player being promoted to the top line, with replacements then shifting from the bottom up."
+        },
+        {
+          "name": "Using Edmonton Oilers Lines for Betting and DFS"
+        },
+        {
+          "name": "Using information about the latest Oilers lines can help you score an additional edge on your sports betting and DFS activities. By knowing the ins-and-outs of the Oilers roster, you can construct an idea of how their next matchup may play out."
+        },
+        {
+          "name": "Be sure to research how each line has performed together in the 2024-25 NHL season, and see if there are opportunities for you to take advantage of that the oddsmakers haven\u2019t accounted for."
+        },
+        {
+          "name": "A great place to look in order to find an edge in your bets is the power play unit of the Oilers. Providing themselves with the best opportunity to score, the juiciest bets can all be won by researching the power play lines for the Oilers lineup tonight."
+        },
+        {
+          "name": "With Connor McDavid, Leon Draisaitl, Evan Bouchard, an plenty of other top players, there\u2019s no shortage of betting angles to choose from when it comes to the Oilers lines."
+        },
+        {
+          "name": "Oilers Lines FAQs"
+        },
+        {
+          "name": "How often do the Oilers change their lines?"
+        },
+        {
+          "name": "The Oilers change their lines from game-to-game. Whether it\u2019s due to a strategic reason or roster changes such as injuries or trades, the Oilers coaching staff try to ensure that they have a competitive advantage every game so changes to their lines happen often."
+        },
+        {
+          "name": "Who plays on the Oilers\u2019 top power play unit?"
+        },
+        {
+          "name": "The Oilers top power play unit consists of Zach Hyman, Ryan Nugent-Hopkins, and Leon Draisaitl as forwards, with Evan Bouchard and Connor McDavid as defenceman. The Oilers possess sensational offensive depth in their forward groups so they opt to use four forwards in their top line rather than the traditional three forwards, two defenceman split."
+        },
+        {
+          "name": "How do injuries affect the Oilers\u2019 line combinations?"
+        }
+      ]
+    },
+    {
+      "teamName": "Florida Panthers",
+      "abbreviation": "FLA",
+      "dailyFaceoffSlug": "florida-panthers",
+      "logoPath": "/team-logos/FLA.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/florida-panthers/line-combinations",
+      "updatedAt": "2026-07-07T18:30:57.524450+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Brady Tkachuk"
+          },
+          "c": {
+            "name": "Aleksander Barkov"
+          },
+          "rw": {
+            "name": "Sam Reinhart"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Carter Verhaeghe"
+          },
+          "c": {
+            "name": "Sam Bennett"
+          },
+          "rw": {
+            "name": "Matthew Tkachuk"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Eetu Luostarinen"
+          },
+          "c": {
+            "name": "Anton Lundell"
+          },
+          "rw": {
+            "name": "Brad Marchand"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Sandis Vilmanis"
+          },
+          "c": {
+            "name": "Lars Eller"
+          },
+          "rw": {
+            "name": "Garnet Hathaway"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Gustav Forsling"
+          },
+          "rd": {
+            "name": "Aaron Ekblad"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Niko Mikkola"
+          },
+          "rd": {
+            "name": "Seth Jones"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Dmitry Kulikov"
+          },
+          "rd": {
+            "name": "Radko Gudas"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Jacob Markstrom"
+        },
+        "backup": {
+          "name": "Akira Schmid"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Brady Tkachuk"
+            },
+            {
+              "name": "Aleksander Barkov"
+            },
+            {
+              "name": "Sam Reinhart"
+            },
+            {
+              "name": "Aaron Ekblad"
+            },
+            {
+              "name": "Matthew Tkachuk"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Sam Bennett"
+            },
+            {
+              "name": "Anton Lundell"
+            },
+            {
+              "name": "Brad Marchand"
+            },
+            {
+              "name": "Seth Jones"
+            },
+            {
+              "name": "Carter Verhaeghe"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Aleksander Barkov"
+            },
+            {
+              "name": "Sam Reinhart"
+            },
+            {
+              "name": "Gustav Forsling"
+            },
+            {
+              "name": "Aaron Ekblad"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Anton Lundell"
+            },
+            {
+              "name": "Eetu Luostarinen"
+            },
+            {
+              "name": "Niko Mikkola"
+            },
+            {
+              "name": "Radko Gudas"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "John Beecher",
+          "position": "C"
+        },
+        {
+          "name": "Jonah Gadjovich",
+          "position": "L"
+        },
+        {
+          "name": "Sam Lafferty",
+          "position": "C"
+        },
+        {
+          "name": "Cole Reinhardt",
+          "position": "L"
+        },
+        {
+          "name": "Cole Schwindt",
+          "position": "C"
+        },
+        {
+          "name": "Uvis Balinskis",
+          "position": "D"
+        },
+        {
+          "name": "Alexander Petrovic",
+          "position": "D"
+        },
+        {
+          "name": "Donovan Sebrango",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Panthers line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Florida players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Florida Panthers Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Panthers lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Florida\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Panthers may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Panthers lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Los Angeles Kings",
+      "abbreviation": "LAK",
+      "dailyFaceoffSlug": "los-angeles-kings",
+      "logoPath": "/team-logos/LAK.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/los-angeles-kings/line-combinations",
+      "updatedAt": "2026-07-07T18:30:58.946711+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Artemi Panarin"
+          },
+          "c": {
+            "name": "Quinton Byfield"
+          },
+          "rw": {
+            "name": "Adrian Kempe"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Kevin Fiala"
+          },
+          "c": {
+            "name": "Erik Haula"
+          },
+          "rw": {
+            "name": "Mats Zuccarello"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Trevor Moore"
+          },
+          "c": {
+            "name": "Scott Laughton"
+          },
+          "rw": {
+            "name": "Alex Laferriere"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Joel Armia"
+          },
+          "c": {
+            "name": "Samuel Helenius"
+          },
+          "rw": {
+            "name": "Corey Perry"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Mikey Anderson"
+          },
+          "rd": {
+            "name": "Drew Doughty"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Joel Edmundson"
+          },
+          "rd": {
+            "name": "Brandt Clarke"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Brian Dumoulin"
+          },
+          "rd": {
+            "name": "Cody Ceci"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Darcy Kuemper"
+        },
+        "backup": {
+          "name": "Anton Forsberg"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Adrian Kempe"
+            },
+            {
+              "name": "Quinton Byfield"
+            },
+            {
+              "name": "Mats Zuccarello"
+            },
+            {
+              "name": "Artemi Panarin"
+            },
+            {
+              "name": "Brandt Clarke"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Trevor Moore"
+            },
+            {
+              "name": "Erik Haula"
+            },
+            {
+              "name": "Alex Laferriere"
+            },
+            {
+              "name": "Kevin Fiala"
+            },
+            {
+              "name": "Drew Doughty"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Erik Haula"
+            },
+            {
+              "name": "Joel Armia"
+            },
+            {
+              "name": "Joel Edmundson"
+            },
+            {
+              "name": "Cody Ceci"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Scott Laughton"
+            },
+            {
+              "name": "Trevor Moore"
+            },
+            {
+              "name": "Mikey Anderson"
+            },
+            {
+              "name": "Drew Doughty"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Alex Turcotte",
+          "position": "C"
+        },
+        {
+          "name": "Taylor Ward",
+          "position": "R"
+        },
+        {
+          "name": "Erik Gustafsson",
+          "position": "D"
+        },
+        {
+          "name": "Scott Perunovich",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Kings line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Los Angeles players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Los Angeles Kings Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Kings lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Los Angeles\u2019 forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Kings may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Kings lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Minnesota Wild",
+      "abbreviation": "MIN",
+      "dailyFaceoffSlug": "minnesota-wild",
+      "logoPath": "/team-logos/MIN.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/minnesota-wild/line-combinations",
+      "updatedAt": "2026-07-07T18:31:00.360375+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Kirill Kaprizov"
+          },
+          "c": {
+            "name": "Danila Yurov"
+          },
+          "rw": {
+            "name": "Maxim Shabanov"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Blake Coleman"
+          },
+          "c": {
+            "name": "Joel Eriksson Ek"
+          },
+          "rw": {
+            "name": "Matt Boldy"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Yakov Trenin"
+          },
+          "c": {
+            "name": "Ryan Hartman"
+          },
+          "rw": {
+            "name": "Bobby Brink"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Marcus Foligno"
+          },
+          "c": {
+            "name": "Michael McCarron"
+          },
+          "rw": {
+            "name": "Nick Foligno"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Quinn Hughes"
+          },
+          "rd": {
+            "name": "Brock Faber"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Jonas Brodin"
+          },
+          "rd": {
+            "name": "Jared Spurgeon"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Olli Maatta"
+          },
+          "rd": {
+            "name": "Zach Bogosian"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Jesper Wallstedt"
+        },
+        "backup": {
+          "name": "Calvin Pickard"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Ryan Hartman"
+            },
+            {
+              "name": "Joel Eriksson Ek"
+            },
+            {
+              "name": "Matt Boldy"
+            },
+            {
+              "name": "Quinn Hughes"
+            },
+            {
+              "name": "Kirill Kaprizov"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Blake Coleman"
+            },
+            {
+              "name": "Danila Yurov"
+            },
+            {
+              "name": "Bobby Brink"
+            },
+            {
+              "name": "Brock Faber"
+            },
+            {
+              "name": "Maxim Shabanov"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Michael McCarron"
+            },
+            {
+              "name": "Blake Coleman"
+            },
+            {
+              "name": "Jonas Brodin"
+            },
+            {
+              "name": "Brock Faber"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Joel Eriksson Ek"
+            },
+            {
+              "name": "Matt Boldy"
+            },
+            {
+              "name": "Olli Maatta"
+            },
+            {
+              "name": "Zach Bogosian"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Hunter Haight",
+          "position": "C"
+        },
+        {
+          "name": "Maksim Shabanov",
+          "position": "R"
+        },
+        {
+          "name": "Nico Sturm",
+          "position": "C"
+        },
+        {
+          "name": "Viking Gustafsson Nyberg",
+          "position": "D"
+        },
+        {
+          "name": "Daemon Hunt",
+          "position": "D"
+        },
+        {
+          "name": "Matt Kiersted",
+          "position": "D"
+        },
+        {
+          "name": "Carson Lambos",
+          "position": "D"
+        },
+        {
+          "name": "David Spacek",
+          "position": "D"
+        },
+        {
+          "name": "Riley Mercer",
+          "position": "G"
+        },
+        {
+          "name": "Chase Wutzke",
+          "position": "G"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Filip Gustavsson"
+        }
+      ]
+    },
+    {
+      "teamName": "Montreal Canadiens",
+      "abbreviation": "MTL",
+      "dailyFaceoffSlug": "montreal-canadiens",
+      "logoPath": "/team-logos/MTL.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/montreal-canadiens/line-combinations",
+      "updatedAt": "2026-07-07T18:31:01.765592+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Cole Caufield"
+          },
+          "c": {
+            "name": "Nick Suzuki"
+          },
+          "rw": {
+            "name": "Juraj Slafkovsky"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Alex Newhook"
+          },
+          "c": {
+            "name": "Jake Evans"
+          },
+          "rw": {
+            "name": "Ivan Demidov"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Alexandre Texier"
+          },
+          "c": {
+            "name": "Phillip Danault"
+          },
+          "rw": {
+            "name": "Josh Anderson"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Zack Bolduc"
+          },
+          "c": {
+            "name": "Oliver Kapanen"
+          },
+          "rw": {
+            "name": "Kirby Dach"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Mike Matheson"
+          },
+          "rd": {
+            "name": "Noah Dobson"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Jayden Struble"
+          },
+          "rd": {
+            "name": "Lane Hutson"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Kaiden Guhle"
+          },
+          "rd": {
+            "name": "Alexandre Carrier"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Jakub Dobes"
+        },
+        "backup": {
+          "name": "Jacob Fowler"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Juraj Slafkovsky"
+            },
+            {
+              "name": "Nick Suzuki"
+            },
+            {
+              "name": "Ivan Demidov"
+            },
+            {
+              "name": "Cole Caufield"
+            },
+            {
+              "name": "Lane Hutson"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Zack Bolduc"
+            },
+            {
+              "name": "Kirby Dach"
+            },
+            {
+              "name": "Alex Newhook"
+            },
+            {
+              "name": "Alexandre Texier"
+            },
+            {
+              "name": "Noah Dobson"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Phillip Danault"
+            },
+            {
+              "name": "Josh Anderson"
+            },
+            {
+              "name": "Mike Matheson"
+            },
+            {
+              "name": "Alexandre Carrier"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Jake Evans"
+            },
+            {
+              "name": "Oliver Kapanen"
+            },
+            {
+              "name": "Kaiden Guhle"
+            },
+            {
+              "name": "Noah Dobson"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Owen Beck",
+          "position": "C"
+        },
+        {
+          "name": "Zachary Bolduc",
+          "position": "R"
+        },
+        {
+          "name": "Florian Xhekaj",
+          "position": "L"
+        },
+        {
+          "name": "Adam Engstrom",
+          "position": "D"
+        },
+        {
+          "name": "David Reinbacher",
+          "position": "D"
+        },
+        {
+          "name": "Maksymilian Szuber",
+          "position": "D"
+        },
+        {
+          "name": "Arber Xhekaj",
+          "position": "D"
+        },
+        {
+          "name": "Samuel Montembeault",
+          "position": "G"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Canadiens line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Montreal players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Montreal Canadiens Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Canadiens lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Montreal\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Canadiens may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Canadiens lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "New Jersey Devils",
+      "abbreviation": "NJD",
+      "dailyFaceoffSlug": "new-jersey-devils",
+      "logoPath": "/team-logos/NJD.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/new-jersey-devils/line-combinations",
+      "updatedAt": "2026-07-07T18:31:02.995784+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Timo Meier"
+          },
+          "c": {
+            "name": "Nico Hischier"
+          },
+          "rw": {
+            "name": "Dawson Mercer"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Jesper Bratt"
+          },
+          "c": {
+            "name": "Jack Hughes"
+          },
+          "rw": {
+            "name": "Connor Brown"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Arseny Gritsyuk"
+          },
+          "c": {
+            "name": "Cody Glass"
+          },
+          "rw": {
+            "name": "Evan Rodrigues"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Jesper Boqvist"
+          },
+          "c": {
+            "name": "Nick Bjugstad"
+          },
+          "rw": {
+            "name": "Lenni Hameenaho"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Jonas Siegenthaler"
+          },
+          "rd": {
+            "name": "Dougie Hamilton"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Luke Hughes"
+          },
+          "rd": {
+            "name": "Brett Pesce"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Brenden Dillon"
+          },
+          "rd": {
+            "name": "Johnathan Kovacevic"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Jake Allen"
+        },
+        "backup": {
+          "name": "Nico Daws"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Timo Meier"
+            },
+            {
+              "name": "Nico Hischier"
+            },
+            {
+              "name": "Jesper Bratt"
+            },
+            {
+              "name": "Dougie Hamilton"
+            },
+            {
+              "name": "Jack Hughes"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Connor Brown"
+            },
+            {
+              "name": "Dawson Mercer"
+            },
+            {
+              "name": "Evan Rodrigues"
+            },
+            {
+              "name": "Arseny Gritsyuk"
+            },
+            {
+              "name": "Luke Hughes"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Nico Hischier"
+            },
+            {
+              "name": "Connor Brown"
+            },
+            {
+              "name": "Brenden Dillon"
+            },
+            {
+              "name": "Brett Pesce"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Dawson Mercer"
+            },
+            {
+              "name": "Jesper Bratt"
+            },
+            {
+              "name": "Jonas Siegenthaler"
+            },
+            {
+              "name": "Johnathan Kovacevic"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Declan Chisholm",
+          "position": "D"
+        },
+        {
+          "name": "David Rittich",
+          "position": "G"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Stefan Noesen"
+        }
+      ]
+    },
+    {
+      "teamName": "Nashville Predators",
+      "abbreviation": "NSH",
+      "dailyFaceoffSlug": "nashville-predators",
+      "logoPath": "/team-logos/NSH.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/nashville-predators/line-combinations",
+      "updatedAt": "2026-07-07T18:31:04.249098+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Steven Stamkos"
+          },
+          "c": {
+            "name": "Ryan O'Reilly"
+          },
+          "rw": {
+            "name": "Luke Evangelista"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Filip Forsberg"
+          },
+          "c": {
+            "name": "Matthew Wood"
+          },
+          "rw": {
+            "name": "Mavrik Bourque"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Ross Colton"
+          },
+          "c": {
+            "name": "Vitali Pinchuk"
+          },
+          "rw": {
+            "name": "Jonathan Marchessault"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Nils Hoglander"
+          },
+          "c": {
+            "name": "Jack Drury"
+          },
+          "rw": {
+            "name": "Alex Kerfoot"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Roman Josi"
+          },
+          "rd": {
+            "name": "Brady Skjei"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Nicolas Hague"
+          },
+          "rd": {
+            "name": "Nick Perbix"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Adam Wilsby"
+          },
+          "rd": {
+            "name": "Ilya Lyubushkin"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Juuse Saros"
+        },
+        "backup": {
+          "name": "Justus Annunen"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Filip Forsberg"
+            },
+            {
+              "name": "Ryan O'Reilly"
+            },
+            {
+              "name": "Jonathan Marchessault"
+            },
+            {
+              "name": "Steven Stamkos"
+            },
+            {
+              "name": "Roman Josi"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Vitali Pinchuk"
+            },
+            {
+              "name": "Mavrik Bourque"
+            },
+            {
+              "name": "Matthew Wood"
+            },
+            {
+              "name": "Brady Skjei"
+            },
+            {
+              "name": "Luke Evangelista"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Ryan O'Reilly"
+            },
+            {
+              "name": "Alex Kerfoot"
+            },
+            {
+              "name": "Brady Skjei"
+            },
+            {
+              "name": "Nick Perbix"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Jack Drury"
+            },
+            {
+              "name": "Ross Colton"
+            },
+            {
+              "name": "Nicolas Hague"
+            },
+            {
+              "name": "Ilya Lyubushkin"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Adam Edstrom",
+          "position": "C"
+        },
+        {
+          "name": "Aiden Fink",
+          "position": "R"
+        },
+        {
+          "name": "Alexander Kerfoot",
+          "position": "C"
+        },
+        {
+          "name": "Ozzy Wiesblatt",
+          "position": "C"
+        },
+        {
+          "name": "Justin Barron",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Predators line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Nashville players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Nashville Predators Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Predators lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Nashville\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Predators may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Predators lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "New York Islanders",
+      "abbreviation": "NYI",
+      "dailyFaceoffSlug": "new-york-islanders",
+      "logoPath": "/team-logos/NYI.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/new-york-islanders/line-combinations",
+      "updatedAt": "2026-07-07T18:31:05.525471+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Emil Heineman"
+          },
+          "c": {
+            "name": "Bo Horvat"
+          },
+          "rw": {
+            "name": "Kyle Palmieri"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Calum Ritchie"
+          },
+          "c": {
+            "name": "Brayden Schenn"
+          },
+          "rw": {
+            "name": "Mathew Barzal"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Matias Maccelli"
+          },
+          "c": {
+            "name": "Jean-Gabriel Pageau"
+          },
+          "rw": {
+            "name": "Simon Holmstrom"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Ondrej Palat"
+          },
+          "c": {
+            "name": "Casey Cizikas"
+          },
+          "rw": {
+            "name": "Anthony Duclair"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Matthew Schaefer"
+          },
+          "rd": {
+            "name": "Ryan Pulock"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Adam Pelech"
+          },
+          "rd": {
+            "name": "Scott Mayfield"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Alexander Romanov"
+          },
+          "rd": {
+            "name": "Tony DeAngelo"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Ilya Sorokin"
+        },
+        "backup": {
+          "name": "Vitek Vanecek"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Brayden Schenn"
+            },
+            {
+              "name": "Bo Horvat"
+            },
+            {
+              "name": "Kyle Palmieri"
+            },
+            {
+              "name": "Mathew Barzal"
+            },
+            {
+              "name": "Matthew Schaefer"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Emil Heineman"
+            },
+            {
+              "name": "Calum Ritchie"
+            },
+            {
+              "name": "Matias Maccelli"
+            },
+            {
+              "name": "Tony DeAngelo"
+            },
+            {
+              "name": "Simon Holmstrom"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Jean-Gabriel Pageau"
+            },
+            {
+              "name": "Simon Holmstrom"
+            },
+            {
+              "name": "Adam Pelech"
+            },
+            {
+              "name": "Ryan Pulock"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Bo Horvat"
+            },
+            {
+              "name": "Kyle Palmieri"
+            },
+            {
+              "name": "Alexander Romanov"
+            },
+            {
+              "name": "Scott Mayfield"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Kyle MacLean",
+          "position": "C"
+        },
+        {
+          "name": "Matthew Kessel",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Semyon Varlamov"
+        },
+        {
+          "name": "Pierre Engvall"
+        }
+      ]
+    },
+    {
+      "teamName": "New York Rangers",
+      "abbreviation": "NYR",
+      "dailyFaceoffSlug": "new-york-rangers",
+      "logoPath": "/team-logos/NYR.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/new-york-rangers/line-combinations",
+      "updatedAt": "2026-07-07T18:31:06.788150+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Gabriel Perreault"
+          },
+          "c": {
+            "name": "Mika Zibanejad"
+          },
+          "rw": {
+            "name": "Pavel Dorofeyev"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Oliver Bjorkstrand"
+          },
+          "c": {
+            "name": "J.T. Miller"
+          },
+          "rw": {
+            "name": "Alexis Lafreni\u00e8re"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Will Cuylle"
+          },
+          "c": {
+            "name": "Noah Laba"
+          },
+          "rw": {
+            "name": "Taylor Raddysh"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Tye Kartye"
+          },
+          "c": {
+            "name": "Joe Veleno"
+          },
+          "rw": {
+            "name": "Matt Rempe"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Vladislav Gavrikov"
+          },
+          "rd": {
+            "name": "Adam Fox"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Marcus Pettersson"
+          },
+          "rd": {
+            "name": "Sean Durzi"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Matthew Robertson"
+          },
+          "rd": {
+            "name": "Braden Schneider"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Igor Shesterkin"
+        },
+        "backup": {
+          "name": "Dylan Garand"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Alexis Lafreni\u00e8re"
+            },
+            {
+              "name": "J.T. Miller"
+            },
+            {
+              "name": "Pavel Dorofeyev"
+            },
+            {
+              "name": "Mika Zibanejad"
+            },
+            {
+              "name": "Adam Fox"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Will Cuylle"
+            },
+            {
+              "name": "Noah Laba"
+            },
+            {
+              "name": "Gabriel Perreault"
+            },
+            {
+              "name": "Oliver Bjorkstrand"
+            },
+            {
+              "name": "Sean Durzi"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "J.T. Miller"
+            },
+            {
+              "name": "Will Cuylle"
+            },
+            {
+              "name": "Marcus Pettersson"
+            },
+            {
+              "name": "Braden Schneider"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Mika Zibanejad"
+            },
+            {
+              "name": "Tye Kartye"
+            },
+            {
+              "name": "Vladislav Gavrikov"
+            },
+            {
+              "name": "Adam Fox"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Jaroslav Chmelar",
+          "position": "R"
+        },
+        {
+          "name": "Gabe Perreault",
+          "position": "R"
+        },
+        {
+          "name": "Adam Sykora",
+          "position": "L"
+        },
+        {
+          "name": "Dennis Cholowski",
+          "position": "D"
+        },
+        {
+          "name": "Drew Fortescue",
+          "position": "D"
+        },
+        {
+          "name": "Vincent Iorio",
+          "position": "D"
+        },
+        {
+          "name": "Urho Vaakanainen",
+          "position": "D"
+        },
+        {
+          "name": "Joonas Korpisalo",
+          "position": "G"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Rangers line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which New York players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using New York Rangers Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Rangers lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review New York\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Rangers may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Rangers lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Ottawa Senators",
+      "abbreviation": "OTT",
+      "dailyFaceoffSlug": "ottawa-senators",
+      "logoPath": "/team-logos/OTT.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/ottawa-senators/line-combinations",
+      "updatedAt": "2026-07-07T18:31:08.022990+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "William Eklund"
+          },
+          "c": {
+            "name": "Tim St\u00fctzle"
+          },
+          "rw": {
+            "name": "Fabian Zetterlund"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Ridly Greig"
+          },
+          "c": {
+            "name": "Dylan Cozens"
+          },
+          "rw": {
+            "name": "Drake Batherson"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Warren Foegele"
+          },
+          "c": {
+            "name": "Shane Pinto"
+          },
+          "rw": {
+            "name": "Michael Amadio"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Nick Cousins"
+          },
+          "c": {
+            "name": "Stephen Halliday"
+          },
+          "rw": {
+            "name": "Andre Burakovsky"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Jake Sanderson"
+          },
+          "rd": {
+            "name": "Artem Zub"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Thomas Chabot"
+          },
+          "rd": {
+            "name": "Jordan Spence"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Tyler Kleven"
+          },
+          "rd": {
+            "name": "Carter Yakemchuk"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Linus Ullmark"
+        },
+        "backup": {
+          "name": "Samuel Ersson"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "William Eklund"
+            },
+            {
+              "name": "Dylan Cozens"
+            },
+            {
+              "name": "Drake Batherson"
+            },
+            {
+              "name": "Jake Sanderson"
+            },
+            {
+              "name": "Tim St\u00fctzle"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Fabian Zetterlund"
+            },
+            {
+              "name": "Shane Pinto"
+            },
+            {
+              "name": "Andre Burakovsky"
+            },
+            {
+              "name": "Carter Yakemchuk"
+            },
+            {
+              "name": "Thomas Chabot"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Shane Pinto"
+            },
+            {
+              "name": "Ridly Greig"
+            },
+            {
+              "name": "Jake Sanderson"
+            },
+            {
+              "name": "Artem Zub"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Tim St\u00fctzle"
+            },
+            {
+              "name": "Michael Amadio"
+            },
+            {
+              "name": "Tyler Kleven"
+            },
+            {
+              "name": "Thomas Chabot"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Tyler Boucher",
+          "position": "R"
+        },
+        {
+          "name": "Hayden Hodgson",
+          "position": "R"
+        },
+        {
+          "name": "Kurtis MacDermid",
+          "position": "L"
+        },
+        {
+          "name": "Oskar Pettersson",
+          "position": "R"
+        },
+        {
+          "name": "Cameron Crotty",
+          "position": "D"
+        },
+        {
+          "name": "Nikolas Matinpalo",
+          "position": "D"
+        },
+        {
+          "name": "Leevi Meril\u00e4inen",
+          "position": "G"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Senators line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Ottawa players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Ottawa Senators Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Senators lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Ottawa\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Senators may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Senators lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Philadelphia Flyers",
+      "abbreviation": "PHI",
+      "dailyFaceoffSlug": "philadelphia-flyers",
+      "logoPath": "/team-logos/PHI.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/philadelphia-flyers/line-combinations",
+      "updatedAt": "2026-07-07T18:31:09.261408+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Travis Konecny"
+          },
+          "c": {
+            "name": "Christian Dvorak"
+          },
+          "rw": {
+            "name": "Porter Martone"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Tyson Foerster"
+          },
+          "c": {
+            "name": "Trevor Zegras"
+          },
+          "rw": {
+            "name": "Owen Tippett"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Alex Bump"
+          },
+          "c": {
+            "name": "Noah Cates"
+          },
+          "rw": {
+            "name": "Matvei Michkov"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Denver Barkey"
+          },
+          "c": {
+            "name": "Sean Couturier"
+          },
+          "rw": {
+            "name": "Noel Acciari"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Travis Sanheim"
+          },
+          "rd": {
+            "name": "Rasmus Ristolainen"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Cam York"
+          },
+          "rd": {
+            "name": "Jamie Drysdale"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Nick Seeler"
+          },
+          "rd": {
+            "name": "David Jiricek"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Dan Vladar"
+        },
+        "backup": {
+          "name": "Joseph Woll"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Tyson Foerster"
+            },
+            {
+              "name": "Trevor Zegras"
+            },
+            {
+              "name": "Porter Martone"
+            },
+            {
+              "name": "Jamie Drysdale"
+            },
+            {
+              "name": "Travis Konecny"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Christian Dvorak"
+            },
+            {
+              "name": "Noah Cates"
+            },
+            {
+              "name": "Matvei Michkov"
+            },
+            {
+              "name": "Owen Tippett"
+            },
+            {
+              "name": "Cam York"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Sean Couturier"
+            },
+            {
+              "name": "Christian Dvorak"
+            },
+            {
+              "name": "Travis Sanheim"
+            },
+            {
+              "name": "Cam York"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Noah Cates"
+            },
+            {
+              "name": "Tyson Foerster"
+            },
+            {
+              "name": "Nick Seeler"
+            },
+            {
+              "name": "Rasmus Ristolainen"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Jacob Gaucher",
+          "position": "C"
+        },
+        {
+          "name": "Nikita Grebenkin",
+          "position": "R"
+        },
+        {
+          "name": "Carl Grundstrom",
+          "position": "R"
+        },
+        {
+          "name": "Jett Luchanko",
+          "position": "C"
+        },
+        {
+          "name": "Simon Benoit",
+          "position": "D"
+        },
+        {
+          "name": "Oliver Bonk",
+          "position": "D"
+        },
+        {
+          "name": "Helge Grans",
+          "position": "D"
+        },
+        {
+          "name": "Hunter McDonald",
+          "position": "D"
+        },
+        {
+          "name": "Carson Bjarnason",
+          "position": "G"
+        },
+        {
+          "name": "Aleksei Kolosov",
+          "position": "G"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Flyers line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Philadelphia players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Philadelphia Flyers Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Flyers lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Philadelphia\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Flyers may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Flyers lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Pittsburgh Penguins",
+      "abbreviation": "PIT",
+      "dailyFaceoffSlug": "pittsburgh-penguins",
+      "logoPath": "/team-logos/PIT.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/pittsburgh-penguins/line-combinations",
+      "updatedAt": "2026-07-07T18:31:10.531519+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Rickard Rakell"
+          },
+          "c": {
+            "name": "Sidney Crosby"
+          },
+          "rw": {
+            "name": "Bryan Rust"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Egor Chinakhov"
+          },
+          "c": {
+            "name": "Tommy Novak"
+          },
+          "rw": {
+            "name": "Evgeni Malkin"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Andrei Kuzmenko"
+          },
+          "c": {
+            "name": "Ben Kindel"
+          },
+          "rw": {
+            "name": "Nicholas Robertson"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Justin Brazeau"
+          },
+          "c": {
+            "name": "Blake Lizotte"
+          },
+          "rw": {
+            "name": "Connor Dewar"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Trevor van Riemsdyk"
+          },
+          "rd": {
+            "name": "Erik Karlsson"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Samuel Girard"
+          },
+          "rd": {
+            "name": "Kris Letang"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Ryan Graves"
+          },
+          "rd": {
+            "name": "Kaedan Korczak"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Arturs Silovs"
+        },
+        "backup": {
+          "name": "Sergei Murashov"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Andrei Kuzmenko"
+            },
+            {
+              "name": "Evgeni Malkin"
+            },
+            {
+              "name": "Rickard Rakell"
+            },
+            {
+              "name": "Erik Karlsson"
+            },
+            {
+              "name": "Sidney Crosby"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Bryan Rust"
+            },
+            {
+              "name": "Ben Kindel"
+            },
+            {
+              "name": "Egor Chinakhov"
+            },
+            {
+              "name": "Kris Letang"
+            },
+            {
+              "name": "Tommy Novak"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Blake Lizotte"
+            },
+            {
+              "name": "Connor Dewar"
+            },
+            {
+              "name": "Samuel Girard"
+            },
+            {
+              "name": "Kris Letang"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Ben Kindel"
+            },
+            {
+              "name": "Bryan Rust"
+            },
+            {
+              "name": "Trevor van Riemsdyk"
+            },
+            {
+              "name": "Erik Karlsson"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "David Gustafsson",
+          "position": "C"
+        },
+        {
+          "name": "Ville Koivunen",
+          "position": "R"
+        },
+        {
+          "name": "Hendrix Lapierre",
+          "position": "C"
+        },
+        {
+          "name": "Oliver Okuliar",
+          "position": "L"
+        },
+        {
+          "name": "Elmer Soderblom",
+          "position": "L"
+        },
+        {
+          "name": "Declan Carlile",
+          "position": "D"
+        },
+        {
+          "name": "Jake Livanavage",
+          "position": "D"
+        },
+        {
+          "name": "Ilya Solovyov",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Joel Blomqvist"
+        },
+        {
+          "name": "Filip Hallander"
+        }
+      ]
+    },
+    {
+      "teamName": "Seattle Kraken",
+      "abbreviation": "SEA",
+      "dailyFaceoffSlug": "seattle-kraken",
+      "logoPath": "/team-logos/SEA.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/seattle-kraken/line-combinations",
+      "updatedAt": "2026-07-07T18:31:11.740167+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Bobby McMann"
+          },
+          "c": {
+            "name": "Matty Beniers"
+          },
+          "rw": {
+            "name": "Jordan Eberle"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Jared McCann"
+          },
+          "c": {
+            "name": "Shane Wright"
+          },
+          "rw": {
+            "name": "Berkly Catton"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Mackie Samoskevich"
+          },
+          "c": {
+            "name": "Chandler Stephenson"
+          },
+          "rw": {
+            "name": "Kaapo Kakko"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Ryan Winterton"
+          },
+          "c": {
+            "name": "Frederick Gaudreau"
+          },
+          "rw": {
+            "name": "Jacob Melanson"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Vince Dunn"
+          },
+          "rd": {
+            "name": "Adam Larsson"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Ryker Evans"
+          },
+          "rd": {
+            "name": "Brandon Montour"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Ryan Lindgren"
+          },
+          "rd": {
+            "name": "Cale Fleury"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Joey Daccord"
+        },
+        "backup": {
+          "name": "Philipp Grubauer"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Jordan Eberle"
+            },
+            {
+              "name": "Matty Beniers"
+            },
+            {
+              "name": "Chandler Stephenson"
+            },
+            {
+              "name": "Vince Dunn"
+            },
+            {
+              "name": "Jared McCann"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Bobby McMann"
+            },
+            {
+              "name": "Shane Wright"
+            },
+            {
+              "name": "Mackie Samoskevich"
+            },
+            {
+              "name": "Berkly Catton"
+            },
+            {
+              "name": "Brandon Montour"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Chandler Stephenson"
+            },
+            {
+              "name": "Frederick Gaudreau"
+            },
+            {
+              "name": "Ryan Lindgren"
+            },
+            {
+              "name": "Adam Larsson"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Matty Beniers"
+            },
+            {
+              "name": "Ryan Winterton"
+            },
+            {
+              "name": "Ryker Evans"
+            },
+            {
+              "name": "Cale Fleury"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Ben Meyers",
+          "position": "C"
+        },
+        {
+          "name": "Joshua Mahura",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Kraken line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Seattle players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Seattle Kraken Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Kraken lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Seattle\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Kraken may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Kraken lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "San Jose Sharks",
+      "abbreviation": "SJS",
+      "dailyFaceoffSlug": "san-jose-sharks",
+      "logoPath": "/team-logos/SJS.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/san-jose-sharks/line-combinations",
+      "updatedAt": "2026-07-07T18:31:13.175553+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Igor Chernyshov"
+          },
+          "c": {
+            "name": "Macklin Celebrini"
+          },
+          "rw": {
+            "name": "Will Smith"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Mason Marchment"
+          },
+          "c": {
+            "name": "Michael Misa"
+          },
+          "rw": {
+            "name": "Collin Graf"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Ivar Stenberg"
+          },
+          "c": {
+            "name": "Alexander Wennberg"
+          },
+          "rw": {
+            "name": "Kiefer Sherwood"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Tyler Toffoli"
+          },
+          "c": {
+            "name": "Zack Ostapchuk"
+          },
+          "rw": {
+            "name": "Ty Dellandrea"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Sam Dickinson"
+          },
+          "rd": {
+            "name": "Jacob Trouba"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Darnell Nurse"
+          },
+          "rd": {
+            "name": "Dmitry Orlov"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Luca Cagnoni"
+          },
+          "rd": {
+            "name": "Michael Kesselring"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Yaroslav Askarov"
+        },
+        "backup": {
+          "name": "Alex Nedeljkovic"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Tyler Toffoli"
+            },
+            {
+              "name": "Michael Misa"
+            },
+            {
+              "name": "Will Smith"
+            },
+            {
+              "name": "Macklin Celebrini"
+            },
+            {
+              "name": "Luca Cagnoni"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Mason Marchment"
+            },
+            {
+              "name": "Alexander Wennberg"
+            },
+            {
+              "name": "Ivar Stenberg"
+            },
+            {
+              "name": "Igor Chernyshov"
+            },
+            {
+              "name": "Dmitry Orlov"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Ty Dellandrea"
+            },
+            {
+              "name": "Collin Graf"
+            },
+            {
+              "name": "Sam Dickinson"
+            },
+            {
+              "name": "Jacob Trouba"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Alexander Wennberg"
+            },
+            {
+              "name": "Kiefer Sherwood"
+            },
+            {
+              "name": "Darnell Nurse"
+            },
+            {
+              "name": "Dmitry Orlov"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Adam Gaudette",
+          "position": "R"
+        },
+        {
+          "name": "Barclay Goodrow",
+          "position": "C"
+        },
+        {
+          "name": "Eric Comrie",
+          "position": "G"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Sharks line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which San Jose players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using San Jose Sharks Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Sharks lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review San Jose\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Sharks may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Sharks lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "St. Louis Blues",
+      "abbreviation": "STL",
+      "dailyFaceoffSlug": "st-louis-blues",
+      "logoPath": "/team-logos/STL.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/st-louis-blues/line-combinations",
+      "updatedAt": "2026-07-07T18:31:14.582242+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Dylan Holloway"
+          },
+          "c": {
+            "name": "Robert Thomas"
+          },
+          "rw": {
+            "name": "Jimmy Snuggerud"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Connor McMichael"
+          },
+          "c": {
+            "name": "Mason McTavish"
+          },
+          "rw": {
+            "name": "Pavel Buchnevich"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Jake Neighbours"
+          },
+          "c": {
+            "name": "Pius Suter"
+          },
+          "rw": {
+            "name": "Dalibor Dvorsky"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Ross Johnston"
+          },
+          "c": {
+            "name": "Jack Finley"
+          },
+          "rw": {
+            "name": "Alexey Toropchenko"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Philip Broberg"
+          },
+          "rd": {
+            "name": "Logan Mailloux"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Theo Lindstein"
+          },
+          "rd": {
+            "name": "Colton Parayko"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Cam Fowler"
+          },
+          "rd": {
+            "name": "Brandon Carlo"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Joel Hofer"
+        },
+        "backup": {
+          "name": "Jordan Binnington"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Mason McTavish"
+            },
+            {
+              "name": "Robert Thomas"
+            },
+            {
+              "name": "Dylan Holloway"
+            },
+            {
+              "name": "Jimmy Snuggerud"
+            },
+            {
+              "name": "Philip Broberg"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Jake Neighbours"
+            },
+            {
+              "name": "Pavel Buchnevich"
+            },
+            {
+              "name": "Connor McMichael"
+            },
+            {
+              "name": "Logan Mailloux"
+            },
+            {
+              "name": "Dalibor Dvorsky"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Pius Suter"
+            },
+            {
+              "name": "Alexey Toropchenko"
+            },
+            {
+              "name": "Philip Broberg"
+            },
+            {
+              "name": "Colton Parayko"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Robert Thomas"
+            },
+            {
+              "name": "Pavel Buchnevich"
+            },
+            {
+              "name": "Cam Fowler"
+            },
+            {
+              "name": "Brandon Carlo"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Jonatan Berggren",
+          "position": "R"
+        },
+        {
+          "name": "Nathan Walker",
+          "position": "L"
+        },
+        {
+          "name": "Tyler Tucker",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Blues line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which St. Louis players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using St. Louis Blues Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Blues lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review St. Louis\u2019 forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Blues may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Blues lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Tampa Bay Lightning",
+      "abbreviation": "TBL",
+      "dailyFaceoffSlug": "tampa-bay-lightning",
+      "logoPath": "/team-logos/TBL.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/tampa-bay-lightning/line-combinations",
+      "updatedAt": "2026-07-07T18:31:15.982371+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Jake Guentzel"
+          },
+          "c": {
+            "name": "Brayden Point"
+          },
+          "rw": {
+            "name": "Nikita Kucherov"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Brandon Hagel"
+          },
+          "c": {
+            "name": "Anthony Cirelli"
+          },
+          "rw": {
+            "name": "Gage Goncalves"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Zemgus Girgensons"
+          },
+          "c": {
+            "name": "Yanni Gourde"
+          },
+          "rw": {
+            "name": "Pontus Holmberg"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Jeffrey Viel"
+          },
+          "c": {
+            "name": "Dominic James"
+          },
+          "rw": {
+            "name": "Ilya Mikheyev"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "J.J. Moser"
+          },
+          "rd": {
+            "name": "John Carlson"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Victor Hedman"
+          },
+          "rd": {
+            "name": "Charle-Edouard D'Astous"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Ryan McDonagh"
+          },
+          "rd": {
+            "name": "Erik Cernak"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Andrei Vasilevskiy"
+        },
+        "backup": {
+          "name": "Dennis Hildeby"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Jake Guentzel"
+            },
+            {
+              "name": "Brayden Point"
+            },
+            {
+              "name": "Nikita Kucherov"
+            },
+            {
+              "name": "Brandon Hagel"
+            },
+            {
+              "name": "John Carlson"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Yanni Gourde"
+            },
+            {
+              "name": "Anthony Cirelli"
+            },
+            {
+              "name": "Gage Goncalves"
+            },
+            {
+              "name": "Victor Hedman"
+            },
+            {
+              "name": "Charle-Edouard D'Astous"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Anthony Cirelli"
+            },
+            {
+              "name": "Brandon Hagel"
+            },
+            {
+              "name": "Ryan McDonagh"
+            },
+            {
+              "name": "Erik Cernak"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Yanni Gourde"
+            },
+            {
+              "name": "Ilya Mikheyev"
+            },
+            {
+              "name": "Victor Hedman"
+            },
+            {
+              "name": "J.J. Moser"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Conor Geekie",
+          "position": "C"
+        },
+        {
+          "name": "Jansen Harkins",
+          "position": "C"
+        },
+        {
+          "name": "Scott Sabourin",
+          "position": "R"
+        },
+        {
+          "name": "Max Crozier",
+          "position": "D"
+        },
+        {
+          "name": "Emil Lilleberg",
+          "position": "D"
+        },
+        {
+          "name": "Jonas Johansson",
+          "position": "G"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Lightning line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Tampa Bay players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Tampa Bay Lightning Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Lightning lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Tampa Bay\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Lightning may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Lightning lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Toronto Maple Leafs",
+      "abbreviation": "TOR",
+      "dailyFaceoffSlug": "toronto-maple-leafs",
+      "logoPath": "/team-logos/TOR.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/toronto-maple-leafs/line-combinations",
+      "updatedAt": "2026-07-07T18:31:17.334692+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Matthew Knies"
+          },
+          "c": {
+            "name": "Auston Matthews"
+          },
+          "rw": {
+            "name": "Jack Roslovic"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Gavin McKenna"
+          },
+          "c": {
+            "name": "John Tavares"
+          },
+          "rw": {
+            "name": "William Nylander"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Dakota Joshua"
+          },
+          "c": {
+            "name": "Teddy Blueger"
+          },
+          "rw": {
+            "name": "Easton Cowan"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Nick Paul"
+          },
+          "c": {
+            "name": "Colton Sissons"
+          },
+          "rw": {
+            "name": "Brandon Duhaime"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Jake McCabe"
+          },
+          "rd": {
+            "name": "Darren Raddysh"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Morgan Rielly"
+          },
+          "rd": {
+            "name": "Chris Tanev"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Oliver Ekman-Larsson"
+          },
+          "rd": {
+            "name": "Emil Andrae"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Sergei Bobrovsky"
+        },
+        "backup": {
+          "name": "Anthony Stolarz"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Matthew Knies"
+            },
+            {
+              "name": "John Tavares"
+            },
+            {
+              "name": "William Nylander"
+            },
+            {
+              "name": "Darren Raddysh"
+            },
+            {
+              "name": "Auston Matthews"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Gavin McKenna"
+            },
+            {
+              "name": "Jack Roslovic"
+            },
+            {
+              "name": "Easton Cowan"
+            },
+            {
+              "name": "Morgan Rielly"
+            },
+            {
+              "name": "Oliver Ekman-Larsson"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Teddy Blueger"
+            },
+            {
+              "name": "Brandon Duhaime"
+            },
+            {
+              "name": "Jake McCabe"
+            },
+            {
+              "name": "Chris Tanev"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Colton Sissons"
+            },
+            {
+              "name": "Nick Paul"
+            },
+            {
+              "name": "Oliver Ekman-Larsson"
+            },
+            {
+              "name": "Darren Raddysh"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Bo Groulx",
+          "position": "C"
+        },
+        {
+          "name": "Luke Haymes",
+          "position": "C"
+        },
+        {
+          "name": "Steven Lorentz",
+          "position": "C"
+        },
+        {
+          "name": "Zack MacEwen",
+          "position": "C"
+        },
+        {
+          "name": "Philippe Myers",
+          "position": "D"
+        },
+        {
+          "name": "Troy Stecher",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Max Domi"
+        }
+      ]
+    },
+    {
+      "teamName": "Utah Mammoth",
+      "abbreviation": "UTA",
+      "dailyFaceoffSlug": "utah-mammoth",
+      "logoPath": "/team-logos/UTA.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/utah-mammoth/line-combinations",
+      "updatedAt": "2026-07-07T18:31:18.710582+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Lawson Crouse"
+          },
+          "c": {
+            "name": "Nick Schmaltz"
+          },
+          "rw": {
+            "name": "Clayton Keller"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Anders Lee"
+          },
+          "c": {
+            "name": "Logan Cooley"
+          },
+          "rw": {
+            "name": "Dylan Guenther"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Barrett Hayton"
+          },
+          "c": {
+            "name": "Vincent Trocheck"
+          },
+          "rw": {
+            "name": "Michael Carcone"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Jack McBain"
+          },
+          "c": {
+            "name": "Kevin Stenlund"
+          },
+          "rw": {
+            "name": "Brandon Tanev"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Mikhail Sergachev"
+          },
+          "rd": {
+            "name": "MacKenzie Weegar"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Nate Schmidt"
+          },
+          "rd": {
+            "name": "John Marino"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Dmitri Simashev"
+          },
+          "rd": {
+            "name": "Andrew Peeke"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Karel Vejmelka"
+        },
+        "backup": {
+          "name": "Sebastian Cossa"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Nick Schmaltz"
+            },
+            {
+              "name": "Logan Cooley"
+            },
+            {
+              "name": "Clayton Keller"
+            },
+            {
+              "name": "Dylan Guenther"
+            },
+            {
+              "name": "Mikhail Sergachev"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Anders Lee"
+            },
+            {
+              "name": "Vincent Trocheck"
+            },
+            {
+              "name": "Lawson Crouse"
+            },
+            {
+              "name": "MacKenzie Weegar"
+            },
+            {
+              "name": "Barrett Hayton"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Nick Schmaltz"
+            },
+            {
+              "name": "Lawson Crouse"
+            },
+            {
+              "name": "Mikhail Sergachev"
+            },
+            {
+              "name": "MacKenzie Weegar"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Kevin Stenlund"
+            },
+            {
+              "name": "Jack McBain"
+            },
+            {
+              "name": "Nate Schmidt"
+            },
+            {
+              "name": "John Marino"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Daniil But",
+          "position": "L"
+        },
+        {
+          "name": "Cam Hebig",
+          "position": "C"
+        },
+        {
+          "name": "Ben McCartney",
+          "position": "L"
+        },
+        {
+          "name": "Liam O'Brien",
+          "position": "C"
+        },
+        {
+          "name": "Kailer Yamamoto",
+          "position": "R"
+        },
+        {
+          "name": "Nick DeSimone",
+          "position": "D"
+        },
+        {
+          "name": "Maveric Lamoureux",
+          "position": "D"
+        },
+        {
+          "name": "Jaxson Stauber",
+          "position": "G"
+        }
+      ],
+      "injuries": []
+    },
+    {
+      "teamName": "Vancouver Canucks",
+      "abbreviation": "VAN",
+      "dailyFaceoffSlug": "vancouver-canucks",
+      "logoPath": "/team-logos/VAN.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/vancouver-canucks/line-combinations",
+      "updatedAt": "2026-07-07T18:31:20.148267+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Jake DeBrusk"
+          },
+          "c": {
+            "name": "Elias Pettersson"
+          },
+          "rw": {
+            "name": "Linus Karlsson"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Liam Ohgren"
+          },
+          "c": {
+            "name": "Marco Rossi"
+          },
+          "rw": {
+            "name": "Brock Boeser"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Drew O'Connor"
+          },
+          "c": {
+            "name": "Filip Chytil"
+          },
+          "rw": {
+            "name": "Jonathan Lekkerimaki"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Paul Cotter"
+          },
+          "c": {
+            "name": "Aatu Raty"
+          },
+          "rw": {
+            "name": "Brendan Gallagher"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Zeev Buium"
+          },
+          "rd": {
+            "name": "Filip Hronek"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Jamie Oleksiak"
+          },
+          "rd": {
+            "name": "Tom Willander"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Elias Nils Pettersson"
+          },
+          "rd": {
+            "name": "Luke Schenn"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Thatcher Demko"
+        },
+        "backup": {
+          "name": "Kevin Lankinen"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Jake DeBrusk"
+            },
+            {
+              "name": "Marco Rossi"
+            },
+            {
+              "name": "Brock Boeser"
+            },
+            {
+              "name": "Zeev Buium"
+            },
+            {
+              "name": "Elias Pettersson"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Liam Ohgren"
+            },
+            {
+              "name": "Filip Chytil"
+            },
+            {
+              "name": "Linus Karlsson"
+            },
+            {
+              "name": "Jonathan Lekkerimaki"
+            },
+            {
+              "name": "Filip Hronek"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Elias Pettersson"
+            },
+            {
+              "name": "Drew O'Connor"
+            },
+            {
+              "name": "Jamie Oleksiak"
+            },
+            {
+              "name": "Filip Hronek"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Aatu Raty"
+            },
+            {
+              "name": "Paul Cotter"
+            },
+            {
+              "name": "Elias Nils Pettersson"
+            },
+            {
+              "name": "Luke Schenn"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Max Sasson",
+          "position": "C"
+        },
+        {
+          "name": "Victor Mancini",
+          "position": "D"
+        },
+        {
+          "name": "Nikita Tolopilo",
+          "position": "G"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Canucks line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Vancouver players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Vancouver Canucks Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Canucks lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Vancouver\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Canucks may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Canucks lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Vegas Golden Knights",
+      "abbreviation": "VGK",
+      "dailyFaceoffSlug": "vegas-golden-knights",
+      "logoPath": "/team-logos/VGK.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/vegas-golden-knights/line-combinations",
+      "updatedAt": "2026-07-07T18:31:21.523695+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Ivan Barbashev"
+          },
+          "c": {
+            "name": "Jack Eichel"
+          },
+          "rw": {
+            "name": "Mark Stone"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Brett Howden"
+          },
+          "c": {
+            "name": "William Karlsson"
+          },
+          "rw": {
+            "name": "Mitch Marner"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Victor Olofsson"
+          },
+          "c": {
+            "name": "Tomas Hertl"
+          },
+          "rw": {
+            "name": "Braeden Bowman"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Jonas Rondbjerg"
+          },
+          "c": {
+            "name": "Nic Dowd"
+          },
+          "rw": {
+            "name": "Marc Gatcomb"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Brayden McNabb"
+          },
+          "rd": {
+            "name": "Shea Theodore"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Noah Hanifin"
+          },
+          "rd": {
+            "name": "Rasmus Andersson"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Parker Wotherspoon"
+          },
+          "rd": {
+            "name": "Jeremy Lauzon"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Carter Hart"
+        },
+        "backup": {
+          "name": "Adin Hill"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Jack Eichel"
+            },
+            {
+              "name": "Tomas Hertl"
+            },
+            {
+              "name": "Mark Stone"
+            },
+            {
+              "name": "Shea Theodore"
+            },
+            {
+              "name": "Mitch Marner"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Ivan Barbashev"
+            },
+            {
+              "name": "William Karlsson"
+            },
+            {
+              "name": "Victor Olofsson"
+            },
+            {
+              "name": "Rasmus Andersson"
+            },
+            {
+              "name": "Noah Hanifin"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "William Karlsson"
+            },
+            {
+              "name": "Mitch Marner"
+            },
+            {
+              "name": "Brayden McNabb"
+            },
+            {
+              "name": "Shea Theodore"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Jack Eichel"
+            },
+            {
+              "name": "Mark Stone"
+            },
+            {
+              "name": "Jeremy Lauzon"
+            },
+            {
+              "name": "Noah Hanifin"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Trevor Connelly",
+          "position": "L"
+        },
+        {
+          "name": "Alexander Holtz",
+          "position": "R"
+        },
+        {
+          "name": "Tanner Laczynski",
+          "position": "C"
+        },
+        {
+          "name": "Raphael Lavoie",
+          "position": "C"
+        },
+        {
+          "name": "Kai Uchacz",
+          "position": "C"
+        },
+        {
+          "name": "Dylan Coghlan",
+          "position": "D"
+        },
+        {
+          "name": "Jeremy Davies",
+          "position": "D"
+        },
+        {
+          "name": "Ville Heinola",
+          "position": "D"
+        },
+        {
+          "name": "Jaycob Megna",
+          "position": "D"
+        },
+        {
+          "name": "Carl Lindbom",
+          "position": "G"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Golden Knights line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Vegas players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Vegas Golden Knights Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Golden Knights lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Vegas\u2019 forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Golden Knights may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Golden Knights lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    },
+    {
+      "teamName": "Washington Capitals",
+      "abbreviation": "WSH",
+      "dailyFaceoffSlug": "washington-capitals",
+      "logoPath": "/team-logos/WSH.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/washington-capitals/line-combinations",
+      "updatedAt": "2026-07-07T18:31:22.963492+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Alex Tuch"
+          },
+          "c": {
+            "name": "Dylan Strome"
+          },
+          "rw": {
+            "name": "Jordan Kyrou"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Aliaksei Protas"
+          },
+          "c": {
+            "name": "Pierre-Luc Dubois"
+          },
+          "rw": {
+            "name": "Tom Wilson"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Alex Ovechkin"
+          },
+          "c": {
+            "name": "Boone Jenner"
+          },
+          "rw": {
+            "name": "Ryan Leonard"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Ilya Protas"
+          },
+          "c": {
+            "name": "Justin Sourdif"
+          },
+          "rw": {
+            "name": "Anthony Beauvillier"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Jakob Chychrun"
+          },
+          "rd": {
+            "name": "Matt Roy"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Martin Fehervary"
+          },
+          "rd": {
+            "name": "Vincent Desharnais"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Cole Hutson"
+          },
+          "rd": {
+            "name": "Timothy Liljegren"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Logan Thompson"
+        },
+        "backup": {
+          "name": "Charlie Lindgren"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Tom Wilson"
+            },
+            {
+              "name": "Dylan Strome"
+            },
+            {
+              "name": "Ryan Leonard"
+            },
+            {
+              "name": "Alex Ovechkin"
+            },
+            {
+              "name": "Jakob Chychrun"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Ilya Protas"
+            },
+            {
+              "name": "Pierre-Luc Dubois"
+            },
+            {
+              "name": "Alex Tuch"
+            },
+            {
+              "name": "Cole Hutson"
+            },
+            {
+              "name": "Jordan Kyrou"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Aliaksei Protas"
+            },
+            {
+              "name": "Tom Wilson"
+            },
+            {
+              "name": "Martin Fehervary"
+            },
+            {
+              "name": "Vincent Desharnais"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Pierre-Luc Dubois"
+            },
+            {
+              "name": "Anthony Beauvillier"
+            },
+            {
+              "name": "Jakob Chychrun"
+            },
+            {
+              "name": "Matt Roy"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Jonny Brodzinski",
+          "position": "C"
+        },
+        {
+          "name": "Josh Dunne",
+          "position": "C"
+        },
+        {
+          "name": "Ethen Frank",
+          "position": "R"
+        },
+        {
+          "name": "Ivan Miroshnichenko",
+          "position": "L"
+        },
+        {
+          "name": "Justin Holl",
+          "position": "D"
+        },
+        {
+          "name": "Dylan McIlrath",
+          "position": "D"
+        },
+        {
+          "name": "Clay Stevenson",
+          "position": "G"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Rasmus Sandin"
+        }
+      ]
+    },
+    {
+      "teamName": "Winnipeg Jets",
+      "abbreviation": "WPG",
+      "dailyFaceoffSlug": "winnipeg-jets",
+      "logoPath": "/team-logos/WPG.png",
+      "source": "Daily Faceoff",
+      "sourceUrl": "https://www.dailyfaceoff.com/teams/winnipeg-jets/line-combinations",
+      "updatedAt": "2026-07-07T18:31:24.316169+00:00",
+      "forwards": [
+        {
+          "line": 1,
+          "lw": {
+            "name": "Kyle Connor"
+          },
+          "c": {
+            "name": "Mark Scheifele"
+          },
+          "rw": {
+            "name": "Gabriel Vilardi"
+          }
+        },
+        {
+          "line": 2,
+          "lw": {
+            "name": "Cole Perfetti"
+          },
+          "c": {
+            "name": "Adam Lowry"
+          },
+          "rw": {
+            "name": "Nino Niederreiter"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
+            "name": "Isak Rosen"
+          },
+          "c": {
+            "name": "Vladislav Namestnikov"
+          },
+          "rw": {
+            "name": "Brad Lambert"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Cole Koepke"
+          },
+          "c": {
+            "name": "Morgan Barron"
+          },
+          "rw": {
+            "name": "Alex Iafallo"
+          }
+        }
+      ],
+      "defense": [
+        {
+          "pair": 1,
+          "ld": {
+            "name": "Josh Morrissey"
+          },
+          "rd": {
+            "name": "Dylan DeMelo"
+          }
+        },
+        {
+          "pair": 2,
+          "ld": {
+            "name": "Dylan Samberg"
+          },
+          "rd": {
+            "name": "Neal Pionk"
+          }
+        },
+        {
+          "pair": 3,
+          "ld": {
+            "name": "Mario Ferraro"
+          },
+          "rd": {
+            "name": "Elias Salomonsson"
+          }
+        }
+      ],
+      "goalies": {
+        "starter": {
+          "name": "Connor Hellebuyck"
+        },
+        "backup": {
+          "name": "Stuart Skinner"
+        }
+      },
+      "powerPlay": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Gabriel Vilardi"
+            },
+            {
+              "name": "Mark Scheifele"
+            },
+            {
+              "name": "Cole Perfetti"
+            },
+            {
+              "name": "Josh Morrissey"
+            },
+            {
+              "name": "Kyle Connor"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Nino Niederreiter"
+            },
+            {
+              "name": "Vladislav Namestnikov"
+            },
+            {
+              "name": "Brad Lambert"
+            },
+            {
+              "name": "Neal Pionk"
+            },
+            {
+              "name": "Isak Rosen"
+            }
+          ]
+        }
+      ],
+      "penaltyKill": [
+        {
+          "unit": 1,
+          "players": [
+            {
+              "name": "Morgan Barron"
+            },
+            {
+              "name": "Cole Koepke"
+            },
+            {
+              "name": "Dylan Samberg"
+            },
+            {
+              "name": "Neal Pionk"
+            }
+          ]
+        },
+        {
+          "unit": 2,
+          "players": [
+            {
+              "name": "Adam Lowry"
+            },
+            {
+              "name": "Alex Iafallo"
+            },
+            {
+              "name": "Mario Ferraro"
+            },
+            {
+              "name": "Dylan DeMelo"
+            }
+          ]
+        }
+      ],
+      "scratches": [
+        {
+          "name": "Nikita Chibrikov",
+          "position": "R"
+        },
+        {
+          "name": "Haydn Fleury",
+          "position": "D"
+        },
+        {
+          "name": "John St. Ivany",
+          "position": "D"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Injuries can have a major impact on the Jets line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
+        },
+        {
+          "name": "This section helps track which Winnipeg players are currently unavailable and how those absences may affect the projected lineup."
+        },
+        {
+          "name": "Using Winnipeg Jets Lines for Betting and DFS"
+        },
+        {
+          "name": "Using the latest Jets lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
+        },
+        {
+          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Winnipeg\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Jets may approach their next matchup."
+        },
+        {
+          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
+        },
+        {
+          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Jets lineup tonight, this page gives you a reliable starting point before puck drop."
+        },
+        {
+          "name": "Copyright \u00a9"
+        },
+        {
+          "name": "2026"
+        },
+        {
+          "name": "The Nation Network Ltd"
+        },
+        {
+          "name": "Contact Us"
+        },
+        {
+          "name": "Privacy Policy"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
