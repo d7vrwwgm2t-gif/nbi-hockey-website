@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T18:31:25.066376+00:00",
+  "generatedAt": "2026-07-07T19:47:18.012842+00:00",
   "teams": [
     {
       "teamName": "Anaheim Ducks",
@@ -8,7 +8,7 @@
       "logoPath": "/team-logos/ANA.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/anaheim-ducks/line-combinations",
-      "updatedAt": "2026-07-07T18:30:42.608562+00:00",
+      "updatedAt": "2026-07-07T19:46:45.218782+00:00",
       "forwards": [
         {
           "line": 1,
@@ -180,6 +180,10 @@
           "position": "C"
         },
         {
+          "name": "James Hamblin",
+          "position": "L"
+        },
+        {
           "name": "Nico Myatovic",
           "position": "L"
         },
@@ -192,7 +196,19 @@
           "position": "D"
         },
         {
+          "name": "Travis Mitchell",
+          "position": "D"
+        },
+        {
+          "name": "Corey Schueneman",
+          "position": "D"
+        },
+        {
           "name": "Noah Warren",
+          "position": "D"
+        },
+        {
+          "name": "Jett Woo",
           "position": "D"
         },
         {
@@ -200,11 +216,7 @@
           "position": "G"
         }
       ],
-      "injuries": [
-        {
-          "name": "Troy Terry"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Boston Bruins",
@@ -213,7 +225,7 @@
       "logoPath": "/team-logos/BOS.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/boston-bruins/line-combinations",
-      "updatedAt": "2026-07-07T18:30:43.982189+00:00",
+      "updatedAt": "2026-07-07T19:46:46.218131+00:00",
       "forwards": [
         {
           "line": 1,
@@ -401,44 +413,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Bruins line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Boston players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Boston Bruins Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Bruins lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are receiving stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Boston\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Bruins may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Bruins lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Buffalo Sabres",
@@ -447,7 +422,7 @@
       "logoPath": "/team-logos/BUF.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/buffalo-sabres/line-combinations",
-      "updatedAt": "2026-07-07T18:30:45.366918+00:00",
+      "updatedAt": "2026-07-07T19:46:47.342903+00:00",
       "forwards": [
         {
           "line": 1,
@@ -627,6 +602,10 @@
           "position": "C"
         },
         {
+          "name": "Jiri Kulich",
+          "position": "C"
+        },
+        {
           "name": "Conor Sheary",
           "position": "L"
         },
@@ -659,11 +638,7 @@
           "position": "G"
         }
       ],
-      "injuries": [
-        {
-          "name": "Jiri Kulich"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Carolina Hurricanes",
@@ -672,7 +647,7 @@
       "logoPath": "/team-logos/CAR.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/carolina-hurricanes/line-combinations",
-      "updatedAt": "2026-07-07T18:30:46.653408+00:00",
+      "updatedAt": "2026-07-07T19:46:48.334235+00:00",
       "forwards": [
         {
           "line": 1,
@@ -840,18 +815,15 @@
       ],
       "scratches": [
         {
+          "name": "Seth Jarvis",
+          "position": "R"
+        },
+        {
           "name": "Jesperi Kotkaniemi",
           "position": "C"
         }
       ],
-      "injuries": [
-        {
-          "name": "Seth Jarvis"
-        },
-        {
-          "name": "Eric Robinson"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Columbus Blue Jackets",
@@ -860,7 +832,7 @@
       "logoPath": "/team-logos/CBJ.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/columbus-blue-jackets/line-combinations",
-      "updatedAt": "2026-07-07T18:30:48.037034+00:00",
+      "updatedAt": "2026-07-07T19:46:49.280243+00:00",
       "forwards": [
         {
           "line": 1,
@@ -1036,44 +1008,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Blue Jackets line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Columbus players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Columbus Blue Jackets Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Blue Jackets lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Columbus\u2019 forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Blue Jackets may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Blue Jackets lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Calgary Flames",
@@ -1082,7 +1017,7 @@
       "logoPath": "/team-logos/CGY.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/calgary-flames/line-combinations",
-      "updatedAt": "2026-07-07T18:30:49.406251+00:00",
+      "updatedAt": "2026-07-07T19:46:50.237268+00:00",
       "forwards": [
         {
           "line": 1,
@@ -1290,44 +1225,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Flames line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Calgary players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Calgary Flames Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Flames lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are receiving stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Calgary\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Flames may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Flames lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Chicago Blackhawks",
@@ -1336,7 +1234,7 @@
       "logoPath": "/team-logos/CHI.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/chicago-blackhawks/line-combinations",
-      "updatedAt": "2026-07-07T18:30:50.796115+00:00",
+      "updatedAt": "2026-07-07T19:46:51.199544+00:00",
       "forwards": [
         {
           "line": 1,
@@ -1528,44 +1426,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Blackhawks line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Chicago players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Chicago Blackhawks Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Blackhawks lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Chicago\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Blackhawks may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Blackhawks lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Colorado Avalanche",
@@ -1574,7 +1435,7 @@
       "logoPath": "/team-logos/COL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/colorado-avalanche/line-combinations",
-      "updatedAt": "2026-07-07T18:30:52.124751+00:00",
+      "updatedAt": "2026-07-07T19:46:52.124568+00:00",
       "forwards": [
         {
           "line": 1,
@@ -1754,44 +1615,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Avalanche line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Colorado players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Colorado Avalanche Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Avalanche lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Colorado\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Avalanche may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Avalanche lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Dallas Stars",
@@ -1800,7 +1624,7 @@
       "logoPath": "/team-logos/DAL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/dallas-stars/line-combinations",
-      "updatedAt": "2026-07-07T18:30:53.506240+00:00",
+      "updatedAt": "2026-07-07T19:46:53.126228+00:00",
       "forwards": [
         {
           "line": 1,
@@ -1980,11 +1804,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Tyler Seguin"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Detroit Red Wings",
@@ -1993,7 +1813,7 @@
       "logoPath": "/team-logos/DET.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/detroit-red-wings/line-combinations",
-      "updatedAt": "2026-07-07T18:30:54.777252+00:00",
+      "updatedAt": "2026-07-07T19:46:54.130844+00:00",
       "forwards": [
         {
           "line": 1,
@@ -2169,44 +1989,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Red Wings line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Detroit players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Detroit Red Wings Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Red Wings lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Detroit\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Red Wings may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Red Wings lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Edmonton Oilers",
@@ -2215,7 +1998,7 @@
       "logoPath": "/team-logos/EDM.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
-      "updatedAt": "2026-07-07T18:30:56.188350+00:00",
+      "updatedAt": "2026-07-07T19:46:55.065518+00:00",
       "forwards": [
         {
           "line": 1,
@@ -2407,44 +2190,7 @@
           "position": "G"
         }
       ],
-      "injuries": [
-        {
-          "name": "One of the biggest factors in altering the lines of any hockey team, injuries can play a major role in shaping a team\u2019s depth chart. If a top player goes down due to injury, this can cause a massive ripple effect all the way down the roster, such as a second line player being promoted to the top line, with replacements then shifting from the bottom up."
-        },
-        {
-          "name": "Using Edmonton Oilers Lines for Betting and DFS"
-        },
-        {
-          "name": "Using information about the latest Oilers lines can help you score an additional edge on your sports betting and DFS activities. By knowing the ins-and-outs of the Oilers roster, you can construct an idea of how their next matchup may play out."
-        },
-        {
-          "name": "Be sure to research how each line has performed together in the 2024-25 NHL season, and see if there are opportunities for you to take advantage of that the oddsmakers haven\u2019t accounted for."
-        },
-        {
-          "name": "A great place to look in order to find an edge in your bets is the power play unit of the Oilers. Providing themselves with the best opportunity to score, the juiciest bets can all be won by researching the power play lines for the Oilers lineup tonight."
-        },
-        {
-          "name": "With Connor McDavid, Leon Draisaitl, Evan Bouchard, an plenty of other top players, there\u2019s no shortage of betting angles to choose from when it comes to the Oilers lines."
-        },
-        {
-          "name": "Oilers Lines FAQs"
-        },
-        {
-          "name": "How often do the Oilers change their lines?"
-        },
-        {
-          "name": "The Oilers change their lines from game-to-game. Whether it\u2019s due to a strategic reason or roster changes such as injuries or trades, the Oilers coaching staff try to ensure that they have a competitive advantage every game so changes to their lines happen often."
-        },
-        {
-          "name": "Who plays on the Oilers\u2019 top power play unit?"
-        },
-        {
-          "name": "The Oilers top power play unit consists of Zach Hyman, Ryan Nugent-Hopkins, and Leon Draisaitl as forwards, with Evan Bouchard and Connor McDavid as defenceman. The Oilers possess sensational offensive depth in their forward groups so they opt to use four forwards in their top line rather than the traditional three forwards, two defenceman split."
-        },
-        {
-          "name": "How do injuries affect the Oilers\u2019 line combinations?"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Florida Panthers",
@@ -2453,7 +2199,7 @@
       "logoPath": "/team-logos/FLA.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/florida-panthers/line-combinations",
-      "updatedAt": "2026-07-07T18:30:57.524450+00:00",
+      "updatedAt": "2026-07-07T19:46:56.044761+00:00",
       "forwards": [
         {
           "line": 1,
@@ -2653,44 +2399,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Panthers line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Florida players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Florida Panthers Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Panthers lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Florida\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Panthers may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Panthers lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Los Angeles Kings",
@@ -2699,7 +2408,7 @@
       "logoPath": "/team-logos/LAK.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/los-angeles-kings/line-combinations",
-      "updatedAt": "2026-07-07T18:30:58.946711+00:00",
+      "updatedAt": "2026-07-07T19:46:56.977229+00:00",
       "forwards": [
         {
           "line": 1,
@@ -2883,44 +2592,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Kings line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Los Angeles players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Los Angeles Kings Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Kings lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Los Angeles\u2019 forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Kings may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Kings lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Minnesota Wild",
@@ -2929,7 +2601,7 @@
       "logoPath": "/team-logos/MIN.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/minnesota-wild/line-combinations",
-      "updatedAt": "2026-07-07T18:31:00.360375+00:00",
+      "updatedAt": "2026-07-07T19:46:57.930676+00:00",
       "forwards": [
         {
           "line": 1,
@@ -3129,6 +2801,10 @@
           "position": "D"
         },
         {
+          "name": "Filip Gustavsson",
+          "position": "G"
+        },
+        {
           "name": "Riley Mercer",
           "position": "G"
         },
@@ -3137,11 +2813,7 @@
           "position": "G"
         }
       ],
-      "injuries": [
-        {
-          "name": "Filip Gustavsson"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Montreal Canadiens",
@@ -3150,7 +2822,7 @@
       "logoPath": "/team-logos/MTL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/montreal-canadiens/line-combinations",
-      "updatedAt": "2026-07-07T18:31:01.765592+00:00",
+      "updatedAt": "2026-07-07T19:46:58.864133+00:00",
       "forwards": [
         {
           "line": 1,
@@ -3350,44 +3022,7 @@
           "position": "G"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Canadiens line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Montreal players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Montreal Canadiens Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Canadiens lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Montreal\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Canadiens may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Canadiens lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "New Jersey Devils",
@@ -3396,7 +3031,7 @@
       "logoPath": "/team-logos/NJD.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/new-jersey-devils/line-combinations",
-      "updatedAt": "2026-07-07T18:31:02.995784+00:00",
+      "updatedAt": "2026-07-07T19:46:59.824629+00:00",
       "forwards": [
         {
           "line": 1,
@@ -3564,6 +3199,10 @@
       ],
       "scratches": [
         {
+          "name": "Stefan Noesen",
+          "position": "R"
+        },
+        {
           "name": "Declan Chisholm",
           "position": "D"
         },
@@ -3572,11 +3211,7 @@
           "position": "G"
         }
       ],
-      "injuries": [
-        {
-          "name": "Stefan Noesen"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Nashville Predators",
@@ -3585,7 +3220,7 @@
       "logoPath": "/team-logos/NSH.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/nashville-predators/line-combinations",
-      "updatedAt": "2026-07-07T18:31:04.249098+00:00",
+      "updatedAt": "2026-07-07T19:47:01.000629+00:00",
       "forwards": [
         {
           "line": 1,
@@ -3773,44 +3408,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Predators line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Nashville players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Nashville Predators Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Predators lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Nashville\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Predators may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Predators lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "New York Islanders",
@@ -3819,7 +3417,7 @@
       "logoPath": "/team-logos/NYI.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/new-york-islanders/line-combinations",
-      "updatedAt": "2026-07-07T18:31:05.525471+00:00",
+      "updatedAt": "2026-07-07T19:47:02.089589+00:00",
       "forwards": [
         {
           "line": 1,
@@ -3993,16 +3591,13 @@
         {
           "name": "Matthew Kessel",
           "position": "D"
-        }
-      ],
-      "injuries": [
-        {
-          "name": "Semyon Varlamov"
         },
         {
-          "name": "Pierre Engvall"
+          "name": "Semyon Varlamov",
+          "position": "G"
         }
-      ]
+      ],
+      "injuries": []
     },
     {
       "teamName": "New York Rangers",
@@ -4011,7 +3606,7 @@
       "logoPath": "/team-logos/NYR.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/new-york-rangers/line-combinations",
-      "updatedAt": "2026-07-07T18:31:06.788150+00:00",
+      "updatedAt": "2026-07-07T19:47:03.192863+00:00",
       "forwards": [
         {
           "line": 1,
@@ -4211,44 +3806,7 @@
           "position": "G"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Rangers line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which New York players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using New York Rangers Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Rangers lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review New York\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Rangers may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Rangers lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Ottawa Senators",
@@ -4257,7 +3815,7 @@
       "logoPath": "/team-logos/OTT.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/ottawa-senators/line-combinations",
-      "updatedAt": "2026-07-07T18:31:08.022990+00:00",
+      "updatedAt": "2026-07-07T19:47:04.265736+00:00",
       "forwards": [
         {
           "line": 1,
@@ -4453,44 +4011,7 @@
           "position": "G"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Senators line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Ottawa players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Ottawa Senators Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Senators lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Ottawa\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Senators may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Senators lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Philadelphia Flyers",
@@ -4499,7 +4020,7 @@
       "logoPath": "/team-logos/PHI.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/philadelphia-flyers/line-combinations",
-      "updatedAt": "2026-07-07T18:31:09.261408+00:00",
+      "updatedAt": "2026-07-07T19:47:05.392132+00:00",
       "forwards": [
         {
           "line": 1,
@@ -4707,44 +4228,7 @@
           "position": "G"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Flyers line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Philadelphia players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Philadelphia Flyers Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Flyers lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Philadelphia\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Flyers may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Flyers lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Pittsburgh Penguins",
@@ -4753,7 +4237,7 @@
       "logoPath": "/team-logos/PIT.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/pittsburgh-penguins/line-combinations",
-      "updatedAt": "2026-07-07T18:31:10.531519+00:00",
+      "updatedAt": "2026-07-07T19:47:06.449467+00:00",
       "forwards": [
         {
           "line": 1,
@@ -4925,6 +4409,10 @@
           "position": "C"
         },
         {
+          "name": "Filip Hallander",
+          "position": "C"
+        },
+        {
           "name": "Ville Koivunen",
           "position": "R"
         },
@@ -4953,14 +4441,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Joel Blomqvist"
-        },
-        {
-          "name": "Filip Hallander"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Seattle Kraken",
@@ -4969,7 +4450,7 @@
       "logoPath": "/team-logos/SEA.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/seattle-kraken/line-combinations",
-      "updatedAt": "2026-07-07T18:31:11.740167+00:00",
+      "updatedAt": "2026-07-07T19:47:07.484710+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5145,44 +4626,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Kraken line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Seattle players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Seattle Kraken Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Kraken lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Seattle\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Kraken may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Kraken lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "San Jose Sharks",
@@ -5191,7 +4635,7 @@
       "logoPath": "/team-logos/SJS.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/san-jose-sharks/line-combinations",
-      "updatedAt": "2026-07-07T18:31:13.175553+00:00",
+      "updatedAt": "2026-07-07T19:47:08.521570+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5371,44 +4815,7 @@
           "position": "G"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Sharks line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which San Jose players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using San Jose Sharks Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Sharks lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review San Jose\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Sharks may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Sharks lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "St. Louis Blues",
@@ -5417,7 +4824,7 @@
       "logoPath": "/team-logos/STL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/st-louis-blues/line-combinations",
-      "updatedAt": "2026-07-07T18:31:14.582242+00:00",
+      "updatedAt": "2026-07-07T19:47:09.564421+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5597,44 +5004,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Blues line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which St. Louis players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using St. Louis Blues Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Blues lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review St. Louis\u2019 forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Blues may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Blues lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Tampa Bay Lightning",
@@ -5643,7 +5013,7 @@
       "logoPath": "/team-logos/TBL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/tampa-bay-lightning/line-combinations",
-      "updatedAt": "2026-07-07T18:31:15.982371+00:00",
+      "updatedAt": "2026-07-07T19:47:10.671483+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5835,44 +5205,7 @@
           "position": "G"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Lightning line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Tampa Bay players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Tampa Bay Lightning Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Lightning lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Tampa Bay\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Lightning may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Lightning lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Toronto Maple Leafs",
@@ -5881,7 +5214,7 @@
       "logoPath": "/team-logos/TOR.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/toronto-maple-leafs/line-combinations",
-      "updatedAt": "2026-07-07T18:31:17.334692+00:00",
+      "updatedAt": "2026-07-07T19:47:11.716340+00:00",
       "forwards": [
         {
           "line": 1,
@@ -6049,6 +5382,10 @@
       ],
       "scratches": [
         {
+          "name": "Max Domi",
+          "position": "C"
+        },
+        {
           "name": "Bo Groulx",
           "position": "C"
         },
@@ -6073,11 +5410,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Max Domi"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Utah Mammoth",
@@ -6086,7 +5419,7 @@
       "logoPath": "/team-logos/UTA.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/utah-mammoth/line-combinations",
-      "updatedAt": "2026-07-07T18:31:18.710582+00:00",
+      "updatedAt": "2026-07-07T19:47:12.803039+00:00",
       "forwards": [
         {
           "line": 1,
@@ -6295,7 +5628,7 @@
       "logoPath": "/team-logos/VAN.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/vancouver-canucks/line-combinations",
-      "updatedAt": "2026-07-07T18:31:20.148267+00:00",
+      "updatedAt": "2026-07-07T19:47:13.879603+00:00",
       "forwards": [
         {
           "line": 1,
@@ -6475,44 +5808,7 @@
           "position": "G"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Canucks line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Vancouver players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Vancouver Canucks Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Canucks lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Vancouver\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Canucks may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Canucks lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Vegas Golden Knights",
@@ -6521,7 +5817,7 @@
       "logoPath": "/team-logos/VGK.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/vegas-golden-knights/line-combinations",
-      "updatedAt": "2026-07-07T18:31:21.523695+00:00",
+      "updatedAt": "2026-07-07T19:47:14.961153+00:00",
       "forwards": [
         {
           "line": 1,
@@ -6729,44 +6025,7 @@
           "position": "G"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Golden Knights line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Vegas players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Vegas Golden Knights Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Golden Knights lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Vegas\u2019 forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Golden Knights may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Golden Knights lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Washington Capitals",
@@ -6775,7 +6034,7 @@
       "logoPath": "/team-logos/WSH.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/washington-capitals/line-combinations",
-      "updatedAt": "2026-07-07T18:31:22.963492+00:00",
+      "updatedAt": "2026-07-07T19:47:16.077889+00:00",
       "forwards": [
         {
           "line": 1,
@@ -6943,14 +6202,6 @@
       ],
       "scratches": [
         {
-          "name": "Jonny Brodzinski",
-          "position": "C"
-        },
-        {
-          "name": "Josh Dunne",
-          "position": "C"
-        },
-        {
           "name": "Ethen Frank",
           "position": "R"
         },
@@ -6959,11 +6210,11 @@
           "position": "L"
         },
         {
-          "name": "Justin Holl",
+          "name": "Dylan McIlrath",
           "position": "D"
         },
         {
-          "name": "Dylan McIlrath",
+          "name": "Rasmus Sandin",
           "position": "D"
         },
         {
@@ -6971,11 +6222,7 @@
           "position": "G"
         }
       ],
-      "injuries": [
-        {
-          "name": "Rasmus Sandin"
-        }
-      ]
+      "injuries": []
     },
     {
       "teamName": "Winnipeg Jets",
@@ -6984,7 +6231,7 @@
       "logoPath": "/team-logos/WPG.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/winnipeg-jets/line-combinations",
-      "updatedAt": "2026-07-07T18:31:24.316169+00:00",
+      "updatedAt": "2026-07-07T19:47:17.262702+00:00",
       "forwards": [
         {
           "line": 1,
@@ -7164,44 +6411,7 @@
           "position": "D"
         }
       ],
-      "injuries": [
-        {
-          "name": "Injuries can have a major impact on the Jets line combinations, especially when a regular contributor is unavailable. When a player is injured or scratched, it can force changes across multiple forward lines, defensive pairings, and special teams units."
-        },
-        {
-          "name": "This section helps track which Winnipeg players are currently unavailable and how those absences may affect the projected lineup."
-        },
-        {
-          "name": "Using Winnipeg Jets Lines for Betting and DFS"
-        },
-        {
-          "name": "Using the latest Jets lines can help you make more informed decisions for sports betting, daily fantasy, and season-long fantasy hockey. Line combinations can reveal which players are getting stronger offensive opportunities, who is moving up the lineup, and which skaters may be gaining more valuable ice time."
-        },
-        {
-          "name": "Before placing a bet or setting a DFS lineup, it can be useful to review Winnipeg\u2019s forward lines, power play units, goalie confirmation, and injury updates. These details can help you better understand how the Jets may approach their next matchup."
-        },
-        {
-          "name": "The power play units are especially important to watch, as players featured on the top unit are often placed in the best position to generate offense. Tracking those assignments can help identify potential value before the market fully adjusts."
-        },
-        {
-          "name": "Whether you are looking for betting angles, fantasy hockey value, or a clearer understanding of the Jets lineup tonight, this page gives you a reliable starting point before puck drop."
-        },
-        {
-          "name": "Copyright \u00a9"
-        },
-        {
-          "name": "2026"
-        },
-        {
-          "name": "The Nation Network Ltd"
-        },
-        {
-          "name": "Contact Us"
-        },
-        {
-          "name": "Privacy Policy"
-        }
-      ]
+      "injuries": []
     }
   ],
   "errors": []
