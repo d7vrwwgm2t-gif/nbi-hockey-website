@@ -130,6 +130,42 @@ def normalize_name(name: str) -> str:
     return text
 
 
+def is_likely_player_name(value: str) -> bool:
+    text = str(value or "").strip()
+
+    if not text:
+        return False
+    if len(text) < 5 or len(text) > 40:
+        return False
+    if " " not in text:
+        return False
+
+    blocked_words = [
+        "injuries can",
+        "this section",
+        "using ",
+        "before placing",
+        "whether you",
+        "copyright",
+        "privacy policy",
+        "contact us",
+        "the nation network",
+        "daily faceoff",
+        "betting",
+        "fantasy",
+        "lineup",
+        "dfs",
+        "2026",
+    ]
+
+    lower = text.lower()
+
+    if any(word in lower for word in blocked_words):
+        return False
+
+    return bool(re.fullmatch(r"[A-ZÀ-Ÿ][A-Za-zÀ-ÿ'’.\- ]+", text))
+
+
 def chunk_list(items, chunk_size):
     return [items[i:i + chunk_size] for i in range(0, len(items), chunk_size)]
 
@@ -201,7 +237,10 @@ def fetch_daily_faceoff_depth_chart(team_abbr: str):
     pk1_raw = extract_section(lines, ["1st Penalty Kill Unit"], SECTION_BREAKS["pk1"])
     pk2_raw = extract_section(lines, ["2nd Penalty Kill Unit"], SECTION_BREAKS["pk2"])
     goalies_raw = extract_section(lines, ["Goalies"], SECTION_BREAKS["goalies"])
-    injuries_raw = extract_section(lines, ["Injuries"], SECTION_BREAKS["injuries"])
+    # Daily Faceoff injury sections can bleed into footer/SEO copy on teams with no injuries.
+    # Leave this empty and let NHL.com roster-difference logic populate the combined
+    # injuries/scratches section with any active-roster players not in the projected lineup.
+    injuries_raw = []
 
     forwards = chunk_list(forwards_raw[:12], 3)
     defense = chunk_list(defense_raw[:6], 2)
@@ -238,7 +277,7 @@ def fetch_daily_faceoff_depth_chart(team_abbr: str):
             {"unit": 1, "players": [{"name": name} for name in pk1_raw[:4]]},
             {"unit": 2, "players": [{"name": name} for name in pk2_raw[:4]]},
         ],
-        "injuries": [{"name": name} for name in injuries_raw[:12]],
+        "injuries": [],
     }
 
 
