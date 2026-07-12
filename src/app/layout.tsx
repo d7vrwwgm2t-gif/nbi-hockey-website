@@ -116,6 +116,10 @@ export default function RootLayout({
                   Depth Charts
                 </Link>
                 
+                <Link href="/power-rankings" className="transition hover:text-sky-300">
+                  Power Rankings
+                </Link>
+                
                 <Link href="/about" className="hover:text-[#4DB5FF]">
                   About
                 </Link>
