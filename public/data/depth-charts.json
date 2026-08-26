@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T17:30:43.031942+00:00",
+  "generatedAt": "2026-08-26T19:00:00.469136+00:00",
   "teams": [
     {
       "teamName": "Anaheim Ducks",
@@ -8,7 +8,7 @@
       "logoPath": "/team-logos/ANA.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/anaheim-ducks/line-combinations",
-      "updatedAt": "2026-08-25T17:29:59.859375+00:00",
+      "updatedAt": "2026-08-26T18:59:26.553769+00:00",
       "forwards": [
         {
           "line": 1,
@@ -293,7 +293,7 @@
       "logoPath": "/team-logos/BOS.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/boston-bruins/line-combinations",
-      "updatedAt": "2026-08-25T17:30:01.387812+00:00",
+      "updatedAt": "2026-08-26T18:59:27.538963+00:00",
       "forwards": [
         {
           "line": 1,
@@ -558,7 +558,7 @@
       "logoPath": "/team-logos/BUF.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/buffalo-sabres/line-combinations",
-      "updatedAt": "2026-08-25T17:30:02.658064+00:00",
+      "updatedAt": "2026-08-26T18:59:28.528040+00:00",
       "forwards": [
         {
           "line": 1,
@@ -831,7 +831,7 @@
       "logoPath": "/team-logos/CAR.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/carolina-hurricanes/line-combinations",
-      "updatedAt": "2026-08-25T17:30:04.138985+00:00",
+      "updatedAt": "2026-08-26T18:59:29.595347+00:00",
       "forwards": [
         {
           "line": 1,
@@ -1080,7 +1080,7 @@
       "logoPath": "/team-logos/CBJ.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/columbus-blue-jackets/line-combinations",
-      "updatedAt": "2026-08-25T17:30:05.593605+00:00",
+      "updatedAt": "2026-08-26T18:59:30.741044+00:00",
       "forwards": [
         {
           "line": 1,
@@ -1353,7 +1353,7 @@
       "logoPath": "/team-logos/CGY.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/calgary-flames/line-combinations",
-      "updatedAt": "2026-08-25T17:30:07.317775+00:00",
+      "updatedAt": "2026-08-26T18:59:31.884192+00:00",
       "forwards": [
         {
           "line": 1,
@@ -1614,7 +1614,7 @@
       "logoPath": "/team-logos/CHI.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/chicago-blackhawks/line-combinations",
-      "updatedAt": "2026-08-25T17:30:08.565282+00:00",
+      "updatedAt": "2026-08-26T18:59:32.829473+00:00",
       "forwards": [
         {
           "line": 1,
@@ -1879,7 +1879,7 @@
       "logoPath": "/team-logos/COL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/colorado-avalanche/line-combinations",
-      "updatedAt": "2026-08-25T17:30:09.936636+00:00",
+      "updatedAt": "2026-08-26T18:59:33.834542+00:00",
       "forwards": [
         {
           "line": 1,
@@ -2144,7 +2144,7 @@
       "logoPath": "/team-logos/DAL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/dallas-stars/line-combinations",
-      "updatedAt": "2026-08-25T17:30:11.261562+00:00",
+      "updatedAt": "2026-08-26T18:59:34.823519+00:00",
       "forwards": [
         {
           "line": 1,
@@ -2413,7 +2413,7 @@
       "logoPath": "/team-logos/DET.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/detroit-red-wings/line-combinations",
-      "updatedAt": "2026-08-25T17:30:12.519388+00:00",
+      "updatedAt": "2026-08-26T18:59:35.895106+00:00",
       "forwards": [
         {
           "line": 1,
@@ -2686,7 +2686,7 @@
       "logoPath": "/team-logos/EDM.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
-      "updatedAt": "2026-08-25T17:30:13.761839+00:00",
+      "updatedAt": "2026-08-26T18:59:37.012857+00:00",
       "forwards": [
         {
           "line": 1,
@@ -2955,7 +2955,7 @@
       "logoPath": "/team-logos/FLA.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/florida-panthers/line-combinations",
-      "updatedAt": "2026-08-25T17:30:15.015762+00:00",
+      "updatedAt": "2026-08-26T18:59:38.114357+00:00",
       "forwards": [
         {
           "line": 1,
@@ -3228,7 +3228,7 @@
       "logoPath": "/team-logos/LAK.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/los-angeles-kings/line-combinations",
-      "updatedAt": "2026-08-25T17:30:16.342704+00:00",
+      "updatedAt": "2026-08-26T18:59:39.193691+00:00",
       "forwards": [
         {
           "line": 1,
@@ -3492,6 +3492,10 @@
           "position": "D"
         },
         {
+          "name": "Carter George",
+          "position": "G"
+        },
+        {
           "name": "Erik Portillo",
           "position": "G"
         },
@@ -3509,7 +3513,7 @@
       "logoPath": "/team-logos/MIN.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/minnesota-wild/line-combinations",
-      "updatedAt": "2026-08-25T17:30:17.689198+00:00",
+      "updatedAt": "2026-08-26T18:59:40.189446+00:00",
       "forwards": [
         {
           "line": 1,
@@ -3786,7 +3790,7 @@
       "logoPath": "/team-logos/MTL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/montreal-canadiens/line-combinations",
-      "updatedAt": "2026-08-25T17:30:18.975143+00:00",
+      "updatedAt": "2026-08-26T18:59:41.164105+00:00",
       "forwards": [
         {
           "line": 1,
@@ -4051,7 +4055,7 @@
       "logoPath": "/team-logos/NJD.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/new-jersey-devils/line-combinations",
-      "updatedAt": "2026-08-25T17:30:20.225260+00:00",
+      "updatedAt": "2026-08-26T18:59:42.141752+00:00",
       "forwards": [
         {
           "line": 1,
@@ -4320,7 +4324,7 @@
       "logoPath": "/team-logos/NSH.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/nashville-predators/line-combinations",
-      "updatedAt": "2026-08-25T17:30:21.459922+00:00",
+      "updatedAt": "2026-08-26T18:59:43.123701+00:00",
       "forwards": [
         {
           "line": 1,
@@ -4601,7 +4605,7 @@
       "logoPath": "/team-logos/NYI.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/new-york-islanders/line-combinations",
-      "updatedAt": "2026-08-25T17:30:22.727640+00:00",
+      "updatedAt": "2026-08-26T18:59:44.094476+00:00",
       "forwards": [
         {
           "line": 1,
@@ -4870,7 +4874,7 @@
       "logoPath": "/team-logos/NYR.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/new-york-rangers/line-combinations",
-      "updatedAt": "2026-08-25T17:30:23.994556+00:00",
+      "updatedAt": "2026-08-26T18:59:45.226489+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5075,7 +5079,7 @@
       "logoPath": "/team-logos/OTT.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/ottawa-senators/line-combinations",
-      "updatedAt": "2026-08-25T17:30:25.246266+00:00",
+      "updatedAt": "2026-08-26T18:59:46.352584+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5280,7 +5284,7 @@
       "logoPath": "/team-logos/PHI.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/philadelphia-flyers/line-combinations",
-      "updatedAt": "2026-08-25T17:30:26.468464+00:00",
+      "updatedAt": "2026-08-26T18:59:47.459467+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5553,7 +5557,7 @@
       "logoPath": "/team-logos/PIT.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/pittsburgh-penguins/line-combinations",
-      "updatedAt": "2026-08-25T17:30:27.735352+00:00",
+      "updatedAt": "2026-08-26T18:59:48.543759+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5750,7 +5754,7 @@
       "logoPath": "/team-logos/SEA.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/seattle-kraken/line-combinations",
-      "updatedAt": "2026-08-25T17:30:28.976279+00:00",
+      "updatedAt": "2026-08-26T18:59:49.610452+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5955,7 +5959,7 @@
       "logoPath": "/team-logos/SJS.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/san-jose-sharks/line-combinations",
-      "updatedAt": "2026-08-25T17:30:30.383478+00:00",
+      "updatedAt": "2026-08-26T18:59:50.674959+00:00",
       "forwards": [
         {
           "line": 1,
@@ -6216,7 +6220,7 @@
       "logoPath": "/team-logos/STL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/st-louis-blues/line-combinations",
-      "updatedAt": "2026-08-25T17:30:31.763796+00:00",
+      "updatedAt": "2026-08-26T18:59:51.756150+00:00",
       "forwards": [
         {
           "line": 1,
@@ -6421,7 +6425,7 @@
       "logoPath": "/team-logos/TBL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/tampa-bay-lightning/line-combinations",
-      "updatedAt": "2026-08-25T17:30:33.784195+00:00",
+      "updatedAt": "2026-08-26T18:59:52.897939+00:00",
       "forwards": [
         {
           "line": 1,
@@ -6689,6 +6693,10 @@
           "position": "G"
         },
         {
+          "name": "Harrison Meneghin",
+          "position": "G"
+        },
+        {
           "name": "Olivier Rodrigue",
           "position": "G"
         },
@@ -6706,7 +6714,7 @@
       "logoPath": "/team-logos/TOR.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/toronto-maple-leafs/line-combinations",
-      "updatedAt": "2026-08-25T17:30:35.332112+00:00",
+      "updatedAt": "2026-08-26T18:59:53.989231+00:00",
       "forwards": [
         {
           "line": 1,
@@ -6999,7 +7007,7 @@
       "logoPath": "/team-logos/UTA.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/utah-mammoth/line-combinations",
-      "updatedAt": "2026-08-25T17:30:36.662148+00:00",
+      "updatedAt": "2026-08-26T18:59:55.168492+00:00",
       "forwards": [
         {
           "line": 1,
@@ -7200,7 +7208,7 @@
       "logoPath": "/team-logos/VAN.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/vancouver-canucks/line-combinations",
-      "updatedAt": "2026-08-25T17:30:37.996263+00:00",
+      "updatedAt": "2026-08-26T18:59:56.319030+00:00",
       "forwards": [
         {
           "line": 1,
@@ -7477,7 +7485,7 @@
       "logoPath": "/team-logos/VGK.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/vegas-golden-knights/line-combinations",
-      "updatedAt": "2026-08-25T17:30:39.579131+00:00",
+      "updatedAt": "2026-08-26T18:59:57.481360+00:00",
       "forwards": [
         {
           "line": 1,
@@ -7762,7 +7770,7 @@
       "logoPath": "/team-logos/WSH.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/washington-capitals/line-combinations",
-      "updatedAt": "2026-08-25T17:30:40.946500+00:00",
+      "updatedAt": "2026-08-26T18:59:58.494712+00:00",
       "forwards": [
         {
           "line": 1,
@@ -7959,7 +7967,7 @@
       "logoPath": "/team-logos/WPG.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/winnipeg-jets/line-combinations",
-      "updatedAt": "2026-08-25T17:30:42.281803+00:00",
+      "updatedAt": "2026-08-26T18:59:59.718972+00:00",
       "forwards": [
         {
           "line": 1,
