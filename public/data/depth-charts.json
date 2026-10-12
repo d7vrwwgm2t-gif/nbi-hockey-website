@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T20:48:45.213013+00:00",
+  "generatedAt": "2026-10-12T23:30:30.130921+00:00",
   "teams": [
     {
       "teamName": "Anaheim Ducks",
@@ -8,7 +8,7 @@
       "logoPath": "/team-logos/ANA.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/anaheim-ducks/line-combinations",
-      "updatedAt": "2026-10-11T20:48:12.556982+00:00",
+      "updatedAt": "2026-10-12T23:30:00.276347+00:00",
       "forwards": [
         {
           "line": 1,
@@ -31,19 +31,19 @@
             "name": "Mikael Granlund"
           },
           "rw": {
-            "name": "Cutter Gauthier"
+            "name": "Alex Killorn"
           }
         },
         {
           "line": 3,
           "lw": {
-            "name": "Alex Killorn"
+            "name": "A.J. Greer"
           },
           "c": {
-            "name": "Ryan Poehling"
+            "name": "Frank Vatrano"
           },
           "rw": {
-            "name": "Frank Vatrano"
+            "name": "Nikita Klepov"
           }
         },
         {
@@ -75,7 +75,7 @@
             "name": "Pavel Mintyukov"
           },
           "rd": {
-            "name": "Travis Mitchell"
+            "name": "Drew Helleson"
           }
         },
         {
@@ -101,19 +101,19 @@
           "unit": 1,
           "players": [
             {
-              "name": "Beckett Sennecke"
+              "name": "Judd Caulfield"
             },
             {
               "name": "Leo Carlsson"
             },
             {
-              "name": "Mikael Granlund"
+              "name": "Beckett Sennecke"
             },
             {
               "name": "Jackson Lacombe"
             },
             {
-              "name": "Cutter Gauthier"
+              "name": "Mikael Granlund"
             }
           ]
         },
@@ -124,7 +124,7 @@
               "name": "Alex Killorn"
             },
             {
-              "name": "Ryan Poehling"
+              "name": "Frank Vatrano"
             },
             {
               "name": "Sam Colangelo"
@@ -143,7 +143,7 @@
           "unit": 1,
           "players": [
             {
-              "name": "Ryan Poehling"
+              "name": "Tim Washe"
             },
             {
               "name": "Alex Killorn"
@@ -160,10 +160,10 @@
           "unit": 2,
           "players": [
             {
-              "name": "Tim Washe"
+              "name": "Mikael Granlund"
             },
             {
-              "name": "Mikael Granlund"
+              "name": "Frank Vatrano"
             },
             {
               "name": "Noah Warren"
@@ -176,19 +176,19 @@
       ],
       "scratches": [
         {
-          "name": "A.J. Greer",
+          "name": "Cutter Gauthier",
           "position": "L"
         },
         {
-          "name": "Nikita Klepov",
-          "position": "R"
-        },
-        {
-          "name": "Drew Helleson",
-          "position": "D"
+          "name": "Ryan Poehling",
+          "position": "C"
         },
         {
           "name": "Nick Jensen",
+          "position": "D"
+        },
+        {
+          "name": "Travis Mitchell",
           "position": "D"
         },
         {
@@ -205,7 +205,7 @@
       "logoPath": "/team-logos/BOS.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/boston-bruins/line-combinations",
-      "updatedAt": "2026-10-11T20:48:13.606441+00:00",
+      "updatedAt": "2026-10-12T23:30:01.244534+00:00",
       "forwards": [
         {
           "line": 1,
@@ -263,7 +263,7 @@
             "name": "Hampus Lindholm"
           },
           "rd": {
-            "name": "Will Borgen"
+            "name": "Charlie McAvoy"
           }
         },
         {
@@ -272,7 +272,7 @@
             "name": "Nikita Zadorov"
           },
           "rd": {
-            "name": "Connor Clifton"
+            "name": "Will Borgen"
           }
         },
         {
@@ -310,7 +310,7 @@
               "name": "David Pastrnak"
             },
             {
-              "name": "Frederic Brunet"
+              "name": "Charlie McAvoy"
             }
           ]
         },
@@ -324,13 +324,13 @@
               "name": "Casey Mittelstadt"
             },
             {
-              "name": "JJ Peterka"
-            },
-            {
-              "name": "Hampus Lindholm"
+              "name": "Fraser Minten"
             },
             {
               "name": "Mason Lohrei"
+            },
+            {
+              "name": "JJ Peterka"
             }
           ]
         }
@@ -349,7 +349,7 @@
               "name": "Hampus Lindholm"
             },
             {
-              "name": "Will Borgen"
+              "name": "Charlie McAvoy"
             }
           ]
         },
@@ -366,7 +366,7 @@
               "name": "Nikita Zadorov"
             },
             {
-              "name": "Connor Clifton"
+              "name": "Will Borgen"
             }
           ]
         }
@@ -381,7 +381,7 @@
           "position": "D"
         },
         {
-          "name": "Charlie McAvoy",
+          "name": "Connor Clifton",
           "position": "D"
         }
       ],
@@ -394,18 +394,18 @@
       "logoPath": "/team-logos/BUF.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/buffalo-sabres/line-combinations",
-      "updatedAt": "2026-10-11T20:48:14.785364+00:00",
+      "updatedAt": "2026-10-12T23:30:02.179841+00:00",
       "forwards": [
         {
           "line": 1,
           "lw": {
-            "name": "Josh Norris"
+            "name": "Peyton Krebs"
           },
           "c": {
             "name": "Tage Thompson"
           },
           "rw": {
-            "name": "Jack Quinn"
+            "name": "Josh Doan"
           }
         },
         {
@@ -417,19 +417,19 @@
             "name": "Noah Ostlund"
           },
           "rw": {
-            "name": "Josh Doan"
+            "name": "Jack Quinn"
           }
         },
         {
           "line": 3,
           "lw": {
-            "name": "Peyton Krebs"
+            "name": "Jiri Kulich"
           },
           "c": {
             "name": "Ryan McLeod"
           },
           "rw": {
-            "name": "Justin Danforth"
+            "name": "Konsta Helenius"
           }
         },
         {
@@ -438,7 +438,7 @@
             "name": "Tyson Kozak"
           },
           "c": {
-            "name": "Sam Carrick"
+            "name": "Josh Norris"
           },
           "rw": {
             "name": "Beck Malenstyn"
@@ -458,16 +458,16 @@
         {
           "pair": 2,
           "ld": {
-            "name": "Olen Zellweger"
+            "name": "Owen Power"
           },
           "rd": {
-            "name": "Owen Power"
+            "name": "Zach Metsa"
           }
         },
         {
           "pair": 3,
           "ld": {
-            "name": "Zach Metsa"
+            "name": "Olen Zellweger"
           },
           "rd": {
             "name": "Louis Crevier"
@@ -562,12 +562,12 @@
       ],
       "scratches": [
         {
-          "name": "Konsta Helenius",
+          "name": "Sam Carrick",
           "position": "C"
         },
         {
-          "name": "Jiri Kulich",
-          "position": "C"
+          "name": "Justin Danforth",
+          "position": "R"
         },
         {
           "name": "Matt Grzelcyk",
@@ -591,7 +591,7 @@
       "logoPath": "/team-logos/CAR.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/carolina-hurricanes/line-combinations",
-      "updatedAt": "2026-10-11T20:48:15.907643+00:00",
+      "updatedAt": "2026-10-12T23:30:03.086409+00:00",
       "forwards": [
         {
           "line": 1,
@@ -623,7 +623,7 @@
             "name": "Nikolaj Ehlers"
           },
           "c": {
-            "name": "Jordan Staal"
+            "name": "Mark Jankowski"
           },
           "rw": {
             "name": "Jordan Martinook"
@@ -632,13 +632,13 @@
         {
           "line": 4,
           "lw": {
-            "name": "Eric Robinson"
+            "name": "Nicolas Deslauriers"
           },
           "c": {
-            "name": "Mark Jankowski"
+            "name": "Jesperi Kotkaniemi"
           },
           "rw": {
-            "name": "Jesperi Kotkaniemi"
+            "name": "Eric Robinson"
           }
         }
       ],
@@ -707,7 +707,7 @@
               "name": "Taylor Hall"
             },
             {
-              "name": "Jordan Staal"
+              "name": "Mark Jankowski"
             },
             {
               "name": "Logan Stankoven"
@@ -726,7 +726,7 @@
           "unit": 1,
           "players": [
             {
-              "name": "Jordan Staal"
+              "name": "Sebastian Aho"
             },
             {
               "name": "Jordan Martinook"
@@ -743,7 +743,7 @@
           "unit": 2,
           "players": [
             {
-              "name": "Sebastian Aho"
+              "name": "Mark Jankowski"
             },
             {
               "name": "Eric Robinson"
@@ -759,8 +759,8 @@
       ],
       "scratches": [
         {
-          "name": "Nicolas Deslauriers",
-          "position": "L"
+          "name": "Jordan Staal",
+          "position": "C"
         },
         {
           "name": "Juuso V\u00e4lim\u00e4ki",
@@ -776,7 +776,7 @@
       "logoPath": "/team-logos/CBJ.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/columbus-blue-jackets/line-combinations",
-      "updatedAt": "2026-10-11T20:48:17.047614+00:00",
+      "updatedAt": "2026-10-12T23:30:04.021014+00:00",
       "forwards": [
         {
           "line": 1,
@@ -799,7 +799,7 @@
             "name": "Sean Monahan"
           },
           "rw": {
-            "name": "Dmitri Voronkov"
+            "name": "Conor Garland"
           }
         },
         {
@@ -823,7 +823,7 @@
             "name": "Danton Heinen"
           },
           "rw": {
-            "name": "Conor Garland"
+            "name": "Dmitri Voronkov"
           }
         }
       ],
@@ -849,7 +849,7 @@
         {
           "pair": 3,
           "ld": {
-            "name": "Emil Andrae"
+            "name": "Jake Christiansen"
           },
           "rd": {
             "name": "Erik Gudbranson"
@@ -948,7 +948,7 @@
           "position": "C"
         },
         {
-          "name": "Jake Christiansen",
+          "name": "Emil Andrae",
           "position": "D"
         },
         {
@@ -969,10 +969,22 @@
       "logoPath": "/team-logos/CGY.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/calgary-flames/line-combinations",
-      "updatedAt": "2026-10-11T20:48:18.102691+00:00",
+      "updatedAt": "2026-10-12T23:30:04.928564+00:00",
       "forwards": [
         {
           "line": 1,
+          "lw": {
+            "name": "Yegor Sharangovich"
+          },
+          "c": {
+            "name": "Mikael Backlund"
+          },
+          "rw": {
+            "name": "Joel Farabee"
+          }
+        },
+        {
+          "line": 2,
           "lw": {
             "name": "Aydar Suniev"
           },
@@ -984,7 +996,7 @@
           }
         },
         {
-          "line": 2,
+          "line": 3,
           "lw": {
             "name": "Matvei Gridin"
           },
@@ -993,18 +1005,6 @@
           },
           "rw": {
             "name": "Ryan Strome"
-          }
-        },
-        {
-          "line": 3,
-          "lw": {
-            "name": "Yegor Sharangovich"
-          },
-          "c": {
-            "name": "Mikael Backlund"
-          },
-          "rw": {
-            "name": "Joel Farabee"
           }
         },
         {
@@ -1051,10 +1051,10 @@
       ],
       "goalies": {
         "starter": {
-          "name": "Dustin Wolf"
+          "name": "Devin Cooley"
         },
         "backup": {
-          "name": "Devin Cooley"
+          "name": "Dustin Wolf"
         }
       },
       "powerPlay": [
@@ -1166,15 +1166,15 @@
       "logoPath": "/team-logos/CHI.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/chicago-blackhawks/line-combinations",
-      "updatedAt": "2026-10-11T20:48:19.128172+00:00",
+      "updatedAt": "2026-10-12T23:30:05.824884+00:00",
       "forwards": [
         {
           "line": 1,
           "lw": {
-            "name": "Nick Lardis"
+            "name": "Roman Kantserov"
           },
           "c": {
-            "name": "Ryan Greene"
+            "name": "Connor Bedard"
           },
           "rw": {
             "name": "Patrick Kane"
@@ -1183,37 +1183,37 @@
         {
           "line": 2,
           "lw": {
-            "name": "Roman Kantserov"
+            "name": "Tyler Bertuzzi"
           },
           "c": {
             "name": "Anton Frondell"
-          },
-          "rw": {
-            "name": "Tyler Bertuzzi"
-          }
-        },
-        {
-          "line": 3,
-          "lw": {
-            "name": "Ryan Donato"
-          },
-          "c": {
-            "name": "Dominic Toninato"
           },
           "rw": {
             "name": "Teuvo Teravainen"
           }
         },
         {
-          "line": 4,
+          "line": 3,
           "lw": {
             "name": "Cole Smith"
           },
           "c": {
-            "name": "Oliver Moore"
+            "name": "Ryan Greene"
           },
           "rw": {
             "name": "Jordan Greenway"
+          }
+        },
+        {
+          "line": 4,
+          "lw": {
+            "name": "Oliver Moore"
+          },
+          "c": {
+            "name": "Dominic Toninato"
+          },
+          "rw": {
+            "name": "Ryan Donato"
           }
         }
       ],
@@ -1265,10 +1265,10 @@
               "name": "Roman Kantserov"
             },
             {
-              "name": "Anton Frondell"
+              "name": "Patrick Kane"
             },
             {
-              "name": "Patrick Kane"
+              "name": "Connor Bedard"
             },
             {
               "name": "Bowen Byram"
@@ -1285,7 +1285,7 @@
               "name": "Ryan Greene"
             },
             {
-              "name": "Nick Lardis"
+              "name": "Anton Frondell"
             },
             {
               "name": "Oliver Moore"
@@ -1334,8 +1334,8 @@
       ],
       "scratches": [
         {
-          "name": "Connor Bedard",
-          "position": "C"
+          "name": "Nick Lardis",
+          "position": "L"
         },
         {
           "name": "Andrew Mangiapane",
@@ -1363,7 +1363,7 @@
       "logoPath": "/team-logos/COL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/colorado-avalanche/line-combinations",
-      "updatedAt": "2026-10-11T20:48:20.274622+00:00",
+      "updatedAt": "2026-10-12T23:30:06.779157+00:00",
       "forwards": [
         {
           "line": 1,
@@ -1548,7 +1548,7 @@
       "logoPath": "/team-logos/DAL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/dallas-stars/line-combinations",
-      "updatedAt": "2026-10-11T20:48:21.304519+00:00",
+      "updatedAt": "2026-10-12T23:30:07.695195+00:00",
       "forwards": [
         {
           "line": 1,
@@ -1741,7 +1741,7 @@
       "logoPath": "/team-logos/DET.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/detroit-red-wings/line-combinations",
-      "updatedAt": "2026-10-11T20:48:22.360744+00:00",
+      "updatedAt": "2026-10-12T23:30:08.622429+00:00",
       "forwards": [
         {
           "line": 1,
@@ -1794,7 +1794,7 @@
         {
           "pair": 1,
           "ld": {
-            "name": "Albert Johansson"
+            "name": "Ben Chiarot"
           },
           "rd": {
             "name": "Moritz Seider"
@@ -1803,7 +1803,7 @@
         {
           "pair": 2,
           "ld": {
-            "name": "Ben Chiarot"
+            "name": "Albert Johansson"
           },
           "rd": {
             "name": "Anton Johansson"
@@ -1940,7 +1940,7 @@
       "logoPath": "/team-logos/EDM.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
-      "updatedAt": "2026-10-11T20:48:23.475378+00:00",
+      "updatedAt": "2026-10-12T23:30:09.528776+00:00",
       "forwards": [
         {
           "line": 1,
@@ -2153,7 +2153,7 @@
       "logoPath": "/team-logos/FLA.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/florida-panthers/line-combinations",
-      "updatedAt": "2026-10-11T20:48:24.529849+00:00",
+      "updatedAt": "2026-10-12T23:30:10.514762+00:00",
       "forwards": [
         {
           "line": 1,
@@ -2249,10 +2249,10 @@
               "name": "Brady Tkachuk"
             },
             {
-              "name": "Sam Bennett"
+              "name": "Sam Reinhart"
             },
             {
-              "name": "Sam Reinhart"
+              "name": "Carter Verhaeghe"
             },
             {
               "name": "Seth Jones"
@@ -2266,16 +2266,16 @@
           "unit": 2,
           "players": [
             {
+              "name": "Lars Eller"
+            },
+            {
+              "name": "Sam Bennett"
+            },
+            {
               "name": "Eetu Luostarinen"
             },
             {
               "name": "Anton Lundell"
-            },
-            {
-              "name": "Carter Verhaeghe"
-            },
-            {
-              "name": "Gustav Forsling"
             },
             {
               "name": "Aaron Ekblad"
@@ -2291,7 +2291,7 @@
               "name": "Lars Eller"
             },
             {
-              "name": "Sam Reinhart"
+              "name": "Garnet Hathaway"
             },
             {
               "name": "Gustav Forsling"
@@ -2308,13 +2308,13 @@
               "name": "Anton Lundell"
             },
             {
-              "name": "Eetu Luostarinen"
+              "name": "Sandis Vilmanis"
             },
             {
               "name": "Niko Mikkola"
             },
             {
-              "name": "Radko Gudas"
+              "name": "Seth Jones"
             }
           ]
         }
@@ -2346,7 +2346,7 @@
       "logoPath": "/team-logos/LAK.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/los-angeles-kings/line-combinations",
-      "updatedAt": "2026-10-11T20:48:25.564597+00:00",
+      "updatedAt": "2026-10-12T23:30:11.408715+00:00",
       "forwards": [
         {
           "line": 1,
@@ -2539,7 +2539,7 @@
       "logoPath": "/team-logos/MIN.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/minnesota-wild/line-combinations",
-      "updatedAt": "2026-10-11T20:48:26.634580+00:00",
+      "updatedAt": "2026-10-12T23:30:12.319538+00:00",
       "forwards": [
         {
           "line": 1,
@@ -2615,7 +2615,7 @@
             "name": "Daemon Hunt"
           },
           "rd": {
-            "name": "David Spacek"
+            "name": "Zach Bogosian"
           }
         }
       ],
@@ -2655,16 +2655,16 @@
               "name": "Blake Coleman"
             },
             {
-              "name": "Danila Yurov"
-            },
-            {
               "name": "Ryan Hartman"
             },
             {
-              "name": "Jared Spurgeon"
+              "name": "Danila Yurov"
             },
             {
               "name": "Bobby Brink"
+            },
+            {
+              "name": "Jared Spurgeon"
             }
           ]
         }
@@ -2697,10 +2697,10 @@
               "name": "Matt Boldy"
             },
             {
-              "name": "David Spacek"
+              "name": "Olli Maatta"
             },
             {
-              "name": "Olli Maatta"
+              "name": "Zach Bogosian"
             }
           ]
         }
@@ -2715,8 +2715,8 @@
           "position": "L"
         },
         {
-          "name": "Zach Bogosian",
-          "position": "D"
+          "name": "Tyler Pitlick",
+          "position": "C"
         },
         {
           "name": "Brock Faber",
@@ -2724,6 +2724,10 @@
         },
         {
           "name": "Matt Kiersted",
+          "position": "D"
+        },
+        {
+          "name": "David Spacek",
           "position": "D"
         },
         {
@@ -2740,7 +2744,7 @@
       "logoPath": "/team-logos/MTL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/montreal-canadiens/line-combinations",
-      "updatedAt": "2026-10-11T20:48:27.654107+00:00",
+      "updatedAt": "2026-10-12T23:30:13.226830+00:00",
       "forwards": [
         {
           "line": 1,
@@ -2939,7 +2943,7 @@
       "logoPath": "/team-logos/NJD.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/new-jersey-devils/line-combinations",
-      "updatedAt": "2026-10-11T20:48:28.682575+00:00",
+      "updatedAt": "2026-10-12T23:30:14.140366+00:00",
       "forwards": [
         {
           "line": 1,
@@ -3021,10 +3025,10 @@
       ],
       "goalies": {
         "starter": {
-          "name": "Jake Allen"
+          "name": "Nico Daws"
         },
         "backup": {
-          "name": "Nico Daws"
+          "name": "Jake Allen"
         }
       },
       "powerPlay": [
@@ -3132,7 +3136,7 @@
       "logoPath": "/team-logos/NSH.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/nashville-predators/line-combinations",
-      "updatedAt": "2026-10-11T20:48:29.807021+00:00",
+      "updatedAt": "2026-10-12T23:30:15.174587+00:00",
       "forwards": [
         {
           "line": 1,
@@ -3337,7 +3341,7 @@
       "logoPath": "/team-logos/NYI.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/new-york-islanders/line-combinations",
-      "updatedAt": "2026-10-11T20:48:30.917416+00:00",
+      "updatedAt": "2026-10-12T23:30:16.208129+00:00",
       "forwards": [
         {
           "line": 1,
@@ -3366,7 +3370,7 @@
         {
           "line": 3,
           "lw": {
-            "name": "Simon Holmstrom"
+            "name": "Ondrej Palat"
           },
           "c": {
             "name": "Jean-Gabriel Pageau"
@@ -3378,13 +3382,13 @@
         {
           "line": 4,
           "lw": {
-            "name": "Ondrej Palat"
+            "name": "Matias Maccelli"
           },
           "c": {
             "name": "Casey Cizikas"
           },
           "rw": {
-            "name": "Matias Maccelli"
+            "name": "Simon Holmstrom"
           }
         }
       ],
@@ -3526,7 +3530,7 @@
       "logoPath": "/team-logos/NYR.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/new-york-rangers/line-combinations",
-      "updatedAt": "2026-10-11T20:48:32.025131+00:00",
+      "updatedAt": "2026-10-12T23:30:17.231129+00:00",
       "forwards": [
         {
           "line": 1,
@@ -3735,12 +3739,12 @@
       "logoPath": "/team-logos/OTT.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/ottawa-senators/line-combinations",
-      "updatedAt": "2026-10-11T20:48:33.085553+00:00",
+      "updatedAt": "2026-10-12T23:30:18.168138+00:00",
       "forwards": [
         {
           "line": 1,
           "lw": {
-            "name": "Andre Burakovsky"
+            "name": "Warren Foegele"
           },
           "c": {
             "name": "Tim St\u00fctzle"
@@ -3752,6 +3756,18 @@
         {
           "line": 2,
           "lw": {
+            "name": "Andre Burakovsky"
+          },
+          "c": {
+            "name": "Dylan Cozens"
+          },
+          "rw": {
+            "name": "Ridly Greig"
+          }
+        },
+        {
+          "line": 3,
+          "lw": {
             "name": "Michael Amadio"
           },
           "c": {
@@ -3762,21 +3778,9 @@
           }
         },
         {
-          "line": 3,
-          "lw": {
-            "name": "Ridly Greig"
-          },
-          "c": {
-            "name": "Dylan Cozens"
-          },
-          "rw": {
-            "name": "Fabian Zetterlund"
-          }
-        },
-        {
           "line": 4,
           "lw": {
-            "name": "Warren Foegele"
+            "name": "Fabian Zetterlund"
           },
           "c": {
             "name": "Stephen Halliday"
@@ -3834,13 +3838,13 @@
               "name": "Dylan Cozens"
             },
             {
-              "name": "Tim St\u00fctzle"
-            },
-            {
               "name": "Drake Batherson"
             },
             {
               "name": "Thomas Chabot"
+            },
+            {
+              "name": "Tim St\u00fctzle"
             }
           ]
         },
@@ -3848,7 +3852,7 @@
           "unit": 2,
           "players": [
             {
-              "name": "Ridly Greig"
+              "name": "Stephen Halliday"
             },
             {
               "name": "Shane Pinto"
@@ -3928,12 +3932,12 @@
       "logoPath": "/team-logos/PHI.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/philadelphia-flyers/line-combinations",
-      "updatedAt": "2026-10-11T20:48:33.971765+00:00",
+      "updatedAt": "2026-10-12T23:30:19.129077+00:00",
       "forwards": [
         {
           "line": 1,
           "lw": {
-            "name": "Trevor Zegras"
+            "name": "Denver Barkey"
           },
           "c": {
             "name": "Christian Dvorak"
@@ -3951,31 +3955,31 @@
             "name": "Sean Couturier"
           },
           "rw": {
-            "name": "Matvei Michkov"
+            "name": "Porter Martone"
           }
         },
         {
           "line": 3,
           "lw": {
-            "name": "Denver Barkey"
+            "name": "Michael Bunting"
           },
           "c": {
-            "name": "Noah Cates"
+            "name": "Trevor Zegras"
           },
           "rw": {
-            "name": "Porter Martone"
+            "name": "Matvei Michkov"
           }
         },
         {
           "line": 4,
           "lw": {
-            "name": "Michael Bunting"
+            "name": "Carl Grundstrom"
           },
           "c": {
-            "name": "Noel Acciari"
+            "name": "Noah Cates"
           },
           "rw": {
-            "name": "Garrett Wilson"
+            "name": "Noel Acciari"
           }
         }
       ],
@@ -3986,7 +3990,7 @@
             "name": "Travis Sanheim"
           },
           "rd": {
-            "name": "Jamie Drysdale"
+            "name": "Oliver Bonk"
           }
         },
         {
@@ -3995,16 +3999,16 @@
             "name": "Nick Seeler"
           },
           "rd": {
-            "name": "David Jiricek"
+            "name": "Jamie Drysdale"
           }
         },
         {
           "pair": 3,
           "ld": {
-            "name": "Helge Grans"
+            "name": "Simon Benoit"
           },
           "rd": {
-            "name": "Simon Benoit"
+            "name": "David Jiricek"
           }
         }
       ],
@@ -4021,7 +4025,7 @@
           "unit": 1,
           "players": [
             {
-              "name": "Porter Martone"
+              "name": "Christian Dvorak"
             },
             {
               "name": "Trevor Zegras"
@@ -4030,10 +4034,10 @@
               "name": "Matvei Michkov"
             },
             {
-              "name": "Tyson Foerster"
+              "name": "Owen Tippett"
             },
             {
-              "name": "David Jiricek"
+              "name": "Jamie Drysdale"
             }
           ]
         },
@@ -4044,16 +4048,16 @@
               "name": "Michael Bunting"
             },
             {
-              "name": "Noah Cates"
-            },
-            {
               "name": "Denver Barkey"
             },
             {
-              "name": "Owen Tippett"
+              "name": "Porter Martone"
             },
             {
-              "name": "Jamie Drysdale"
+              "name": "Tyson Foerster"
+            },
+            {
+              "name": "David Jiricek"
             }
           ]
         }
@@ -4086,7 +4090,7 @@
               "name": "Tyson Foerster"
             },
             {
-              "name": "Helge Grans"
+              "name": "Oliver Bonk"
             },
             {
               "name": "Simon Benoit"
@@ -4100,15 +4104,15 @@
           "position": "R"
         },
         {
-          "name": "Carl Grundstrom",
-          "position": "R"
-        },
-        {
           "name": "Travis Konecny",
           "position": "R"
         },
         {
-          "name": "Oliver Bonk",
+          "name": "Garrett Wilson",
+          "position": "L"
+        },
+        {
+          "name": "Helge Grans",
           "position": "D"
         },
         {
@@ -4129,7 +4133,7 @@
       "logoPath": "/team-logos/PIT.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/pittsburgh-penguins/line-combinations",
-      "updatedAt": "2026-10-11T20:48:34.882868+00:00",
+      "updatedAt": "2026-10-12T23:30:20.070272+00:00",
       "forwards": [
         {
           "line": 1,
@@ -4158,13 +4162,13 @@
         {
           "line": 3,
           "lw": {
-            "name": "Hendrix Lapierre"
+            "name": "Andrei Kuzmenko"
           },
           "c": {
             "name": "Ben Kindel"
           },
           "rw": {
-            "name": "Elmer Soderblom"
+            "name": "Ville Koivunen"
           }
         },
         {
@@ -4242,10 +4246,10 @@
           "unit": 2,
           "players": [
             {
-              "name": "Bryan Rust"
+              "name": "Andrei Kuzmenko"
             },
             {
-              "name": "Hendrix Lapierre"
+              "name": "Ville Koivunen"
             },
             {
               "name": "Egor Chinakhov"
@@ -4301,15 +4305,15 @@
           "position": "R"
         },
         {
-          "name": "Ville Koivunen",
-          "position": "R"
-        },
-        {
-          "name": "Andrei Kuzmenko",
-          "position": "L"
+          "name": "Hendrix Lapierre",
+          "position": "C"
         },
         {
           "name": "Nick Robertson",
+          "position": "L"
+        },
+        {
+          "name": "Elmer Soderblom",
           "position": "L"
         },
         {
@@ -4326,7 +4330,7 @@
       "logoPath": "/team-logos/SEA.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/seattle-kraken/line-combinations",
-      "updatedAt": "2026-10-11T20:48:35.768635+00:00",
+      "updatedAt": "2026-10-12T23:30:21.015151+00:00",
       "forwards": [
         {
           "line": 1,
@@ -4527,12 +4531,12 @@
       "logoPath": "/team-logos/SJS.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/san-jose-sharks/line-combinations",
-      "updatedAt": "2026-10-11T20:48:36.667749+00:00",
+      "updatedAt": "2026-10-12T23:30:21.965012+00:00",
       "forwards": [
         {
           "line": 1,
           "lw": {
-            "name": "Mason Marchment"
+            "name": "Igor Chernyshov"
           },
           "c": {
             "name": "Macklin Celebrini"
@@ -4547,7 +4551,7 @@
             "name": "Ivar Stenberg"
           },
           "c": {
-            "name": "Alexander Wennberg"
+            "name": "Michael Misa"
           },
           "rw": {
             "name": "Kiefer Sherwood"
@@ -4556,10 +4560,10 @@
         {
           "line": 3,
           "lw": {
-            "name": "Collin Graf"
+            "name": "Mason Marchment"
           },
           "c": {
-            "name": "Michael Misa"
+            "name": "Alexander Wennberg"
           },
           "rw": {
             "name": "Tyler Toffoli"
@@ -4568,13 +4572,13 @@
         {
           "line": 4,
           "lw": {
-            "name": "Barclay Goodrow"
+            "name": "Ty Dellandrea"
           },
           "c": {
             "name": "Zack Ostapchuk"
           },
           "rw": {
-            "name": "Igor Chernyshov"
+            "name": "Collin Graf"
           }
         }
       ],
@@ -4620,19 +4624,19 @@
           "unit": 1,
           "players": [
             {
-              "name": "Will Smith"
+              "name": "Ivar Stenberg"
             },
             {
               "name": "Alexander Wennberg"
             },
             {
-              "name": "Igor Chernyshov"
+              "name": "Will Smith"
             },
             {
               "name": "Luca Cagnoni"
             },
             {
-              "name": "Ivar Stenberg"
+              "name": "Macklin Celebrini"
             }
           ]
         },
@@ -4649,7 +4653,7 @@
               "name": "Tyler Toffoli"
             },
             {
-              "name": "Kiefer Sherwood"
+              "name": "Igor Chernyshov"
             },
             {
               "name": "Jacob Trouba"
@@ -4662,7 +4666,7 @@
           "unit": 1,
           "players": [
             {
-              "name": "Alexander Wennberg"
+              "name": "Zack Ostapchuk"
             },
             {
               "name": "Collin Graf"
@@ -4679,7 +4683,7 @@
           "unit": 2,
           "players": [
             {
-              "name": "Barclay Goodrow"
+              "name": "Alexander Wennberg"
             },
             {
               "name": "Kiefer Sherwood"
@@ -4688,7 +4692,7 @@
               "name": "Sam Dickinson"
             },
             {
-              "name": "Dmitry Orlov"
+              "name": "Michael Kesselring"
             }
           ]
         }
@@ -4699,12 +4703,12 @@
           "position": "C"
         },
         {
-          "name": "Ty Dellandrea",
-          "position": "C"
-        },
-        {
           "name": "Adam Gaudette",
           "position": "R"
+        },
+        {
+          "name": "Barclay Goodrow",
+          "position": "C"
         },
         {
           "name": "Nolan Allan",
@@ -4720,7 +4724,7 @@
       "logoPath": "/team-logos/STL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/st-louis-blues/line-combinations",
-      "updatedAt": "2026-10-11T20:48:37.650861+00:00",
+      "updatedAt": "2026-10-12T23:30:22.873221+00:00",
       "forwards": [
         {
           "line": 1,
@@ -4925,7 +4929,7 @@
       "logoPath": "/team-logos/TBL.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/tampa-bay-lightning/line-combinations",
-      "updatedAt": "2026-10-11T20:48:38.563363+00:00",
+      "updatedAt": "2026-10-12T23:30:23.769964+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5016,16 +5020,16 @@
           "unit": 1,
           "players": [
             {
-              "name": "Brandon Hagel"
+              "name": "Jake Guentzel"
             },
             {
-              "name": "Jake Guentzel"
+              "name": "Brayden Point"
             },
             {
               "name": "Nikita Kucherov"
             },
             {
-              "name": "Brayden Point"
+              "name": "Brandon Hagel"
             },
             {
               "name": "John Carlson"
@@ -5120,7 +5124,7 @@
       "logoPath": "/team-logos/TOR.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/toronto-maple-leafs/line-combinations",
-      "updatedAt": "2026-10-11T20:48:39.513544+00:00",
+      "updatedAt": "2026-10-12T23:30:24.683376+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5140,7 +5144,7 @@
             "name": "Easton Cowan"
           },
           "c": {
-            "name": "Nick Paul"
+            "name": "John Tavares"
           },
           "rw": {
             "name": "William Nylander"
@@ -5152,21 +5156,23 @@
             "name": "Gavin McKenna"
           },
           "c": {
-            "name": "Colton Sissons"
+            "name": "Nick Paul"
           },
           "rw": {
-            "name": "Bo Groulx"
+            "name": "Colton Sissons"
           }
         },
         {
           "line": 4,
           "lw": {
-            "name": "Teddy Blueger"
-          },
-          "c": {
             "name": "Brandon Duhaime"
           },
-          "rw": null
+          "c": {
+            "name": "Teddy Blueger"
+          },
+          "rw": {
+            "name": "Bo Groulx"
+          }
         }
       ],
       "defense": [
@@ -5185,7 +5191,7 @@
             "name": "Morgan Rielly"
           },
           "rd": {
-            "name": "Chris Tanev"
+            "name": "Troy Stecher"
           }
         },
         {
@@ -5194,16 +5200,16 @@
             "name": "Oliver Ekman-Larsson"
           },
           "rd": {
-            "name": "Troy Stecher"
+            "name": "Nick Blankenburg"
           }
         }
       ],
       "goalies": {
         "starter": {
-          "name": "Anthony Stolarz"
+          "name": "Sergei Bobrovsky"
         },
         "backup": {
-          "name": "Sergei Bobrovsky"
+          "name": "Anthony Stolarz"
         }
       },
       "powerPlay": [
@@ -5214,7 +5220,7 @@
               "name": "Kirill Marchenko"
             },
             {
-              "name": "Easton Cowan"
+              "name": "John Tavares"
             },
             {
               "name": "William Nylander"
@@ -5237,13 +5243,13 @@
               "name": "Nick Paul"
             },
             {
-              "name": "Gavin McKenna"
-            },
-            {
-              "name": "Oliver Ekman-Larsson"
+              "name": "Easton Cowan"
             },
             {
               "name": "Morgan Rielly"
+            },
+            {
+              "name": "Gavin McKenna"
             }
           ]
         }
@@ -5262,7 +5268,7 @@
               "name": "Jake McCabe"
             },
             {
-              "name": "Chris Tanev"
+              "name": "Troy Stecher"
             }
           ]
         },
@@ -5290,15 +5296,15 @@
           "position": "R"
         },
         {
-          "name": "John Tavares",
-          "position": "C"
-        },
-        {
           "name": "Miles Wood",
           "position": "L"
         },
         {
           "name": "Marshall Rifai",
+          "position": "D"
+        },
+        {
+          "name": "Chris Tanev",
           "position": "D"
         }
       ],
@@ -5311,7 +5317,7 @@
       "logoPath": "/team-logos/UTA.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/utah-mammoth/line-combinations",
-      "updatedAt": "2026-10-11T20:48:40.434247+00:00",
+      "updatedAt": "2026-10-12T23:30:25.590673+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5328,10 +5334,10 @@
         {
           "line": 2,
           "lw": {
-            "name": "Logan Cooley"
+            "name": "Kailer Yamamoto"
           },
           "c": {
-            "name": "Vincent Trocheck"
+            "name": "Logan Cooley"
           },
           "rw": {
             "name": "Dylan Guenther"
@@ -5340,13 +5346,13 @@
         {
           "line": 3,
           "lw": {
-            "name": "Anders Lee"
-          },
-          "c": {
             "name": "Barrett Hayton"
           },
+          "c": {
+            "name": "Vincent Trocheck"
+          },
           "rw": {
-            "name": "Kailer Yamamoto"
+            "name": "Anders Lee"
           }
         },
         {
@@ -5504,7 +5510,7 @@
       "logoPath": "/team-logos/VAN.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/vancouver-canucks/line-combinations",
-      "updatedAt": "2026-10-11T20:48:41.415011+00:00",
+      "updatedAt": "2026-10-12T23:30:26.549007+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5527,7 +5533,7 @@
             "name": "Marco Rossi"
           },
           "rw": {
-            "name": "Linus Karlsson"
+            "name": "Brock Boeser"
           }
         },
         {
@@ -5539,16 +5545,16 @@
             "name": "Drew O'Connor"
           },
           "rw": {
-            "name": "Brock Boeser"
+            "name": "Linus Karlsson"
           }
         },
         {
           "line": 4,
           "lw": {
-            "name": "Arshdeep Bains"
+            "name": "Max Sasson"
           },
           "c": {
-            "name": "Max Sasson"
+            "name": "Aatu Raty"
           },
           "rw": {
             "name": "Brendan Gallagher"
@@ -5568,7 +5574,7 @@
         {
           "pair": 2,
           "ld": {
-            "name": "Jamie Oleksiak"
+            "name": "Elias Nils Pettersson"
           },
           "rd": {
             "name": "Tom Willander"
@@ -5577,7 +5583,7 @@
         {
           "pair": 3,
           "ld": {
-            "name": "Elias Nils Pettersson"
+            "name": "Guillaume Brisebois"
           },
           "rd": {
             "name": "Luke Schenn"
@@ -5629,7 +5635,7 @@
               "name": "Zeev Buium"
             },
             {
-              "name": "Tom Willander"
+              "name": "Paul Cotter"
             }
           ]
         }
@@ -5645,7 +5651,7 @@
               "name": "Drew O'Connor"
             },
             {
-              "name": "Jamie Oleksiak"
+              "name": "Elias Nils Pettersson"
             },
             {
               "name": "Filip Hronek"
@@ -5662,7 +5668,7 @@
               "name": "Brock Boeser"
             },
             {
-              "name": "Elias Nils Pettersson"
+              "name": "Guillaume Brisebois"
             },
             {
               "name": "Tom Willander"
@@ -5672,19 +5678,19 @@
       ],
       "scratches": [
         {
+          "name": "Arshdeep Bains",
+          "position": "L"
+        },
+        {
           "name": "Filip Chytil",
           "position": "C"
         },
         {
-          "name": "Aatu R\u00e4ty",
-          "position": "C"
-        },
-        {
-          "name": "Guillaume Brisebois",
+          "name": "Victor Mancini",
           "position": "D"
         },
         {
-          "name": "Victor Mancini",
+          "name": "Jamie Oleksiak",
           "position": "D"
         },
         {
@@ -5701,7 +5707,7 @@
       "logoPath": "/team-logos/VGK.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/vegas-golden-knights/line-combinations",
-      "updatedAt": "2026-10-11T20:48:42.297815+00:00",
+      "updatedAt": "2026-10-12T23:30:27.475910+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5765,7 +5771,7 @@
         {
           "pair": 2,
           "ld": {
-            "name": "Parker Wotherspoon"
+            "name": "Noah Hanifin"
           },
           "rd": {
             "name": "Rasmus Andersson"
@@ -5777,7 +5783,7 @@
             "name": "Jeremy Lauzon"
           },
           "rd": {
-            "name": "Noah Hanifin"
+            "name": "Dylan Coghlan"
           }
         }
       ],
@@ -5873,11 +5879,11 @@
           "position": "L"
         },
         {
-          "name": "Dylan Coghlan",
+          "name": "Ville Heinola",
           "position": "D"
         },
         {
-          "name": "Ville Heinola",
+          "name": "Parker Wotherspoon",
           "position": "D"
         }
       ],
@@ -5890,7 +5896,7 @@
       "logoPath": "/team-logos/WSH.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/washington-capitals/line-combinations",
-      "updatedAt": "2026-10-11T20:48:43.277512+00:00",
+      "updatedAt": "2026-10-12T23:30:28.381103+00:00",
       "forwards": [
         {
           "line": 1,
@@ -5910,7 +5916,7 @@
             "name": "Alex Tuch"
           },
           "c": {
-            "name": "Justin Sourdif"
+            "name": "Dylan Strome"
           },
           "rw": {
             "name": "Tom Wilson"
@@ -5922,7 +5928,7 @@
             "name": "Ryan Leonard"
           },
           "c": {
-            "name": "Dylan Strome"
+            "name": "Boone Jenner"
           },
           "rw": {
             "name": "Jordan Kyrou"
@@ -5934,7 +5940,7 @@
             "name": "Ethen Frank"
           },
           "c": {
-            "name": "Boone Jenner"
+            "name": "Justin Sourdif"
           },
           "rw": {
             "name": "Anthony Beauvillier"
@@ -6079,7 +6085,7 @@
       "logoPath": "/team-logos/WPG.png",
       "source": "Daily Faceoff",
       "sourceUrl": "https://www.dailyfaceoff.com/teams/winnipeg-jets/line-combinations",
-      "updatedAt": "2026-10-11T20:48:44.462864+00:00",
+      "updatedAt": "2026-10-12T23:30:29.380766+00:00",
       "forwards": [
         {
           "line": 1,
@@ -6096,7 +6102,7 @@
         {
           "line": 2,
           "lw": {
-            "name": "Morgan Barron"
+            "name": "Nino Niederreiter"
           },
           "c": {
             "name": "Viggo Bj\u00f6rck"
@@ -6123,10 +6129,10 @@
             "name": "Cole Koepke"
           },
           "c": {
-            "name": "Vladislav Namestnikov"
+            "name": "Morgan Barron"
           },
           "rw": {
-            "name": "Brad Lambert"
+            "name": "Vladislav Namestnikov"
           }
         }
       ],
@@ -6247,8 +6253,8 @@
       ],
       "scratches": [
         {
-          "name": "Nino Niederreiter",
-          "position": "R"
+          "name": "Brad Lambert",
+          "position": "C"
         },
         {
           "name": "Josh Morrissey",
